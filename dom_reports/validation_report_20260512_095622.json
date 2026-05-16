@@ -1,0 +1,32 @@
+{
+  "java_file": "C:\\Users\\M0112~1.DER\\AppData\\Local\\Temp\\tmpvwrsw0p9.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-12T09:56:22.430652Z",
+  "issues_count": 3,
+  "issues": [
+    {
+      "line": 13,
+      "annotation": "@AndroidFindBy(id = \"android:id/alertTtle\")",
+      "selector_name": "id",
+      "selector_value": "android:id/alertTtle",
+      "message": "Aucun élément avec resource-id='android:id/alertTtle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 19,
+      "annotation": "@AndroidFindBy(id = \"android:id/aerr_clos\")",
+      "selector_name": "id",
+      "selector_value": "android:id/aerr_clos",
+      "message": "Aucun élément avec resource-id='android:id/aerr_clos' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 25,
+      "annotation": "@AndroidFindBy(xpath = \"//android.widget.Button[@resource-id='android:id/aerr_waait']\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.Button[@resource-id='android:id/aerr_waait']",
+      "message": "XPath invalide ou aucune correspondance pour '//android.widget.Button[@resource-id='android:id/aerr_waait']'.",
+      "valid": false
+    }
+  ]
+}

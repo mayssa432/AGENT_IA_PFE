@@ -1,0 +1,288 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FipReplayPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.792330Z",
+  "issues_count": 35,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_landscape_image_view\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_landscape_image_view",
+      "message": "Aucun élément avec resource-id='fip_content_top_landscape_image_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 28,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"action_replay_season_uiview_1\" )",
+      "selector_name": "accessibility",
+      "selector_value": "action_replay_season_uiview_1",
+      "message": "Aucun élément avec accessibilité='action_replay_season_uiview_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_portrait_image\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_portrait_image",
+      "message": "Aucun élément avec resource-id='fip_content_top_portrait_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"action_replay_season_uiview_2\" )",
+      "selector_name": "accessibility",
+      "selector_value": "action_replay_season_uiview_2",
+      "message": "Aucun élément avec accessibilité='action_replay_season_uiview_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(id = \"fip_title_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_title_text",
+      "message": "Aucun élément avec resource-id='fip_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"replay_series_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "replay_series_title",
+      "message": "Aucun élément avec accessibilité='replay_series_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_group_count\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_group_count",
+      "message": "Aucun élément avec resource-id='fip_content_top_group_count' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"replay_series_list_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "replay_series_list_title",
+      "message": "Aucun élément avec accessibilité='replay_series_list_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@AndroidFindBy(id = \"fip_episode_list_play_icon_parent\")",
+      "selector_name": "id",
+      "selector_value": "fip_episode_list_play_icon_parent",
+      "message": "Aucun élément avec resource-id='fip_episode_list_play_icon_parent' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_replay_episode_list_play_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_replay_episode_list_play_button",
+      "message": "Aucun élément avec accessibilité='fip_replay_episode_list_play_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(id = \"fip_info_layout\")",
+      "selector_name": "id",
+      "selector_value": "fip_info_layout",
+      "message": "Aucun élément avec resource-id='fip_info_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 48,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_replay_episode_list_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_replay_episode_list_info",
+      "message": "Aucun élément avec accessibilité='fip_replay_episode_list_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"replay_series_list_episode_cell\")",
+      "selector_name": "accessibility",
+      "selector_value": "replay_series_list_episode_cell",
+      "message": "Aucun élément avec accessibilité='replay_series_list_episode_cell' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 54,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_landscape_image_view\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_landscape_image_view",
+      "message": "Aucun élément avec resource-id='fip_content_top_landscape_image_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"action_tvod_uiview_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "action_tvod_uiview_1",
+      "message": "Aucun élément avec accessibilité='action_tvod_uiview_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 58,
+      "annotation": "@AndroidFindBy(id = \"fip_title_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_title_text",
+      "message": "Aucun élément avec resource-id='fip_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_title",
+      "message": "Aucun élément avec accessibilité='fip_content_top_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 62,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_portrait_image\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_portrait_image",
+      "message": "Aucun élément avec resource-id='fip_content_top_portrait_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@iOSXCUITFindBy(iOSClassChain = \"**/XCUIElementTypeButton[`name == 'action_tvod_custom_uibutton_2'`]\")",
+      "selector_name": "iOSClassChain",
+      "selector_value": "**/XCUIElementTypeButton[`name == 'action_tvod_custom_uibutton_2'`]",
+      "message": "Sélecteur 'iOSClassChain' invalide ou introuvable.",
+      "valid": false
+    },
+    {
+      "line": 66,
+      "annotation": "@AndroidFindBy(id = \"information_sheet_info_module\")",
+      "selector_name": "id",
+      "selector_value": "information_sheet_info_module",
+      "message": "Aucun élément avec resource-id='information_sheet_info_module' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"top_tvodserie_uiview_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "top_tvodserie_uiview_1",
+      "message": "Aucun élément avec accessibilité='top_tvodserie_uiview_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 70,
+      "annotation": "@AndroidFindBy(id = \"fip_cast_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_cast_text",
+      "message": "Aucun élément avec resource-id='fip_cast_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_cast\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_cast",
+      "message": "Aucun élément avec accessibilité='fip_content_top_cast' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 74,
+      "annotation": "@AndroidFindBy(id = \"fip_description_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_description_text",
+      "message": "Aucun élément avec resource-id='fip_description_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_description\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_description",
+      "message": "Aucun élément avec accessibilité='fip_content_top_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 78,
+      "annotation": "@AndroidFindBy(id = \"long_summary_unitary\")",
+      "selector_name": "id",
+      "selector_value": "long_summary_unitary",
+      "message": "Aucun élément avec resource-id='long_summary_unitary' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 81,
+      "annotation": "@AndroidFindBy(id = \"fip_content_list_item_secondary_text\" )",
+      "selector_name": "id",
+      "selector_value": "fip_content_list_item_secondary_text",
+      "message": "Aucun élément avec resource-id='fip_content_list_item_secondary_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 82,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"info_sheet_list_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "info_sheet_list_uilabel_1",
+      "message": "Aucun élément avec accessibilité='info_sheet_list_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@AndroidFindBy(id = \"fip_play_button\")",
+      "selector_name": "id",
+      "selector_value": "fip_play_button",
+      "message": "Aucun élément avec resource-id='fip_play_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 86,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_button_play\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_button_play",
+      "message": "Aucun élément avec accessibilité='fip_content_top_button_play' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_replay_button_subscribe\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_replay_button_subscribe",
+      "message": "Aucun élément avec resource-id='fip_content_top_replay_button_subscribe' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 95,
+      "annotation": "@AndroidFindBy(id = \"fip_info_layout\")",
+      "selector_name": "id",
+      "selector_value": "fip_info_layout",
+      "message": "Aucun élément avec resource-id='fip_info_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 96,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_replay_episode_list_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_replay_episode_list_info",
+      "message": "Aucun élément avec accessibilité='fip_replay_episode_list_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 99,
+      "annotation": "@AndroidFindBy(id = \"fip_replay_deeplink_button\")",
+      "selector_name": "id",
+      "selector_value": "fip_replay_deeplink_button",
+      "message": "Aucun élément avec resource-id='fip_replay_deeplink_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 100,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"info_sheet_partner_area_custom_uibutton_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "info_sheet_partner_area_custom_uibutton_3",
+      "message": "Aucun élément avec accessibilité='info_sheet_partner_area_custom_uibutton_3' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

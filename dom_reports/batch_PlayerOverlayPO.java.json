@@ -1,0 +1,800 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\PlayerOverlayPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.132796Z",
+  "issues_count": 99,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"android:id/ok\")",
+      "selector_name": "id",
+      "selector_value": "android:id/ok",
+      "message": "Aucun élément avec resource-id='android:id/ok' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 33,
+      "annotation": "@AndroidFindBy(xpath =  \"//*[@resource-id='PlayOverlayHeader.Back']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='PlayOverlayHeader.Back']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='PlayOverlayHeader.Back']'.",
+      "valid": false
+    },
+    {
+      "line": 34,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"header_back\")",
+      "selector_name": "accessibility",
+      "selector_value": "header_back",
+      "message": "Aucun élément avec accessibilité='header_back' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_header_pip\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_header_pip",
+      "message": "Aucun élément avec accessibilité='player_overlay_header_pip' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 41,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='PlayOverlayHeader.Cast']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='PlayOverlayHeader.Cast']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='PlayOverlayHeader.Cast']'.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"header_cast\")",
+      "selector_name": "accessibility",
+      "selector_value": "header_cast",
+      "message": "Aucun élément avec accessibilité='header_cast' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 45,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='InfoButton']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='InfoButton']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='InfoButton']'.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_info",
+      "message": "Aucun élément avec accessibilité='player_overlay_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 49,
+      "annotation": "@AndroidFindBy(id = \"uic_video_overlay_control_stream_quality_button\")",
+      "selector_name": "id",
+      "selector_value": "uic_video_overlay_control_stream_quality_button",
+      "message": "Aucun élément avec resource-id='uic_video_overlay_control_stream_quality_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_quality\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_quality",
+      "message": "Aucun élément avec accessibilité='player_overlay_quality' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='TracksButton']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='TracksButton']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='TracksButton']'.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "//@iOSXCUITFindBy(accessibility = \"player_overlay_languages\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_languages",
+      "message": "Aucun élément avec accessibilité='player_overlay_languages' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 62,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_header_hide\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_header_hide",
+      "message": "Aucun élément avec resource-id='player_overlay_header_hide' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_header_hide\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_header_hide",
+      "message": "Aucun élément avec accessibilité='player_overlay_header_hide' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 66,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='PlayPauseButton']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='PlayPauseButton']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='PlayPauseButton']'.",
+      "valid": false
+    },
+    {
+      "line": 73,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='PlayMetadataCommon.Title']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='PlayMetadataCommon.Title']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='PlayMetadataCommon.Title']'.",
+      "valid": false
+    },
+    {
+      "line": 74,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_info_group\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_info_group",
+      "message": "Aucun élément avec accessibilité='player_overlay_info_group' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 77,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_zoom\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_zoom",
+      "message": "Aucun élément avec resource-id='player_overlay_zoom' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 78,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_zoom\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_zoom",
+      "message": "Aucun élément avec accessibilité='player_overlay_zoom' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 81,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='SliderLabelLeft']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='SliderLabelLeft']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='SliderLabelLeft']'.",
+      "valid": false
+    },
+    {
+      "line": 82,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_time_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_time_1",
+      "message": "Aucun élément avec accessibilité='player_overlay_time_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='SliderInteractive']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='SliderInteractive']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='SliderInteractive']'.",
+      "valid": false
+    },
+    {
+      "line": 86,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_seekbar\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_seekbar",
+      "message": "Aucun élément avec accessibilité='player_overlay_seekbar' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='SliderLabelRight']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='SliderLabelRight']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='SliderLabelRight']'.",
+      "valid": false
+    },
+    {
+      "line": 90,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_time_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_time_2",
+      "message": "Aucun élément avec accessibilité='player_overlay_time_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 93,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='ChannelControlAll']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='ChannelControlAll']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='ChannelControlAll']'.",
+      "valid": false
+    },
+    {
+      "line": 94,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_open_carousel\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_open_carousel",
+      "message": "Aucun élément avec accessibilité='player_overlay_open_carousel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 97,
+      "annotation": "@AndroidFindBy(id = \"video_container\")",
+      "selector_name": "id",
+      "selector_value": "video_container",
+      "message": "Aucun élément avec resource-id='video_container' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 98,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_background\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_background",
+      "message": "Aucun élément avec accessibilité='player_background' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 103,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='RecordButton']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='RecordButton']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='RecordButton']'.",
+      "valid": false
+    },
+    {
+      "line": 110,
+      "annotation": "@AndroidFindBy(id = \"channel_previous_button\")",
+      "selector_name": "id",
+      "selector_value": "channel_previous_button",
+      "message": "Aucun élément avec resource-id='channel_previous_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 111,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_backward\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_backward",
+      "message": "Aucun élément avec accessibilité='player_overlay_backward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 114,
+      "annotation": "@AndroidFindBy(id = \"channel_next_button\")",
+      "selector_name": "id",
+      "selector_value": "channel_next_button",
+      "message": "Aucun élément avec resource-id='channel_next_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 115,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_forward\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_forward",
+      "message": "Aucun élément avec accessibilité='player_overlay_forward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 118,
+      "annotation": "@AndroidFindBy(xpath= \"//*[@resource-id='ChannelControlPlus']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='ChannelControlPlus']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='ChannelControlPlus']'.",
+      "valid": false
+    },
+    {
+      "line": 119,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_next_channel\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_next_channel",
+      "message": "Aucun élément avec accessibilité='player_overlay_next_channel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 122,
+      "annotation": "@AndroidFindBy(xpath= \"//*[@resource-id='ChannelControlMinus']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='ChannelControlMinus']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='ChannelControlMinus']'.",
+      "valid": false
+    },
+    {
+      "line": 123,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_previous_channel\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_previous_channel",
+      "message": "Aucun élément avec accessibilité='player_overlay_previous_channel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 126,
+      "annotation": "@AndroidFindBy(xpath= \"//*[@resource-id='SeekToStartButton']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='SeekToStartButton']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='SeekToStartButton']'.",
+      "valid": false
+    },
+    {
+      "line": 127,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_start_over\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_start_over",
+      "message": "Aucun élément avec accessibilité='player_overlay_start_over' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 130,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_backward\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_backward",
+      "message": "Aucun élément avec resource-id='player_overlay_backward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 131,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_backward\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_backward",
+      "message": "Aucun élément avec accessibilité='player_overlay_backward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 134,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_forward\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_forward",
+      "message": "Aucun élément avec resource-id='player_overlay_forward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 135,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_forward\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_forward",
+      "message": "Aucun élément avec accessibilité='player_overlay_forward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 138,
+      "annotation": "@AndroidFindBy(xpath= \"//*[@resource-id='SeekToEndButton']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='SeekToEndButton']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='SeekToEndButton']'.",
+      "valid": false
+    },
+    {
+      "line": 139,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_back_to_live\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_back_to_live",
+      "message": "Aucun élément avec accessibilité='player_overlay_back_to_live' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 146,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_open_carousel\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_open_carousel",
+      "message": "Aucun élément avec accessibilité='player_overlay_open_carousel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 149,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_carousel_header_hide\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_carousel_header_hide",
+      "message": "Aucun élément avec resource-id='player_overlay_carousel_header_hide' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 150,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_backward\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_backward",
+      "message": "Aucun élément avec accessibilité='player_overlay_backward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 153,
+      "annotation": "@AndroidFindBy(id = \"carousel_slide_down_area\")",
+      "selector_name": "id",
+      "selector_value": "carousel_slide_down_area",
+      "message": "Aucun élément avec resource-id='carousel_slide_down_area' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 154,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"carousel_slide_down_area\")",
+      "selector_name": "accessibility",
+      "selector_value": "carousel_slide_down_area",
+      "message": "Aucun élément avec accessibilité='carousel_slide_down_area' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 157,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_carousel_item\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_carousel_item",
+      "message": "Aucun élément avec resource-id='player_overlay_carousel_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 158,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_carousel_item\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_carousel_item",
+      "message": "Aucun élément avec accessibilité='player_overlay_carousel_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 161,
+      "annotation": "@AndroidFindBy(id = \"player_carousel_item_channel_number\")",
+      "selector_name": "id",
+      "selector_value": "player_carousel_item_channel_number",
+      "message": "Aucun élément avec resource-id='player_carousel_item_channel_number' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 167,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_backward\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_backward",
+      "message": "Aucun élément avec resource-id='player_overlay_backward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 168,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_start_over\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_start_over",
+      "message": "Aucun élément avec accessibilité='player_overlay_start_over' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 171,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_forward\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_forward",
+      "message": "Aucun élément avec resource-id='player_overlay_forward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 172,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_forward\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_forward",
+      "message": "Aucun élément avec accessibilité='player_overlay_forward' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 178,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='PlayOverlayHeader.Close']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='PlayOverlayHeader.Close']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='PlayOverlayHeader.Close']'.",
+      "valid": false
+    },
+    {
+      "line": 187,
+      "annotation": "@AndroidFindBy(id = \"player_info_title_group\")",
+      "selector_name": "id",
+      "selector_value": "player_info_title_group",
+      "message": "Aucun élément avec resource-id='player_info_title_group' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 196,
+      "annotation": "@AndroidFindBy(id = \"player_info_secondary\")",
+      "selector_name": "id",
+      "selector_value": "player_info_secondary",
+      "message": "Aucun élément avec resource-id='player_info_secondary' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 204,
+      "annotation": "@AndroidFindBy(id = \"player_info_cast_and_crew\")",
+      "selector_name": "id",
+      "selector_value": "player_info_cast_and_crew",
+      "message": "Aucun élément avec resource-id='player_info_cast_and_crew' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 211,
+      "annotation": "@AndroidFindBy(id = \"player_info_description\")",
+      "selector_name": "id",
+      "selector_value": "player_info_description",
+      "message": "Aucun élément avec resource-id='player_info_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 221,
+      "annotation": "@AndroidFindBy(id = \"languages_audio_heading\")",
+      "selector_name": "id",
+      "selector_value": "languages_audio_heading",
+      "message": "Aucun élément avec resource-id='languages_audio_heading' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 222,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"languages_audio_heading\")",
+      "selector_name": "accessibility",
+      "selector_value": "languages_audio_heading",
+      "message": "Aucun élément avec accessibilité='languages_audio_heading' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 225,
+      "annotation": "@AndroidFindBy(id = \"languages_audio_items\")",
+      "selector_name": "id",
+      "selector_value": "languages_audio_items",
+      "message": "Aucun élément avec resource-id='languages_audio_items' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 226,
+      "annotation": "@AndroidFindBy(className = \"android.widget.RadioButton\")",
+      "selector_name": "className",
+      "selector_value": "android.widget.RadioButton",
+      "message": "Aucun élément avec className='android.widget.RadioButton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 227,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"languages_audio_items\")",
+      "selector_name": "accessibility",
+      "selector_value": "languages_audio_items",
+      "message": "Aucun élément avec accessibilité='languages_audio_items' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 228,
+      "annotation": "@iOSXCUITFindBy(className = \"XCUIElementTypeButton\")",
+      "selector_name": "className",
+      "selector_value": "XCUIElementTypeButton",
+      "message": "Aucun élément avec className='XCUIElementTypeButton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 231,
+      "annotation": "@AndroidFindBy(id = \"languages_subtitle_heading\")",
+      "selector_name": "id",
+      "selector_value": "languages_subtitle_heading",
+      "message": "Aucun élément avec resource-id='languages_subtitle_heading' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 232,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"languages_subtitle_heading\")",
+      "selector_name": "accessibility",
+      "selector_value": "languages_subtitle_heading",
+      "message": "Aucun élément avec accessibilité='languages_subtitle_heading' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 235,
+      "annotation": "@AndroidFindBy(id = \"languages_subtitles_items\")",
+      "selector_name": "id",
+      "selector_value": "languages_subtitles_items",
+      "message": "Aucun élément avec resource-id='languages_subtitles_items' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 236,
+      "annotation": "@AndroidFindBy(className = \"android.widget.RadioButton\")",
+      "selector_name": "className",
+      "selector_value": "android.widget.RadioButton",
+      "message": "Aucun élément avec className='android.widget.RadioButton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 237,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"languages_subtitle_items\")",
+      "selector_name": "accessibility",
+      "selector_value": "languages_subtitle_items",
+      "message": "Aucun élément avec accessibilité='languages_subtitle_items' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 238,
+      "annotation": "@iOSXCUITFindBy(className = \"XCUIElementTypeButton\")",
+      "selector_name": "className",
+      "selector_value": "XCUIElementTypeButton",
+      "message": "Aucun élément avec className='XCUIElementTypeButton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 241,
+      "annotation": "@AndroidFindBy(id = \"languages_subtitle_options\")",
+      "selector_name": "id",
+      "selector_value": "languages_subtitle_options",
+      "message": "Aucun élément avec resource-id='languages_subtitle_options' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 242,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"languages_subtitle_options\")",
+      "selector_name": "accessibility",
+      "selector_value": "languages_subtitle_options",
+      "message": "Aucun élément avec accessibilité='languages_subtitle_options' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 248,
+      "annotation": "@AndroidFindBy(id = \"player_stream_quality_title_group\")",
+      "selector_name": "id",
+      "selector_value": "player_stream_quality_title_group",
+      "message": "Aucun élément avec resource-id='player_stream_quality_title_group' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 249,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"stream_quality_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "stream_quality_title",
+      "message": "Aucun élément avec accessibilité='stream_quality_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 252,
+      "annotation": "@AndroidFindBy(id = \"player_stream_quality_title\")",
+      "selector_name": "id",
+      "selector_value": "player_stream_quality_title",
+      "message": "Aucun élément avec resource-id='player_stream_quality_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 253,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'La qualité peut varier selon le débit de votre connexion et votre équipement.'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'La qualité peut varier selon le débit de votre connexion et votre équipement.'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'La qualité peut varier selon le débit de votre connexion et votre équipement.''.",
+      "valid": false
+    },
+    {
+      "line": 256,
+      "annotation": "@AndroidFindBy(id = \"video_stream_item_layout\")",
+      "selector_name": "id",
+      "selector_value": "video_stream_item_layout",
+      "message": "Aucun élément avec resource-id='video_stream_item_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 259,
+      "annotation": "@AndroidFindBy(id = \"hd_logo_image\")",
+      "selector_name": "id",
+      "selector_value": "hd_logo_image",
+      "message": "Aucun élément avec resource-id='hd_logo_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 262,
+      "annotation": "@AndroidFindBy(id = \"radio_button_item\")",
+      "selector_name": "id",
+      "selector_value": "radio_button_item",
+      "message": "Aucun élément avec resource-id='radio_button_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 265,
+      "annotation": "@AndroidFindBy(id = \"video_stream_title\")",
+      "selector_name": "id",
+      "selector_value": "video_stream_title",
+      "message": "Aucun élément avec resource-id='video_stream_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 268,
+      "annotation": "@AndroidFindBy(id = \"video_stream_subtitle\")",
+      "selector_name": "id",
+      "selector_value": "video_stream_subtitle",
+      "message": "Aucun élément avec resource-id='video_stream_subtitle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 271,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"stream_quality_option_hq\")",
+      "selector_name": "accessibility",
+      "selector_value": "stream_quality_option_hq",
+      "message": "Aucun élément avec accessibilité='stream_quality_option_hq' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 274,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"stream_quality_option_mq\")",
+      "selector_name": "accessibility",
+      "selector_value": "stream_quality_option_mq",
+      "message": "Aucun élément avec accessibilité='stream_quality_option_mq' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 277,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"stream_quality_option_lq\")",
+      "selector_name": "accessibility",
+      "selector_value": "stream_quality_option_lq",
+      "message": "Aucun élément avec accessibilité='stream_quality_option_lq' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 280,
+      "annotation": "@AndroidFindBy(id = \"player_stream_quality_note_group\")",
+      "selector_name": "id",
+      "selector_value": "player_stream_quality_note_group",
+      "message": "Aucun élément avec resource-id='player_stream_quality_note_group' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 281,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"stream_quality_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "stream_quality_info",
+      "message": "Aucun élément avec accessibilité='stream_quality_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 287,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_ads_duration\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_ads_duration",
+      "message": "Aucun élément avec resource-id='player_overlay_ads_duration' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 288,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_ads_duration\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_ads_duration",
+      "message": "Aucun élément avec accessibilité='player_overlay_ads_duration' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 291,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_ads_link\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_ads_link",
+      "message": "Aucun élément avec resource-id='player_overlay_ads_link' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 292,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"player_overlay_ads_link\")",
+      "selector_name": "accessibility",
+      "selector_value": "player_overlay_ads_link",
+      "message": "Aucun élément avec accessibilité='player_overlay_ads_link' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 298,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_error_text\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_error_text",
+      "message": "Aucun élément avec resource-id='player_overlay_error_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 299,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"play_view_error_message2_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "play_view_error_message2_uilabel",
+      "message": "Aucun élément avec accessibilité='play_view_error_message2_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 305,
+      "annotation": "@AndroidFindBy(id = \"player_overlay_error_retry_button\")",
+      "selector_name": "id",
+      "selector_value": "player_overlay_error_retry_button",
+      "message": "Aucun élément avec resource-id='player_overlay_error_retry_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 306,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"play_view_error_message2_custom_uibutton_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "play_view_error_message2_custom_uibutton_1",
+      "message": "Aucun élément avec accessibilité='play_view_error_message2_custom_uibutton_1' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

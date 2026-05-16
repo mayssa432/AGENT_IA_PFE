@@ -1,0 +1,200 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\ShopPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.439020Z",
+  "issues_count": 24,
+  "issues": [
+    {
+      "line": 28,
+      "annotation": "@AndroidFindBy(id = \"shop_home_herozone_item_thumbnail\")",
+      "selector_name": "id",
+      "selector_value": "shop_home_herozone_item_thumbnail",
+      "message": "Aucun élément avec resource-id='shop_home_herozone_item_thumbnail' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 29,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"shop_hero_zone_offer_shop_hero_zone_table_view_cell\")",
+      "selector_name": "accessibility",
+      "selector_value": "shop_hero_zone_offer_shop_hero_zone_table_view_cell",
+      "message": "Aucun élément avec accessibilité='shop_hero_zone_offer_shop_hero_zone_table_view_cell' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@AndroidFindBy(id = \"thumbnail_image\")",
+      "selector_name": "id",
+      "selector_value": "thumbnail_image",
+      "message": "Aucun élément avec resource-id='thumbnail_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"horizontal_banner_title\")",
+      "selector_name": "id",
+      "selector_value": "horizontal_banner_title",
+      "message": "Aucun élément avec resource-id='horizontal_banner_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"shop_carrousel_zone_offer_uilabel_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "shop_carrousel_zone_offer_uilabel_2",
+      "message": "Aucun élément avec accessibilité='shop_carrousel_zone_offer_uilabel_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@AndroidFindBy(id = \"offer_list_container\")",
+      "selector_name": "id",
+      "selector_value": "offer_list_container",
+      "message": "Aucun élément avec resource-id='offer_list_container' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"mypurchases_page_uiscroll_view_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "mypurchases_page_uiscroll_view_3",
+      "message": "Aucun élément avec accessibilité='mypurchases_page_uiscroll_view_3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(id = \"subscription_offer_name\")",
+      "selector_name": "id",
+      "selector_value": "subscription_offer_name",
+      "message": "Aucun élément avec resource-id='subscription_offer_name' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@AndroidFindBy(id = \"subscription_offer_price\")",
+      "selector_name": "id",
+      "selector_value": "subscription_offer_price",
+      "message": "Aucun élément avec resource-id='subscription_offer_price' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@AndroidFindBy(id = \"subscription_offer_price_details\")",
+      "selector_name": "id",
+      "selector_value": "subscription_offer_price_details",
+      "message": "Aucun élément avec resource-id='subscription_offer_price_details' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 65,
+      "annotation": "@AndroidFindBy(id = \"offers_for_channel_header_text\")",
+      "selector_name": "id",
+      "selector_value": "offers_for_channel_header_text",
+      "message": "Aucun élément avec resource-id='offers_for_channel_header_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 66,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"shop_subscribe_label_uiview_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "shop_subscribe_label_uiview_1",
+      "message": "Aucun élément avec accessibilité='shop_subscribe_label_uiview_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 69,
+      "annotation": "@AndroidFindBy(xpath = \"//android.widget.ListView/*/android.widget.ImageView\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.ListView/*/android.widget.ImageView",
+      "message": "XPath invalide ou aucune correspondance pour '//android.widget.ListView/*/android.widget.ImageView'.",
+      "valid": false
+    },
+    {
+      "line": 70,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"shop_subscribe_offer_uibutton_6\")",
+      "selector_name": "accessibility",
+      "selector_value": "shop_subscribe_offer_uibutton_6",
+      "message": "Aucun élément avec accessibilité='shop_subscribe_offer_uibutton_6' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 73,
+      "annotation": "@AndroidFindBy(id = \"shop_home_error\")",
+      "selector_name": "id",
+      "selector_value": "shop_home_error",
+      "message": "Aucun élément avec resource-id='shop_home_error' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@AndroidFindBy(id = \"subscription_button\")",
+      "selector_name": "id",
+      "selector_value": "subscription_button",
+      "message": "Aucun élément avec resource-id='subscription_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@AndroidFindBy(id = \"subscription_live_channels_list_view_all_link\")",
+      "selector_name": "id",
+      "selector_value": "subscription_live_channels_list_view_all_link",
+      "message": "Aucun élément avec resource-id='subscription_live_channels_list_view_all_link' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 86,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"shop_offer_info_channel_logos_uilabel_13\")",
+      "selector_name": "accessibility",
+      "selector_value": "shop_offer_info_channel_logos_uilabel_13",
+      "message": "Aucun élément avec accessibilité='shop_offer_info_channel_logos_uilabel_13' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@AndroidFindBy(id = \"subscription_live_channel_list\")",
+      "selector_name": "id",
+      "selector_value": "subscription_live_channel_list",
+      "message": "Aucun élément avec resource-id='subscription_live_channel_list' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 90,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeOther[contains (@name, 'shop_offer_info_channel_logos_uiview')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeOther[contains (@name, 'shop_offer_info_channel_logos_uiview')]",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeOther[contains (@name, 'shop_offer_info_channel_logos_uiview')]'.",
+      "valid": false
+    },
+    {
+      "line": 94,
+      "annotation": "@AndroidFindBy(id = \"available_for_text\")",
+      "selector_name": "id",
+      "selector_value": "available_for_text",
+      "message": "Aucun élément avec resource-id='available_for_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 95,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'shop_offer_info_availability_uiview')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'shop_offer_info_availability_uiview')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'shop_offer_info_availability_uiview')]'.",
+      "valid": false
+    },
+    {
+      "line": 98,
+      "annotation": "@AndroidFindBy(id = \"collapsed_text_view\")",
+      "selector_name": "id",
+      "selector_value": "collapsed_text_view",
+      "message": "Aucun élément avec resource-id='collapsed_text_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 99,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"info_sheet_description_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "info_sheet_description_uilabel_1",
+      "message": "Aucun élément avec accessibilité='info_sheet_description_uilabel_1' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\PassVideoPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.073962Z",
+  "issues_count": 12,
+  "issues": [
+    {
+      "line": 22,
+      "annotation": "@AndroidFindBy(id = \"svod_info_subscription\")",
+      "selector_name": "id",
+      "selector_value": "svod_info_subscription",
+      "message": "Aucun élément avec resource-id='svod_info_subscription' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 23,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pass_video_page_custom_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "pass_video_page_custom_uilabel",
+      "message": "Aucun élément avec accessibilité='pass_video_page_custom_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 25,
+      "annotation": "@AndroidFindBy(id = \"svod_logo\")",
+      "selector_name": "id",
+      "selector_value": "svod_logo",
+      "message": "Aucun élément avec resource-id='svod_logo' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 26,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'partner_application_uiview')]/XCUIElementTypeImage[1]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'partner_application_uiview')]/XCUIElementTypeImage[1]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'partner_application_uiview')]/XCUIElementTypeImage[1]'.",
+      "valid": false
+    },
+    {
+      "line": 28,
+      "annotation": "@AndroidFindBy(id = \"svod_partner_title\")",
+      "selector_name": "id",
+      "selector_value": "svod_partner_title",
+      "message": "Aucun élément avec resource-id='svod_partner_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 29,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"partner_application_custom_uilabel_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "partner_application_custom_uilabel_2",
+      "message": "Aucun élément avec accessibilité='partner_application_custom_uilabel_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"partner_application_custom_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "partner_application_custom_uilabel_1",
+      "message": "Aucun élément avec accessibilité='partner_application_custom_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 33,
+      "annotation": "@AndroidFindBy(id = \"expandable_text_view\")",
+      "selector_name": "id",
+      "selector_value": "expandable_text_view",
+      "message": "Aucun élément avec resource-id='expandable_text_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 34,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"partner_application_custom_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "partner_application_custom_uilabel_1",
+      "message": "Aucun élément avec accessibilité='partner_application_custom_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"partner_application_custom_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "partner_application_custom_uilabel",
+      "message": "Aucun élément avec accessibilité='partner_application_custom_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"svod_partner_discover_button\")",
+      "selector_name": "id",
+      "selector_value": "svod_partner_discover_button",
+      "message": "Aucun élément avec resource-id='svod_partner_discover_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 45,
+      "annotation": "@AndroidFindBy(id = \"svod_partner_offer_button\")",
+      "selector_name": "id",
+      "selector_value": "svod_partner_offer_button",
+      "message": "Aucun élément avec resource-id='svod_partner_offer_button' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "github.copilot.chat.defaultModel": "gpt-4o",
+    "java.compile.nullAnalysis.mode": "disabled"
+}

@@ -1,0 +1,35 @@
+{
+  "java_file": "c:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\dom_inspector\\CrashDialogPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T11:30:45.637510Z",
+  "issues_count": 3,
+  "issues": [
+    {
+      "line": 7,
+      "annotation": "    @AndroidFindBy(id = \"android:id/alertTtle\")",
+      "selector_name": "id",
+      "selector_value": "android:id/alertTtle",
+      "valid": false,
+      "message": "Aucun élément trouvé avec ce resource-id",
+      "annotation_name": "AndroidFindBy"
+    },
+    {
+      "line": 10,
+      "annotation": "    @AndroidFindBy(id = \"android:id/aerr_clos\")",
+      "selector_name": "id",
+      "selector_value": "android:id/aerr_clos",
+      "valid": false,
+      "message": "Aucun élément trouvé avec ce resource-id",
+      "annotation_name": "AndroidFindBy"
+    },
+    {
+      "line": 13,
+      "annotation": "    @AndroidFindBy(xpath = \"//android.widget.Button[@resource-id='android:id/aerr_waait']\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.Button[@resource-id='android:id/aerr_waait']",
+      "valid": false,
+      "message": "Aucun élément trouvé avec ce XPath",
+      "annotation_name": "AndroidFindBy"
+    }
+  ]
+}

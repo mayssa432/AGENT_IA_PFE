@@ -1,0 +1,280 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FilterPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.712493Z",
+  "issues_count": 34,
+  "issues": [
+    {
+      "line": 33,
+      "annotation": "@AndroidFindBy(id = \"chip_show_all_options_button\")",
+      "selector_name": "id",
+      "selector_value": "chip_show_all_options_button",
+      "message": "Aucun élément avec resource-id='chip_show_all_options_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"chip_item_button\")",
+      "selector_name": "id",
+      "selector_value": "chip_item_button",
+      "message": "Aucun élément avec resource-id='chip_item_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'filter_option_cell'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'filter_option_cell'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'filter_option_cell''.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@AndroidFindBy(id = \"chips_show_all_tablet_button\")",
+      "selector_name": "id",
+      "selector_value": "chips_show_all_tablet_button",
+      "message": "Aucun élément avec resource-id='chips_show_all_tablet_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'filter_expand_cell'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'filter_expand_cell'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'filter_expand_cell''.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(className = \"androidx.recyclerview.widget.RecyclerView\")",
+      "selector_name": "className",
+      "selector_value": "androidx.recyclerview.widget.RecyclerView",
+      "message": "Aucun élément avec className='androidx.recyclerview.widget.RecyclerView' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 48,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'live_genre_picker_uicollection_view'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'live_genre_picker_uicollection_view'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'live_genre_picker_uicollection_view''.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='multi_filter_back']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='multi_filter_back']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='multi_filter_back']'.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'vod_category_filter_back_button'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'vod_category_filter_back_button'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'vod_category_filter_back_button''.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='multi_filter_close']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='multi_filter_close']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='multi_filter_close']'.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='multi_filter_group_title']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='multi_filter_group_title']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='multi_filter_group_title']'.",
+      "valid": false
+    },
+    {
+      "line": 62,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"vod_category_filter_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "vod_category_filter_title",
+      "message": "Aucun élément avec accessibilité='vod_category_filter_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 65,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"vod_category_filter_genre_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "vod_category_filter_genre_title",
+      "message": "Aucun élément avec accessibilité='vod_category_filter_genre_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"tick\")",
+      "selector_name": "accessibility",
+      "selector_value": "tick",
+      "message": "Aucun élément avec accessibilité='tick' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='multi_filter_group_item']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='multi_filter_group_item']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='multi_filter_group_item']'.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'vod_category_filter_option_cell'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'vod_category_filter_option_cell'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'vod_category_filter_option_cell''.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='multi_filter_clear']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='multi_filter_clear']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='multi_filter_clear']'.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'vod_category_filter_reset_button'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'vod_category_filter_reset_button'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'vod_category_filter_reset_button''.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='multi_filter_show_results']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='multi_filter_show_results']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='multi_filter_show_results']'.",
+      "valid": false
+    },
+    {
+      "line": 80,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'vod_category_filter_apply_button'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'vod_category_filter_apply_button'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'vod_category_filter_apply_button''.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"drop_down_list_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "drop_down_list_button",
+      "message": "Aucun élément avec accessibilité='drop_down_list_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 92,
+      "annotation": "@AndroidFindBy(id = \"vod_grid_filter_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "vod_grid_filter_dropdown",
+      "message": "Aucun élément avec resource-id='vod_grid_filter_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 95,
+      "annotation": "@AndroidFindBy(id = \"strip_sort_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "strip_sort_dropdown",
+      "message": "Aucun élément avec resource-id='strip_sort_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 98,
+      "annotation": "@AndroidFindBy(id = \"recordings_sorter_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "recordings_sorter_dropdown",
+      "message": "Aucun élément avec resource-id='recordings_sorter_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 101,
+      "annotation": "@AndroidFindBy(id = \"live_epg_date_selection_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "live_epg_date_selection_dropdown",
+      "message": "Aucun élément avec resource-id='live_epg_date_selection_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 104,
+      "annotation": "@AndroidFindBy(id = \"spinner_dropdown_item\")",
+      "selector_name": "id",
+      "selector_value": "spinner_dropdown_item",
+      "message": "Aucun élément avec resource-id='spinner_dropdown_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 105,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'drop_down_list_option_cell'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'drop_down_list_option_cell'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'drop_down_list_option_cell''.",
+      "valid": false
+    },
+    {
+      "line": 108,
+      "annotation": "@AndroidFindBy(id = \"live_epg_date_selection_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "live_epg_date_selection_dropdown",
+      "message": "Aucun élément avec resource-id='live_epg_date_selection_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 109,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[@name=\\\"main_screen_container_2\\\"]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]\") // Todo",
+      "selector_name": "xpath",
+      "selector_value": "//*[@name=\\\"main_screen_container_2\\\"]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@name=\\\"main_screen_container_2\\\"]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]'.",
+      "valid": false
+    },
+    {
+      "line": 116,
+      "annotation": "@AndroidFindBy(id = \"live_epg_time_selection_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "live_epg_time_selection_dropdown",
+      "message": "Aucun élément avec resource-id='live_epg_time_selection_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 119,
+      "annotation": "@AndroidFindBy(className = \"android.widget.ListView\")",
+      "selector_name": "className",
+      "selector_value": "android.widget.ListView",
+      "message": "Aucun élément avec className='android.widget.ListView' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 120,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'live_uitable_view'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'live_uitable_view'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'live_uitable_view''.",
+      "valid": false
+    },
+    {
+      "line": 123,
+      "annotation": "@AndroidFindBy(id = \"spinner_dropdown_item_text\")",
+      "selector_name": "id",
+      "selector_value": "spinner_dropdown_item_text",
+      "message": "Aucun élément avec resource-id='spinner_dropdown_item_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 124,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeButton[@name='live_uibutton_3'])[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeButton[@name='live_uibutton_3'])[2]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeButton[@name='live_uibutton_3'])[2]'.",
+      "valid": false
+    }
+  ]
+}

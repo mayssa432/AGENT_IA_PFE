@@ -1,0 +1,168 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\DownloadsPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.620062Z",
+  "issues_count": 20,
+  "issues": [
+    {
+      "line": 25,
+      "annotation": "@AndroidFindBy(id = \"downloads_heading_text\")",
+      "selector_name": "id",
+      "selector_value": "downloads_heading_text",
+      "message": "Aucun élément avec resource-id='downloads_heading_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 26,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"offline_myvideos_uitable_view_label\")",
+      "selector_name": "accessibility",
+      "selector_value": "offline_myvideos_uitable_view_label",
+      "message": "Aucun élément avec accessibilité='offline_myvideos_uitable_view_label' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 29,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_image\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_image",
+      "message": "Aucun élément avec resource-id='downloads_item_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 30,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeImage[1]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeImage[1]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeImage[1]'.",
+      "valid": false
+    },
+    {
+      "line": 33,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_text\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_text",
+      "message": "Aucun élément avec resource-id='downloads_item_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 34,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[1]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[1]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[1]'.",
+      "valid": false
+    },
+    {
+      "line": 37,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_play_icon\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_play_icon",
+      "message": "Aucun élément avec resource-id='downloads_item_play_icon' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"play\")",
+      "selector_name": "accessibility",
+      "selector_value": "play",
+      "message": "Aucun élément avec accessibilité='play' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 41,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_text2\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_text2",
+      "message": "Aucun élément avec resource-id='downloads_item_text2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[2]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[2]'.",
+      "valid": false
+    },
+    {
+      "line": 45,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_delete_image\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_delete_image",
+      "message": "Aucun élément avec resource-id='downloads_item_delete_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Supprimer de l'appareil\")",
+      "selector_name": "accessibility",
+      "selector_value": "Supprimer de l'appareil",
+      "message": "Aucun élément avec accessibilité='Supprimer de l'appareil' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 49,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_indicator\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_indicator",
+      "message": "Aucun élément avec resource-id='downloads_item_indicator' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"offline_myvideos_download_status_indicator\")",
+      "selector_name": "accessibility",
+      "selector_value": "offline_myvideos_download_status_indicator",
+      "message": "Aucun élément avec accessibilité='offline_myvideos_download_status_indicator' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@AndroidFindBy(id = \"downloads_item_text3\")",
+      "selector_name": "id",
+      "selector_value": "downloads_item_text3",
+      "message": "Aucun élément avec resource-id='downloads_item_text3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 54,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[3]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[3]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeOther[@name=\\\"offline_myvideos_any_view\\\"])/*/XCUIElementTypeStaticText[3]'.",
+      "valid": false
+    },
+    {
+      "line": 57,
+      "annotation": "@AndroidFindBy(id = \"downloads_empty_image\")",
+      "selector_name": "id",
+      "selector_value": "downloads_empty_image",
+      "message": "Aucun élément avec resource-id='downloads_empty_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 58,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"noDownload\")",
+      "selector_name": "accessibility",
+      "selector_value": "noDownload",
+      "message": "Aucun élément avec accessibilité='noDownload' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 61,
+      "annotation": "@AndroidFindBy(id = \"downloads_empty_text\")",
+      "selector_name": "id",
+      "selector_value": "downloads_empty_text",
+      "message": "Aucun élément avec resource-id='downloads_empty_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 62,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"offline_myvideos_uitable_view_label\")",
+      "selector_name": "accessibility",
+      "selector_value": "offline_myvideos_uitable_view_label",
+      "message": "Aucun élément avec accessibilité='offline_myvideos_uitable_view_label' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

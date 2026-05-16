@@ -1,0 +1,151 @@
+package com.orange.otvp.automation.pages.mobile;
+
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.pagefactory.*;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.support.PageFactory;
+
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
+import java.util.List;
+
+import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.WebElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+import lombok.Getter;
+
+@Getter
+public class AuthenticationPO {
+
+    AppiumDriver driver;
+
+    public AuthenticationPO(AppiumDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(5)), this);
+    }
+
+    @AndroidFindAll({
+            @AndroidBy(xpath = "//*[@text='Sign-in']"),
+            @AndroidBy(xpath = "//*[@text='Identifiez-vous']")
+    })
+    @iOSXCUITFindBy(iOSNsPredicate = "label == 'Identifiez-vous'")
+    private WebElement loginViewTitle;
+
+    @AndroidFindBy(id = "was_user_other_account")
+    @iOSXCUITFindBy(accessibility = "input_account_list")
+    private WebElement inputOtherAccountButton;
+
+    @AndroidFindBy(id = "was_sdk_login_editext")
+    @iOSXCUITFindBy(accessibility = "login_edittext")
+    private WebElement userNameField;
+
+    @AndroidFindBy(id = "com.orange.owtv.prod:id/was_sdk_login_editext_error")
+    @iOSXCUITFindBy(accessibility = "textinput_error")
+    private WebElement authenticationNoMailError;
+
+    @AndroidFindBy(id = "com.orange.owtv.prod:id/was_sdk_pwd_editext_error")
+    @iOSXCUITFindBy(accessibility = "wassup_authentication_system.password_new_uilabel_1")
+    private WebElement authenticationNoPasswordError;
+
+    @AndroidFindBy(id = "was_sdk_login_remember_me")
+    @iOSXCUITFindBy(accessibility = "button_login_do_not_remember")
+    private WebElement rememberMe;
+
+    @AndroidFindBy(id = "was_sdk_login_button_resume")
+    @iOSXCUITFindBy(accessibility = "login_button_resume")
+    private WebElement buttonResume;
+
+    @AndroidFindBy(id = "was_sdk_button_lost")
+    @iOSXCUITFindBy(accessibility = "button_lost")
+    private WebElement forgottenPassword;
+
+    @AndroidFindBy(id = "was_sdk_smartauthent_explicit_id_password")
+    @iOSXCUITFindBy(accessibility = "smartauthent_explicit_id_password")
+    private WebElement passwordField;
+
+    @AndroidFindBy(id = "was_sdk_button_confirm")
+    @iOSXCUITFindBy(accessibility = "button_confirm")
+    private WebElement buttonConfirm;
+
+    @WithTimeout(time = 2, chronoUnit = ChronoUnit.SECONDS)
+    @AndroidFindBy(id = "android:id/button1")
+    private WebElement androidOkButton;
+
+    @AndroidFindBy(accessibility = "Remonter")
+    @iOSXCUITFindBy(accessibility = "button_close_manage")
+    private WebElement buttonCloseManage;
+
+    @AndroidFindBy(id = "was_sdk_mc_button_password")
+    @iOSXCUITFindBy(accessibility = "button_use_password")
+    private WebElement connexionwithPassword;
+
+    @AndroidFindBy(id = "was_action_manage")
+    @iOSXCUITFindBy(accessibility = "button_manage")
+    private WebElement buttonManage;
+
+    @AndroidFindBy(id = "focusable_button")
+    @iOSXCUITFindBy(accessibility = "focusable_button")
+    private WebElement continuerButton;
+ //apleTV
+
+    @iOSXCUITFindBy(accessibility ="ui_uitext_field_3")
+    private WebElement mailAdresseField;
+
+    @iOSXCUITFindBy(accessibility = "uirecents_input_uilabel")
+    private List<WebElement> userFields;
+
+    @iOSXCUITFindBy(accessibility ="ui_uibutton")
+    private WebElement NextButton;
+
+    @AndroidFindBy(id = "custom_dialog_title")
+    @iOSXCUITFindBy(accessibility ="idialog_manager_alert_controller_uilabel")
+    private WebElement NoTvRightTitle;
+
+    @AndroidFindBy(id = "dialog_message_text")
+    @iOSXCUITFindBy(accessibility ="idialog_manager_alert_controller_uilabel_1")
+    private WebElement NoTvRightText;
+
+    @AndroidFindBy(id = "custom_dialog_button_primary_positive")
+    @iOSXCUITFindBy(accessibility ="idialog_manager_alert_controller_custom_uibutton_3")
+    private WebElement NoTvRightOrangeButton;
+
+    @AndroidFindBy(id = "custom_dialog_button_secondary_negative")
+    @iOSXCUITFindBy(accessibility ="idialog_manager_alert_controller_custom_uibutton_4")
+    private WebElement NoTvRightSoshButton;
+
+    @AndroidFindBy(id = "custom_dialog_button_tertiary")
+    @iOSXCUITFindBy(iOSNsPredicate = "label='SE DÉCONNECTER'")
+    private WebElement NoTvRightDisconnectButton;
+
+
+
+
+    public void setUsername(String userName) {
+
+        if (driver instanceof IOSDriver) {
+            userNameField.click();
+        }
+        userNameField.sendKeys(userName);
+        buttonResume.click();
+    }
+
+    public void setPassword(String passWord) {
+        if (driver instanceof IOSDriver) {
+            passwordField.click();
+        }
+        passwordField.sendKeys(passWord);
+        buttonConfirm.click();
+
+        if (driver instanceof AndroidDriver) {
+            // ToDO: try/catch for random error with hte old version of AuthSDK, if does not occur with the new can be removed.
+            try {
+                androidOkButton.click();
+                buttonConfirm.click();
+            }
+            catch (NoSuchElementException e) {
+            }
+        }
+    }
+
+}

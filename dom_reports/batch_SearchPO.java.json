@@ -1,0 +1,400 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\SearchPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.370467Z",
+  "issues_count": 49,
+  "issues": [
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"header_search_text\")",
+      "selector_name": "id",
+      "selector_value": "header_search_text",
+      "message": "Aucun élément avec resource-id='header_search_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"search_bar_icustom_search_bar\")",
+      "selector_name": "accessibility",
+      "selector_value": "search_bar_icustom_search_bar",
+      "message": "Aucun élément avec accessibilité='search_bar_icustom_search_bar' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(id = \"search_completion_list_view_one_i\")",
+      "selector_name": "id",
+      "selector_value": "search_completion_list_view_one_i",
+      "message": "Aucun élément avec resource-id='search_completion_list_view_one_i' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"search_completion_uiview\")",
+      "selector_name": "accessibility",
+      "selector_value": "search_completion_uiview",
+      "message": "Aucun élément avec accessibilité='search_completion_uiview' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"header_list_item\")",
+      "selector_name": "id",
+      "selector_value": "header_list_item",
+      "message": "Aucun élément avec resource-id='header_list_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Search\")",
+      "selector_name": "accessibility",
+      "selector_value": "Search",
+      "message": "Aucun élément avec accessibilité='Search' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 45,
+      "annotation": "@AndroidFindBy(id = \"search_results_list_layout\")",
+      "selector_name": "id",
+      "selector_value": "search_results_list_layout",
+      "message": "Aucun élément avec resource-id='search_results_list_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"polaris_search_uiview_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "polaris_search_uiview_1",
+      "message": "Aucun élément avec accessibilité='polaris_search_uiview_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 49,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'OK'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'OK'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'OK''.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@AndroidFindBy(id = \"content_area\")",
+      "selector_name": "id",
+      "selector_value": "content_area",
+      "message": "Aucun élément avec resource-id='content_area' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[contains(@text,'Séries')]\"), @AndroidBy(xpath = \"//*[contains(@text,'Série')]\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_60770e51_14ad_4b45_8152_5cbb443a4031\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_60770e51_14ad_4b45_8152_5cbb443a4031",
+      "message": "Aucun élément avec accessibilité='uuid_60770e51_14ad_4b45_8152_5cbb443a4031' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@AndroidFindBy(id = \"content_area\")",
+      "selector_name": "id",
+      "selector_value": "content_area",
+      "message": "Aucun élément avec resource-id='content_area' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[contains(@text,'Films')]\"), @AndroidBy(xpath = \"//*[contains(@text,'Film')]\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_89a80de0_b412_4b77_b335_25ac7b6ef471\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_89a80de0_b412_4b77_b335_25ac7b6ef471",
+      "message": "Aucun élément avec accessibilité='uuid_89a80de0_b412_4b77_b335_25ac7b6ef471' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 66,
+      "annotation": "@AndroidFindBy(id = \"content_area\")",
+      "selector_name": "id",
+      "selector_value": "content_area",
+      "message": "Aucun élément avec resource-id='content_area' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[contains(@text,'Emissions')]\"), @AndroidBy(xpath = \"//*[contains(@text,'Emission')]\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 70,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_a9c08baa_7b0d_487a_9011_4b662a7e649b\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_a9c08baa_7b0d_487a_9011_4b662a7e649b",
+      "message": "Aucun élément avec accessibilité='uuid_a9c08baa_7b0d_487a_9011_4b662a7e649b' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 73,
+      "annotation": "@AndroidFindBy(id = \"content_area\")",
+      "selector_name": "id",
+      "selector_value": "content_area",
+      "message": "Aucun élément avec resource-id='content_area' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 74,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[contains(@text,'Episodes')]\"), @AndroidBy(xpath = \"//*[contains(@text,'Episode')]\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 77,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_e20db88a_ced8_45e9_8833_ae430743e776\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_e20db88a_ced8_45e9_8833_ae430743e776",
+      "message": "Aucun élément avec accessibilité='uuid_e20db88a_ced8_45e9_8833_ae430743e776' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 80,
+      "annotation": "@AndroidFindBy(id = \"header_search_clear\")",
+      "selector_name": "id",
+      "selector_value": "header_search_clear",
+      "message": "Aucun élément avec resource-id='header_search_clear' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 81,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Effacer le texte'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Effacer le texte'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Effacer le texte''.",
+      "valid": false
+    },
+    {
+      "line": 84,
+      "annotation": "@AndroidFindBy(id = \"header_search_icon\")",
+      "selector_name": "id",
+      "selector_value": "header_search_icon",
+      "message": "Aucun élément avec resource-id='header_search_icon' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 88,
+      "annotation": "@AndroidFindBy(id = \"search_results_list_state_switcher\")",
+      "selector_name": "id",
+      "selector_value": "search_results_list_state_switcher",
+      "message": "Aucun élément avec resource-id='search_results_list_state_switcher' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name BEGINSWITH 'search_result_search_result_object'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name BEGINSWITH 'search_result_search_result_object'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name BEGINSWITH 'search_result_search_result_object''.",
+      "valid": false
+    },
+    {
+      "line": 92,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text= 'Voir en replay']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text= 'Voir en replay']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text= 'Voir en replay']'.",
+      "valid": false
+    },
+    {
+      "line": 93,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_527f6a3f_88d6_4289_bdb0_6a46e0617d0d\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_527f6a3f_88d6_4289_bdb0_6a46e0617d0d",
+      "message": "Aucun élément avec accessibilité='uuid_527f6a3f_88d6_4289_bdb0_6a46e0617d0d' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 96,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[@text= 'Voir en VOD']\"), @AndroidBy(xpath = \"//*[@text= 'regarder']\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 99,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_700b1eff_d5a7_4294_bf7f_8ab01b98ed63\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_700b1eff_d5a7_4294_bf7f_8ab01b98ed63",
+      "message": "Aucun élément avec accessibilité='uuid_700b1eff_d5a7_4294_bf7f_8ab01b98ed63' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 102,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text= 'Voir les épisodes']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text= 'Voir les épisodes']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text= 'Voir les épisodes']'.",
+      "valid": false
+    },
+    {
+      "line": 103,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uuid_3f2e16c3_56e5_4c35_9df0_d0aca2fa3723\")",
+      "selector_name": "accessibility",
+      "selector_value": "uuid_3f2e16c3_56e5_4c35_9df0_d0aca2fa3723",
+      "message": "Aucun élément avec accessibilité='uuid_3f2e16c3_56e5_4c35_9df0_d0aca2fa3723' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 106,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains (@name, 'search_result_search_result_object')]/child::XCUIElementTypeImage[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains (@name, 'search_result_search_result_object')]/child::XCUIElementTypeImage[2]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains (@name, 'search_result_search_result_object')]/child::XCUIElementTypeImage[2]'.",
+      "valid": false
+    },
+    {
+      "line": 109,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_subtitle\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_subtitle",
+      "message": "Aucun élément avec resource-id='searchlistitemview_subtitle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 110,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains (@label, 'résultat pour')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains (@label, 'résultat pour')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains (@label, 'résultat pour')]'.",
+      "valid": false
+    },
+    {
+      "line": 113,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_csa_level\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_csa_level",
+      "message": "Aucun élément avec resource-id='searchlistitemview_csa_level' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 114,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == \\\"CSA-10-white\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == \\\"CSA-10-white\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == \\\"CSA-10-white\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 117,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_csa_level\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_csa_level",
+      "message": "Aucun élément avec resource-id='searchlistitemview_csa_level' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 118,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == \\\"CSA-10-black\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == \\\"CSA-10-black\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == \\\"CSA-10-black\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 121,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_title\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_title",
+      "message": "Aucun élément avec resource-id='searchlistitemview_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 122,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"search_result_uilabel_10\")",
+      "selector_name": "accessibility",
+      "selector_value": "search_result_uilabel_10",
+      "message": "Aucun élément avec accessibilité='search_result_uilabel_10' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 125,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_info\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_info",
+      "message": "Aucun élément avec resource-id='searchlistitemview_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 126,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"search_result_uilabel_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "search_result_uilabel_2",
+      "message": "Aucun élément avec accessibilité='search_result_uilabel_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 129,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_ratingtitle\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_ratingtitle",
+      "message": "Aucun élément avec resource-id='searchlistitemview_ratingtitle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 130,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"search_result_uilabel_9\")",
+      "selector_name": "accessibility",
+      "selector_value": "search_result_uilabel_9",
+      "message": "Aucun élément avec accessibilité='search_result_uilabel_9' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 133,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"thin_horizontal_line.png\")",
+      "selector_name": "accessibility",
+      "selector_value": "thin_horizontal_line.png",
+      "message": "Aucun élément avec accessibilité='thin_horizontal_line.png' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 136,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_subtitle\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_subtitle",
+      "message": "Aucun élément avec resource-id='searchlistitemview_subtitle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 137,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"search_result_uilabel_12\")",
+      "selector_name": "accessibility",
+      "selector_value": "search_result_uilabel_12",
+      "message": "Aucun élément avec accessibilité='search_result_uilabel_12' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 140,
+      "annotation": "@AndroidFindBy(id = \"searchlistitemview_info2\")",
+      "selector_name": "id",
+      "selector_value": "searchlistitemview_info2",
+      "message": "Aucun élément avec resource-id='searchlistitemview_info2' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

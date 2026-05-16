@@ -1,0 +1,536 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\RemoteControlPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.276740Z",
+  "issues_count": 66,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"header_remote_icon\")",
+      "selector_name": "id",
+      "selector_value": "header_remote_icon",
+      "message": "Aucun élément avec resource-id='header_remote_icon' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 28,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'TÉLÉCOMMANDE'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'TÉLÉCOMMANDE'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'TÉLÉCOMMANDE''.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"remote_back_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_back_button",
+      "message": "Aucun élément avec resource-id='remote_back_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_back_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_back_button",
+      "message": "Aucun élément avec accessibilité='remote_back_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(id = \"remote_device_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "remote_device_dropdown",
+      "message": "Aucun élément avec resource-id='remote_device_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"drop_down_list_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "drop_down_list_button",
+      "message": "Aucun élément avec accessibilité='drop_down_list_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"remote_power_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_power_button",
+      "message": "Aucun élément avec resource-id='remote_power_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_power_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_power_button",
+      "message": "Aucun élément avec accessibilité='remote_power_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@AndroidFindBy(id = \"remote_up_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_up_button",
+      "message": "Aucun élément avec resource-id='remote_up_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_up_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_up_button",
+      "message": "Aucun élément avec accessibilité='remote_up_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(id = \"remote_down_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_down_button",
+      "message": "Aucun élément avec resource-id='remote_down_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 48,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_down_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_down_button",
+      "message": "Aucun élément avec accessibilité='remote_down_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@AndroidFindBy(id = \"remote_left_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_left_button",
+      "message": "Aucun élément avec resource-id='remote_left_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_left_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_left_button",
+      "message": "Aucun élément avec accessibilité='remote_left_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@AndroidFindBy(id = \"remote_right_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_right_button",
+      "message": "Aucun élément avec resource-id='remote_right_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_right_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_right_button",
+      "message": "Aucun élément avec accessibilité='remote_right_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@AndroidFindBy(id = \"remote_ok_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_ok_button",
+      "message": "Aucun élément avec resource-id='remote_ok_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_ok_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_ok_button",
+      "message": "Aucun élément avec accessibilité='remote_ok_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@AndroidFindBy(id = \"remote_undo_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_undo_button",
+      "message": "Aucun élément avec resource-id='remote_undo_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_undo_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_undo_button",
+      "message": "Aucun élément avec accessibilité='remote_undo_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@AndroidFindBy(id = \"remote_menu_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_menu_button",
+      "message": "Aucun élément avec resource-id='remote_menu_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_menu_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_menu_button",
+      "message": "Aucun élément avec accessibilité='remote_menu_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@AndroidFindBy(className = \"android.widget.ListView\")",
+      "selector_name": "className",
+      "selector_value": "android.widget.ListView",
+      "message": "Aucun élément avec className='android.widget.ListView' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_control_page_uitable_view\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_control_page_uitable_view",
+      "message": "Aucun élément avec accessibilité='remote_control_page_uitable_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@AndroidFindBy(id = \"remote_djingo_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_djingo_button",
+      "message": "Aucun élément avec resource-id='remote_djingo_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_djingo_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_djingo_button",
+      "message": "Aucun élément avec accessibilité='remote_djingo_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@AndroidFindBy(id = \"remote_stop_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_stop_button",
+      "message": "Aucun élément avec resource-id='remote_stop_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 80,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_stop_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_stop_button",
+      "message": "Aucun élément avec accessibilité='remote_stop_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 83,
+      "annotation": "@AndroidFindBy(id = \"remote_rec_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_rec_button",
+      "message": "Aucun élément avec resource-id='remote_rec_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 84,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_rec_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_rec_button",
+      "message": "Aucun élément avec accessibilité='remote_rec_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 87,
+      "annotation": "@AndroidFindBy(id = \"remote_rewind_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_rewind_button",
+      "message": "Aucun élément avec resource-id='remote_rewind_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 88,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_rewind_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_rewind_button",
+      "message": "Aucun élément avec accessibilité='remote_rewind_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 91,
+      "annotation": "@AndroidFindBy(id = \"remote_play_pause_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_play_pause_button",
+      "message": "Aucun élément avec resource-id='remote_play_pause_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 92,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_play_pause_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_play_pause_button",
+      "message": "Aucun élément avec accessibilité='remote_play_pause_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 95,
+      "annotation": "@AndroidFindBy(id = \"remote_forward_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_forward_button",
+      "message": "Aucun élément avec resource-id='remote_forward_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 96,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_forward_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_forward_button",
+      "message": "Aucun élément avec accessibilité='remote_forward_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 99,
+      "annotation": "@AndroidFindBy(id = \"remote_channel_up_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_channel_up_button",
+      "message": "Aucun élément avec resource-id='remote_channel_up_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 100,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_channel_up_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_channel_up_button",
+      "message": "Aucun élément avec accessibilité='remote_channel_up_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 103,
+      "annotation": "@AndroidFindBy(id = \"remote_channel_down_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_channel_down_button",
+      "message": "Aucun élément avec resource-id='remote_channel_down_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 104,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_channel_down_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_channel_down_button",
+      "message": "Aucun élément avec accessibilité='remote_channel_down_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 107,
+      "annotation": "@AndroidFindBy(id = \"remote_vol_up_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_vol_up_button",
+      "message": "Aucun élément avec resource-id='remote_vol_up_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 108,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_vol_up_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_vol_up_button",
+      "message": "Aucun élément avec accessibilité='remote_vol_up_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 111,
+      "annotation": "@AndroidFindBy(id = \"remote_vol_down_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_vol_down_button",
+      "message": "Aucun élément avec resource-id='remote_vol_down_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 112,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_vol_down_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_vol_down_button",
+      "message": "Aucun élément avec accessibilité='remote_vol_down_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 115,
+      "annotation": "@AndroidFindBy(id = \"remote_mute_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_mute_button",
+      "message": "Aucun élément avec resource-id='remote_mute_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 116,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_mute_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_mute_button",
+      "message": "Aucun élément avec accessibilité='remote_mute_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 119,
+      "annotation": "@AndroidFindBy(id = \"remote_number_0_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_0_button",
+      "message": "Aucun élément avec resource-id='remote_number_0_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 120,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_0_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_0_button",
+      "message": "Aucun élément avec accessibilité='remote_number_0_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 123,
+      "annotation": "@AndroidFindBy(id = \"remote_number_1_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_1_button",
+      "message": "Aucun élément avec resource-id='remote_number_1_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 124,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_1_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_1_button",
+      "message": "Aucun élément avec accessibilité='remote_number_1_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 127,
+      "annotation": "@AndroidFindBy(id = \"remote_number_2_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_2_button",
+      "message": "Aucun élément avec resource-id='remote_number_2_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 128,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_2_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_2_button",
+      "message": "Aucun élément avec accessibilité='remote_number_2_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 131,
+      "annotation": "@AndroidFindBy(id = \"remote_number_3_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_3_button",
+      "message": "Aucun élément avec resource-id='remote_number_3_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 132,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_3_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_3_button",
+      "message": "Aucun élément avec accessibilité='remote_number_3_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 135,
+      "annotation": "@AndroidFindBy(id = \"remote_number_4_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_4_button",
+      "message": "Aucun élément avec resource-id='remote_number_4_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 136,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_4_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_4_button",
+      "message": "Aucun élément avec accessibilité='remote_number_4_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 139,
+      "annotation": "@AndroidFindBy(id = \"remote_number_5_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_5_button",
+      "message": "Aucun élément avec resource-id='remote_number_5_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 140,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_5_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_5_button",
+      "message": "Aucun élément avec accessibilité='remote_number_5_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 143,
+      "annotation": "@AndroidFindBy(id = \"remote_number_6_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_6_button",
+      "message": "Aucun élément avec resource-id='remote_number_6_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 144,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_6_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_6_button",
+      "message": "Aucun élément avec accessibilité='remote_number_6_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 147,
+      "annotation": "@AndroidFindBy(id = \"remote_number_7_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_7_button",
+      "message": "Aucun élément avec resource-id='remote_number_7_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 148,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_7_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_7_button",
+      "message": "Aucun élément avec accessibilité='remote_number_7_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 151,
+      "annotation": "@AndroidFindBy(id = \"remote_number_8_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_8_button",
+      "message": "Aucun élément avec resource-id='remote_number_8_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 152,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_8_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_8_button",
+      "message": "Aucun élément avec accessibilité='remote_number_8_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 155,
+      "annotation": "@AndroidFindBy(id = \"remote_number_9_button\")",
+      "selector_name": "id",
+      "selector_value": "remote_number_9_button",
+      "message": "Aucun élément avec resource-id='remote_number_9_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 156,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"remote_number_9_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "remote_number_9_button",
+      "message": "Aucun élément avec accessibilité='remote_number_9_button' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

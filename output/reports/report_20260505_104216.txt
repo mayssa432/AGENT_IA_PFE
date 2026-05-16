@@ -1,0 +1,436 @@
+============================================================
+       RAPPORT D'ANALYSE - AGENT IA APPIUM
+============================================================
+📁 Projet    : C:\Users\m.derwich\Downloads\AGENT_IA_PFE
+📅 Date      : 05/05/2026 10:42:16
+📂 Fichiers  : 34
+⚠️  Problèmes : 65
+
+📊 RÉSUMÉ PAR SÉVÉRITÉ
+----------------------------------------
+🔴 CRITICAL  : 55
+🟠 IMPORTANT : 10
+🟡 WARNING   : 0
+
+============================================================
+📋 DÉTAIL PAR FICHIER
+============================================================
+
+📄 AuthenticationPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\AuthenticationPO.java
+   Champs : 1 | Problèmes : 1
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 75
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 75 : @AndroidFindBy(accessibility = "Remonter")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+📄 ConsentPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\ConsentPO.java
+   Champs : 0 | Problèmes : 2
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 43
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 43 : '//XCUIElementTypeTextView[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 56
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 56 : '//android.widget.LinearLayout[@content-desc=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 DownloadsPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\DownloadsPO.java
+   Champs : 0 | Problèmes : 8
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 30
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 30 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 30
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 30 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 34
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 34 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 34
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 34 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 42
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 42 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 42
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 42 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 54
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 54 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 54
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 54 : '(//XCUIElementTypeOther[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 FilterPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\FilterPO.java
+   Champs : 7 | Problèmes : 1
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 109
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 109 : '//*[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 FipLivePO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\FipLivePO.java
+   Champs : 2 | Problèmes : 1
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 94
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 94 : '//*[@label=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 FipReplayPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\FipReplayPO.java
+   Champs : 1 | Problèmes : 1
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 92
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 92 : '//*[@label=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 FipVodPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\FipVodPO.java
+   Champs : 7 | Problèmes : 4
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 67
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 67 : '//*[contains(@text,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 67
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 67 : '//*[contains(@text,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 71
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 71 : '//*[contains(@text,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 71
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 71 : '//*[contains(@text,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 HelpPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\HelpPO.java
+   Champs : 0 | Problèmes : 1
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 31
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 31 : @AndroidFindBy(accessibility = "one_i_list_item_primary_text")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+📄 LivePO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\LivePO.java
+   Champs : 3 | Problèmes : 10
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 169
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 169 : @AndroidFindBy(accessibility = "Accueil")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 173
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 173 : @AndroidFindBy(accessibility = "Programme TV")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 177
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 177 : @AndroidFindBy(accessibility = "Espace Replay")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 193
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 193 : @AndroidFindBy(accessibility = "En ce moment à la TV")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 232
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 232 : 'Thumbnail : //*[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 232
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 232 : 'Thumbnail : //*[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 235
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 235 : ' //*[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 235
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 235 : ' //*[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 238
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 238 : ' //*[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 238
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 238 : ' //*[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 MessagingPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\MessagingPO.java
+   Champs : 2 | Problèmes : 1
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 40
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 40 : '//android.widget.ImageView[@content-desc=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 NavigationPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\NavigationPO.java
+   Champs : 3 | Problèmes : 6
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 37
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 37 : @AndroidFindBy(accessibility = "Accueil")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 160
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 160 : @AndroidFindBy(accessibility = "Désinstaller")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 163
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 163 : @AndroidFindBy(accessibility = "Ouvrir")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 74
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 74 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 94
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 94 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 110
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 110 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 PlayerOverlayPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\PlayerOverlayPO.java
+   Champs : 7 | Problèmes : 13
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 56
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 56 : '//XCUIElementTypeButton[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 189
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 189 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 189
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 189 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 190
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 190 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 190
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 190 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 198
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 198 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 198
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 198 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 199
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 199 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 199
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 199 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 206
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 206 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 206
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 206 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 213
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 213 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 213
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 213 : '//XCUIElementTypeOther[contains(@name,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 RecorderPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\RecorderPO.java
+   Champs : 6 | Problèmes : 5
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 50
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 50 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 193
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 193 : '//*[contains(@label,\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 193
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 193 : '//*[contains(@label,\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 307
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 307 : '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 315
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 315 : '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 ReplayPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\ReplayPO.java
+   Champs : 7 | Problèmes : 2
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 156
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 156 : @AndroidFindBy(accessibility = "Replay")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 44
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 44 : '//android.widget.Button[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 ShopPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\ShopPO.java
+   Champs : 0 | Problèmes : 1
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 82
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 82 : '//*[@label=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 TutorialPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\TutorialPO.java
+   Champs : 0 | Problèmes : 5
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 50
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 50 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 54
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 54 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 58
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 58 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 62
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 62 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 66
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 66 : '//*[@text=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+📄 VodPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\VodPO.java
+   Champs : 0 | Problèmes : 3
+   --------------------------------------------------
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 163
+   💬 Détail  : XPath avec parenthèses non équilibrées à la ligne 163 : '(//XCUIElementTypeScrollView[@name=\'
+   💡 Conseil : Vérifier et corriger les parenthèses du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 163
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 163 : '(//XCUIElementTypeScrollView[@name=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+   🔴 [SeverityLevel.CRITICAL] IssueType.INVALID_XPATH
+   📍 Ligne   : 244
+   💬 Détail  : XPath avec crochets non équilibrés à la ligne 244 : '//android.widget.HorizontalScrollView//android.widget.TextView[@selected=\'
+   💡 Conseil : Vérifier et corriger les crochets du XPath
+
+============================================================
+📝 RÉSUMÉ GLOBAL
+============================================================
+🔍 Analyse de 34 fichier(s) terminée.
+⚠️  65 problème(s) détecté(s) :
+  🔴 55 critique(s) à corriger en priorité
+  🟠 10 important(s) à traiter
+============================================================

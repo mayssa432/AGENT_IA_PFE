@@ -1,0 +1,160 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\AccountPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.529216Z",
+  "issues_count": 19,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"identity_login_button\")",
+      "selector_name": "id",
+      "selector_value": "identity_login_button",
+      "message": "Aucun élément avec resource-id='identity_login_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 28,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"myaccount_view_custom_uibutton\")",
+      "selector_name": "accessibility",
+      "selector_value": "myaccount_view_custom_uibutton",
+      "message": "Aucun élément avec accessibilité='myaccount_view_custom_uibutton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"settings_reset_application_button\")",
+      "selector_name": "id",
+      "selector_value": "settings_reset_application_button",
+      "message": "Aucun élément avec resource-id='settings_reset_application_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'SE DÉCONNECTER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'SE DÉCONNECTER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'SE DÉCONNECTER''.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(id = \"details_secondary_layout\")",
+      "selector_name": "id",
+      "selector_value": "details_secondary_layout",
+      "message": "Aucun élément avec resource-id='details_secondary_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"myaccount_view_uiview_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "myaccount_view_uiview_3",
+      "message": "Aucun élément avec accessibilité='myaccount_view_uiview_3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"identity_title_text\")",
+      "selector_name": "id",
+      "selector_value": "identity_title_text",
+      "message": "Aucun élément avec resource-id='identity_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@AndroidFindBy(id = \"identity_login_text\")",
+      "selector_name": "id",
+      "selector_value": "identity_login_text",
+      "message": "Aucun élément avec resource-id='identity_login_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 45,
+      "annotation": "@AndroidFindBy(id = \"details_title_text\")",
+      "selector_name": "id",
+      "selector_value": "details_title_text",
+      "message": "Aucun élément avec resource-id='details_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"myaccount_view_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "myaccount_view_uilabel",
+      "message": "Aucun élément avec accessibilité='myaccount_view_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 49,
+      "annotation": "@AndroidFindBy(id = \"details_error_text\")",
+      "selector_name": "id",
+      "selector_value": "details_error_text",
+      "message": "Aucun élément avec resource-id='details_error_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@AndroidFindBy(id = \"details_title_text\")",
+      "selector_name": "id",
+      "selector_value": "details_title_text",
+      "message": "Aucun élément avec resource-id='details_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@AndroidFindBy(id = \"details_primary_text\")",
+      "selector_name": "id",
+      "selector_value": "details_primary_text",
+      "message": "Aucun élément avec resource-id='details_primary_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 58,
+      "annotation": "@AndroidFindBy(id = \"details_secondary_text\")",
+      "selector_name": "id",
+      "selector_value": "details_secondary_text",
+      "message": "Aucun élément avec resource-id='details_secondary_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 61,
+      "annotation": "@AndroidFindBy(id = \"details_includes_text\")",
+      "selector_name": "id",
+      "selector_value": "details_includes_text",
+      "message": "Aucun élément avec resource-id='details_includes_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@AndroidFindBy(id = \"details_offers_text\")",
+      "selector_name": "id",
+      "selector_value": "details_offers_text",
+      "message": "Aucun élément avec resource-id='details_offers_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'myaccount_view_uilabel')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'myaccount_view_uilabel')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'myaccount_view_uilabel')]'.",
+      "valid": false
+    },
+    {
+      "line": 70,
+      "annotation": "@AndroidFindBy(id = \"details_subscription_text\")",
+      "selector_name": "id",
+      "selector_value": "details_subscription_text",
+      "message": "Aucun élément avec resource-id='details_subscription_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Gérer mes abonnements TV'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Gérer mes abonnements TV'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Gérer mes abonnements TV''.",
+      "valid": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hierarchy rotation='0'>
+  <android.widget.FrameLayout>
+    <android.widget.LinearLayout>
+      <android.widget.TextView text='Orange TV' resource-id='com.orange.owtv.prod:id/title' />
+      <android.widget.Button text='Play' resource-id='com.orange.owtv.prod:id/play_button' />
+      <android.widget.ImageView resource-id='com.orange.owtv.prod:id/thumbnail' />
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>

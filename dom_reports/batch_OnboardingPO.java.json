@@ -1,0 +1,200 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\OnboardingPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.036725Z",
+  "issues_count": 24,
+  "issues": [
+    {
+      "line": 33,
+      "annotation": "@AndroidFindBy(xpath = \"//*[contains(@text,'Et profitez')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@text,'Et profitez')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@text,'Et profitez')]'.",
+      "valid": false
+    },
+    {
+      "line": 34,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@label,'Et profitez')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@label,'Et profitez')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@label,'Et profitez')]'.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@AndroidFindBy(xpath = \"//*[contains(@text,'Hors connexion')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@text,'Hors connexion')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@text,'Hors connexion')]'.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@label,'Hors connexion')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@label,'Hors connexion')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@label,'Hors connexion')]'.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@AndroidFindBy(id = \"onboarding_button_1\")",
+      "selector_name": "id",
+      "selector_value": "onboarding_button_1",
+      "message": "Aucun élément avec resource-id='onboarding_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"M'identifier\")",
+      "selector_name": "accessibility",
+      "selector_value": "M'identifier",
+      "message": "Aucun élément avec accessibilité='M'identifier' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@AndroidFindBy(id = \"onboarding_button_1\")",
+      "selector_name": "id",
+      "selector_value": "onboarding_button_1",
+      "message": "Aucun élément avec resource-id='onboarding_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'RÉESSAYER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'RÉESSAYER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'RÉESSAYER''.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@AndroidFindBy(id = \"onboarding_button_2\")",
+      "selector_name": "id",
+      "selector_value": "onboarding_button_2",
+      "message": "Aucun élément avec resource-id='onboarding_button_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"DÉCOUVRIR  \")",
+      "selector_name": "accessibility",
+      "selector_value": "DÉCOUVRIR  ",
+      "message": "Aucun élément avec accessibilité='DÉCOUVRIR  ' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 54,
+      "annotation": "@AndroidFindBy(xpath = \"//*[contains(@text,'Mes téléchargements')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@text,'Mes téléchargements')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@text,'Mes téléchargements')]'.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@label,'Mes vidéos')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@label,'Mes vidéos')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@label,'Mes vidéos')]'.",
+      "valid": false
+    },
+    {
+      "line": 58,
+      "annotation": "@AndroidFindBy(id = \"onboarding_share_close_image\")",
+      "selector_name": "id",
+      "selector_value": "onboarding_share_close_image",
+      "message": "Aucun élément avec resource-id='onboarding_share_close_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"onboarding_sharing_message_uibutton_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "onboarding_sharing_message_uibutton_1",
+      "message": "Aucun élément avec accessibilité='onboarding_sharing_message_uibutton_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@AndroidFindBy(xpath = \"//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[1]\")",
+      "selector_name": "xpath",
+      "selector_value": "//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[1]",
+      "message": "XPath invalide ou aucune correspondance pour '//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[1]'.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeStaticText)[5]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeStaticText)[5]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeStaticText)[5]'.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@AndroidFindBy(xpath = \"//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[2]",
+      "message": "XPath invalide ou aucune correspondance pour '//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[2]'.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeStaticText)[6]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeStaticText)[6]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeStaticText)[6]'.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@AndroidFindBy(xpath = \"//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[3]\")",
+      "selector_name": "xpath",
+      "selector_value": "//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[3]",
+      "message": "XPath invalide ou aucune correspondance pour '//androidx.compose.ui.platform.ComposeView/*/android.view.View[1]/android.widget.TextView[3]'.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeStaticText)[7]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeStaticText)[7]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeStaticText)[7]'.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@AndroidFindBy(xpath = \"//androidx.compose.ui.platform.ComposeView/android.view.View/android.widget.TextView\")",
+      "selector_name": "xpath",
+      "selector_value": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.widget.TextView",
+      "message": "XPath invalide ou aucune correspondance pour '//androidx.compose.ui.platform.ComposeView/android.view.View/android.widget.TextView'.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@iOSXCUITFindBy(xpath = \"(//XCUIElementTypeStaticText)[8]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//XCUIElementTypeStaticText)[8]",
+      "message": "XPath invalide ou aucune correspondance pour '(//XCUIElementTypeStaticText)[8]'.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@AndroidFindBy(xpath = \"//androidx.compose.ui.platform.ComposeView/*/android.view.View[4]/android.widget.Button\")",
+      "selector_name": "xpath",
+      "selector_value": "//androidx.compose.ui.platform.ComposeView/*/android.view.View[4]/android.widget.Button",
+      "message": "XPath invalide ou aucune correspondance pour '//androidx.compose.ui.platform.ComposeView/*/android.view.View[4]/android.widget.Button'.",
+      "valid": false
+    },
+    {
+      "line": 88,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"//uirecents_input_uirecent_input_table_cell\")",
+      "selector_name": "accessibility",
+      "selector_value": "//uirecents_input_uirecent_input_table_cell",
+      "message": "Aucun élément avec accessibilité='//uirecents_input_uirecent_input_table_cell' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

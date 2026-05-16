@@ -1,0 +1,256 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\ConsentPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.596955Z",
+  "issues_count": 31,
+  "issues": [
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"otb_consent_tv_content\")",
+      "selector_name": "id",
+      "selector_value": "otb_consent_tv_content",
+      "message": "Aucun élément avec resource-id='otb_consent_tv_content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.consents_ob1.uitext_view_fixed\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.consents_ob1.uitext_view_fixed",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.consents_ob1.uitext_view_fixed' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Gérer les partenaires'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Gérer les partenaires'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Gérer les partenaires''.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@AndroidFindBy(id = \"otb_consent_tv_custom_content\")",
+      "selector_name": "id",
+      "selector_value": "otb_consent_tv_custom_content",
+      "message": "Aucun élément avec resource-id='otb_consent_tv_custom_content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "uilabel",
+      "message": "Aucun élément avec accessibilité='uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeTextView[@name=\\]\"orange_trust_badge.consents_uitext_view\\\"]/XCUIElementTypeTextView\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeTextView[@name=\\]",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeTextView[@name=\\]'.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@AndroidFindBy(id = \"otb_consent_bt_accept\")",
+      "selector_name": "id",
+      "selector_value": "otb_consent_bt_accept",
+      "message": "Aucun élément avec resource-id='otb_consent_bt_accept' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.consents_ob1.obobutton\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.consents_ob1.obobutton",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.consents_ob1.obobutton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@AndroidFindBy(id = \"otb_consent_tv_decline\")",
+      "selector_name": "id",
+      "selector_value": "otb_consent_tv_decline",
+      "message": "Aucun élément avec resource-id='otb_consent_tv_decline' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@AndroidFindBy(xpath = \"//android.widget.LinearLayout[@content-desc=\\]\"Personnaliser vos choix\\\"]/android.widget.TextView\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.LinearLayout[@content-desc=\\]",
+      "message": "XPath invalide ou aucune correspondance pour '//android.widget.LinearLayout[@content-desc=\\]'.",
+      "valid": false
+    },
+    {
+      "line": 57,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.consents_ob1.obobutton_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.consents_ob1.obobutton_1",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.consents_ob1.obobutton_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'image_toggle_button')])[1]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'image_toggle_button')])[1]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'image_toggle_button')])[1]'.",
+      "valid": false
+    },
+    {
+      "line": 61,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"purposes_bulk_action_root\")",
+      "selector_name": "accessibility",
+      "selector_value": "purposes_bulk_action_root",
+      "message": "Aucun élément avec accessibilité='purposes_bulk_action_root' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'purpose_item_title')])[1]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'purpose_item_title')])[1]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'purpose_item_title')])[1]'.",
+      "valid": false
+    },
+    {
+      "line": 65,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeCell[@name='purposes_table_cell_view_0']\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeCell[@name='purposes_table_cell_view_0']",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeCell[@name='purposes_table_cell_view_0']'.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'image_toggle_button')])[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'image_toggle_button')])[2]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'image_toggle_button')])[2]'.",
+      "valid": false
+    },
+    {
+      "line": 69,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'purpose_toggle_0'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'purpose_toggle_0'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'purpose_toggle_0''.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'purpose_item_title')])[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'purpose_item_title')])[2]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'purpose_item_title')])[2]'.",
+      "valid": false
+    },
+    {
+      "line": 73,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeCell[@name='purposes_table_cell_view_1']\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeCell[@name='purposes_table_cell_view_1']",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeCell[@name='purposes_table_cell_view_1']'.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'image_toggle_button')])[3]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'image_toggle_button')])[3]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'image_toggle_button')])[3]'.",
+      "valid": false
+    },
+    {
+      "line": 77,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'purpose_toggle_1'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'purpose_toggle_1'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'purpose_toggle_1''.",
+      "valid": false
+    },
+    {
+      "line": 80,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'purpose_item_title')])[3]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'purpose_item_title')])[3]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'purpose_item_title')])[3]'.",
+      "valid": false
+    },
+    {
+      "line": 81,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeCell[@name='purposes_table_cell_view_2']\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeCell[@name='purposes_table_cell_view_2']",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeCell[@name='purposes_table_cell_view_2']'.",
+      "valid": false
+    },
+    {
+      "line": 84,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'image_toggle_button')])[4]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'image_toggle_button')])[4]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'image_toggle_button')])[4]'.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'purpose_toggle_2'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'purpose_toggle_2'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'purpose_toggle_2''.",
+      "valid": false
+    },
+    {
+      "line": 88,
+      "annotation": "@AndroidFindBy(xpath = \"(//*[contains(@resource-id,'image_toggle_button')])[3]\")",
+      "selector_name": "xpath",
+      "selector_value": "(//*[contains(@resource-id,'image_toggle_button')])[3]",
+      "message": "XPath invalide ou aucune correspondance pour '(//*[contains(@resource-id,'image_toggle_button')])[3]'.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"Expérience enrichie par le partage avec des filiales & partenaires\\\" AND name == \\\"purpose_toggle_1\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"Expérience enrichie par le partage avec des filiales & partenaires\\\" AND name == \\\"purpose_toggle_1\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"Expérience enrichie par le partage avec des filiales & partenaires\\\" AND name == \\\"purpose_toggle_1\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 92,
+      "annotation": "@AndroidFindBy(id = \"button_purpose_save\")",
+      "selector_name": "id",
+      "selector_value": "button_purpose_save",
+      "message": "Aucun élément avec resource-id='button_purpose_save' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 93,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"didomi_toolbar_save_category_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "didomi_toolbar_save_category_button",
+      "message": "Aucun élément avec accessibilité='didomi_toolbar_save_category_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 96,
+      "annotation": "@AndroidFindBy(id = \"button_purpose_save\")",
+      "selector_name": "id",
+      "selector_value": "button_purpose_save",
+      "message": "Aucun élément avec resource-id='button_purpose_save' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 97,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"didomi_toolbar_save_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "didomi_toolbar_save_button",
+      "message": "Aucun élément avec accessibilité='didomi_toolbar_save_button' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

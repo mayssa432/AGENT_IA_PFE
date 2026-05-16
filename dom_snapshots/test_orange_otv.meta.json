@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-11T09:56:48.664401Z",
+  "metadata": {
+    "server_url": "http://127.0.0.1:4723",
+    "platformName": "Android",
+    "deviceName": "emulator-5554",
+    "appPackage": "com.orange.owtv.prod",
+    "appActivity": "com.orange.otvp.SplashScreen"
+  }
+}

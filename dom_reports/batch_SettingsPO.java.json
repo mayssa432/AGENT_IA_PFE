@@ -1,0 +1,120 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\SettingsPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.408923Z",
+  "issues_count": 14,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"settings_spinner\")",
+      "selector_name": "id",
+      "selector_value": "settings_spinner",
+      "message": "Aucun élément avec resource-id='settings_spinner' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 30,
+      "annotation": "@AndroidFindBy(id = \"spinner_dropdown_item\")",
+      "selector_name": "id",
+      "selector_value": "spinner_dropdown_item",
+      "message": "Aucun élément avec resource-id='spinner_dropdown_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 33,
+      "annotation": "@iOSXCUITFindBy(className = \"XCUIElementTypePickerWheel\")",
+      "selector_name": "className",
+      "selector_value": "XCUIElementTypePickerWheel",
+      "message": "Aucun élément avec className='XCUIElementTypePickerWheel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'VALIDER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'VALIDER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'VALIDER''.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"settings_vod_download_in_mobile_network_switch\")",
+      "selector_name": "id",
+      "selector_value": "settings_vod_download_in_mobile_network_switch",
+      "message": "Aucun élément avec resource-id='settings_vod_download_in_mobile_network_switch' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"mysettings_view_acuiswitch_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "mysettings_view_acuiswitch_2",
+      "message": "Aucun élément avec accessibilité='mysettings_view_acuiswitch_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@AndroidFindBy(xpath = \"//android.widget.LinearLayout/android.widget.TextView[2]\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.LinearLayout/android.widget.TextView[2]",
+      "message": "XPath invalide ou aucune correspondance pour '//android.widget.LinearLayout/android.widget.TextView[2]'.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"mysettings_view_uibutton_4\")",
+      "selector_name": "accessibility",
+      "selector_value": "mysettings_view_uibutton_4",
+      "message": "Aucun élément avec accessibilité='mysettings_view_uibutton_4' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"mysettings_view_uibutton_6\")",
+      "selector_name": "accessibility",
+      "selector_value": "mysettings_view_uibutton_6",
+      "message": "Aucun élément avec accessibilité='mysettings_view_uibutton_6' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@AndroidFindBy(id = \"spinner_view_collapsed\")",
+      "selector_name": "id",
+      "selector_value": "spinner_view_collapsed",
+      "message": "Aucun élément avec resource-id='spinner_view_collapsed' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 54,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"mysettings_view_uilabel_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "mysettings_view_uilabel_2",
+      "message": "Aucun élément avec accessibilité='mysettings_view_uilabel_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 57,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"mysettings_view_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "mysettings_view_uilabel_1",
+      "message": "Aucun élément avec accessibilité='mysettings_view_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@AndroidFindBy(id = \"settings_item_description_text\")",
+      "selector_name": "id",
+      "selector_value": "settings_item_description_text",
+      "message": "Aucun élément avec resource-id='settings_item_description_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@AndroidFindBy(id = \"settings_force_widevine_level_switch\")",
+      "selector_name": "id",
+      "selector_value": "settings_force_widevine_level_switch",
+      "message": "Aucun élément avec resource-id='settings_force_widevine_level_switch' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+============================================================
+       RAPPORT D'ANALYSE - AGENT IA APPIUM
+============================================================
+📁 Projet    : C:\Users\m.derwich\Downloads\AGENT_IA_PFE
+📅 Date      : 06/05/2026 14:16:04
+📂 Fichiers  : 34
+⚠️  Problèmes : 10
+
+📊 RÉSUMÉ PAR SÉVÉRITÉ
+----------------------------------------
+🔴 CRITICAL  : 0
+🟠 IMPORTANT : 10
+🟡 WARNING   : 0
+
+============================================================
+📋 DÉTAIL PAR FICHIER
+============================================================
+
+📄 AuthenticationPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\AuthenticationPO.java
+   Champs : 1 | Problèmes : 1
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 75
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 75 : @AndroidFindBy(accessibility = "Remonter")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+📄 HelpPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\HelpPO.java
+   Champs : 0 | Problèmes : 1
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 31
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 31 : @AndroidFindBy(accessibility = "one_i_list_item_primary_text")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+📄 LivePO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\LivePO.java
+   Champs : 3 | Problèmes : 4
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 169
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 169 : @AndroidFindBy(accessibility = "Accueil")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 173
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 173 : @AndroidFindBy(accessibility = "Programme TV")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 177
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 177 : @AndroidFindBy(accessibility = "Espace Replay")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 193
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 193 : @AndroidFindBy(accessibility = "En ce moment à la TV")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+📄 NavigationPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\NavigationPO.java
+   Champs : 3 | Problèmes : 3
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 37
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 37 : @AndroidFindBy(accessibility = "Accueil")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 160
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 160 : @AndroidFindBy(accessibility = "Désinstaller")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 163
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 163 : @AndroidFindBy(accessibility = "Ouvrir")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+📄 ReplayPO.java
+   Chemin : C:\Users\m.derwich\Downloads\AGENT_IA_PFE\AGENT_IA_PFE\src\test\java\com\orange\otvp\automation\pages\mobile\ReplayPO.java
+   Champs : 7 | Problèmes : 1
+   --------------------------------------------------
+
+   🟠 [SeverityLevel.IMPORTANT] IssueType.INVALID_SELECTOR
+   📍 Ligne   : 156
+   💬 Détail  : Sélecteur inconnu 'accessibility' à la ligne 156 : @AndroidFindBy(accessibility = "Replay")
+   💡 Conseil : Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain
+
+============================================================
+📝 RÉSUMÉ GLOBAL
+============================================================
+🔍 Analyse de 34 fichier(s) terminée.
+⚠️  10 problème(s) détecté(s) :
+  🟠 10 important(s) à traiter
+============================================================

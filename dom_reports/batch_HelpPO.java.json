@@ -1,0 +1,216 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\HelpPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.874767Z",
+  "issues_count": 26,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"one_i_list_item_section_text\")",
+      "selector_name": "id",
+      "selector_value": "one_i_list_item_section_text",
+      "message": "Aucun élément avec resource-id='one_i_list_item_section_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 28,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"help_and_contact_main_uitable_view_label\")",
+      "selector_name": "accessibility",
+      "selector_value": "help_and_contact_main_uitable_view_label",
+      "message": "Aucun élément avec accessibilité='help_and_contact_main_uitable_view_label' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(accessibility = \"one_i_list_item_primary_text\")",
+      "selector_name": "accessibility",
+      "selector_value": "one_i_list_item_primary_text",
+      "message": "Aucun élément avec accessibilité='one_i_list_item_primary_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"help_and_contact_main_uitable_view_label\")",
+      "selector_name": "accessibility",
+      "selector_value": "help_and_contact_main_uitable_view_label",
+      "message": "Aucun élément avec accessibilité='help_and_contact_main_uitable_view_label' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(className = \"android.view.ViewGroup\")",
+      "selector_name": "className",
+      "selector_value": "android.view.ViewGroup",
+      "message": "Aucun élément avec className='android.view.ViewGroup' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'help_and_contact_main_uitable_view_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'help_and_contact_main_uitable_view_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'help_and_contact_main_uitable_view_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"faq_chapter_title\")",
+      "selector_name": "id",
+      "selector_value": "faq_chapter_title",
+      "message": "Aucun élément avec resource-id='faq_chapter_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'help_and_contact_faq_uitable_view_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'help_and_contact_faq_uitable_view_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'help_and_contact_faq_uitable_view_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@AndroidFindBy(id = \"faq_list_question\")",
+      "selector_name": "id",
+      "selector_value": "faq_list_question",
+      "message": "Aucun élément avec resource-id='faq_list_question' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'help_and_contact_faq_uitable_view_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'help_and_contact_faq_uitable_view_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'help_and_contact_faq_uitable_view_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(id = \"header_title_text\")",
+      "selector_name": "id",
+      "selector_value": "header_title_text",
+      "message": "Aucun élément avec resource-id='header_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 48,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Contacter un conseiller\")",
+      "selector_name": "accessibility",
+      "selector_value": "Contacter un conseiller",
+      "message": "Aucun élément avec accessibilité='Contacter un conseiller' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='Orange TV']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='Orange TV']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='Orange TV']'.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@iOSXCUITFindBy( xpath = \"//*[@label='Orange TV']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@label='Orange TV']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@label='Orange TV']'.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='Chatter avec un conseiller Orange']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='Chatter avec un conseiller Orange']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='Chatter avec un conseiller Orange']'.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Chatter avec un conseiller Orange\")",
+      "selector_name": "accessibility",
+      "selector_value": "Chatter avec un conseiller Orange",
+      "message": "Aucun élément avec accessibilité='Chatter avec un conseiller Orange' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='Du']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='Du']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='Du']'.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Du\")",
+      "selector_name": "accessibility",
+      "selector_value": "Du",
+      "message": "Aucun élément avec accessibilité='Du' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='lundi au samedi de 8h à 22h']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='lundi au samedi de 8h à 22h']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='lundi au samedi de 8h à 22h']'.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"lundi au samedi de 8h à 22h\")",
+      "selector_name": "accessibility",
+      "selector_value": "lundi au samedi de 8h à 22h",
+      "message": "Aucun élément avec accessibilité='lundi au samedi de 8h à 22h' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='Posez directement votre question à un conseiller.']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='Posez directement votre question à un conseiller.']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='Posez directement votre question à un conseiller.']'.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Posez directement votre question à un conseiller.\")",
+      "selector_name": "accessibility",
+      "selector_value": "Posez directement votre question à un conseiller.",
+      "message": "Aucun élément avec accessibilité='Posez directement votre question à un conseiller.' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='Chatter']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='Chatter']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='Chatter']'.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"Chatter\")",
+      "selector_name": "accessibility",
+      "selector_value": "Chatter",
+      "message": "Aucun élément avec accessibilité='Chatter' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text='icone chat']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text='icone chat']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text='icone chat']'.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"icone chat\")",
+      "selector_name": "accessibility",
+      "selector_value": "icone chat",
+      "message": "Aucun élément avec accessibilité='icone chat' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

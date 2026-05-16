@@ -1,0 +1,11 @@
+﻿{
+  "servers": {
+    "pfe-agent-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:/Users/m.derwich/Downloads/AGENT_IA_PFE/AGENT_IA_PFE/output/pfe-agent-mcp/server.js"
+      ]
+    }
+  }
+}

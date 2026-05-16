@@ -1,0 +1,13 @@
+{
+  "result": {
+    "files_analyzed": 147,
+    "total_issues": 0,
+    "critical": 0,
+    "important": 0,
+    "warning": 0,
+    "summary": "✅ Aucun problème détecté ! Le projet est conforme aux bonnes pratiques Appium.",
+    "files_with_issues": [],
+    "issues": []
+  },
+  "project_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE"
+}

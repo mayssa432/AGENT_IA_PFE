@@ -1,0 +1,249 @@
+{
+  "project_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE",
+  "total_files": 34,
+  "total_issues": 0,
+  "critical_count": 0,
+  "important_count": 0,
+  "warning_count": 0,
+  "files": [
+    {
+      "file_name": "BasePage.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\pages\\BasePage.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "DashboardPage.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\pages\\DashboardPage.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LoginPage.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\pages\\LoginPage.java",
+      "total_fields": 5,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LoginTestRunner.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\runners\\LoginTestRunner.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LoginStepDefinitions.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\steps\\LoginStepDefinitions.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "TestContext.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\steps\\TestContext.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "AboutPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\AboutPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "AccountPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\AccountPO.java",
+      "total_fields": 8,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "AuthenticationPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\AuthenticationPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "CastPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\CastPO.java",
+      "total_fields": 6,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "ConsentPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\ConsentPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "DownloadsPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\DownloadsPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "EpgPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\EpgPO.java",
+      "total_fields": 2,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "FilterPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FilterPO.java",
+      "total_fields": 7,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "FipLivePO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FipLivePO.java",
+      "total_fields": 2,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "FipReplayPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FipReplayPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "FipVodPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FipVodPO.java",
+      "total_fields": 7,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "HelpPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\HelpPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LivePO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\LivePO.java",
+      "total_fields": 3,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "MessagingPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\MessagingPO.java",
+      "total_fields": 2,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "NavigationPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\NavigationPO.java",
+      "total_fields": 3,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "OnboardingPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\OnboardingPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "PassVideoPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\PassVideoPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "PlayerOverlayPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\PlayerOverlayPO.java",
+      "total_fields": 7,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "PopUpMessagesPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\PopUpMessagesPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "RecorderPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\RecorderPO.java",
+      "total_fields": 6,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "RemoteControlPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\RemoteControlPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "ReplayPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\ReplayPO.java",
+      "total_fields": 7,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "SearchPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\SearchPO.java",
+      "total_fields": 3,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "SettingsPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\SettingsPO.java",
+      "total_fields": 5,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "ShopPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\ShopPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "TrustBadgePO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\TrustBadgePO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "TutorialPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\TutorialPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "VodPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\VodPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    }
+  ],
+  "summary": "✅ Aucun problème détecté ! Le projet est conforme aux bonnes pratiques Appium."
+}

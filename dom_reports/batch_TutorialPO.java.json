@@ -1,0 +1,176 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\TutorialPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.506027Z",
+  "issues_count": 21,
+  "issues": [
+    {
+      "line": 30,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='tutorial_list_header']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='tutorial_list_header']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='tutorial_list_header']'.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"tutorial_list_header\")",
+      "selector_name": "accessibility",
+      "selector_value": "tutorial_list_header",
+      "message": "Aucun élément avec accessibilité='tutorial_list_header' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 34,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='onei_list_item']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='onei_list_item']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='onei_list_item']'.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"onei_list_item\")",
+      "selector_name": "accessibility",
+      "selector_value": "onei_list_item",
+      "message": "Aucun élément avec accessibilité='onei_list_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='tutorial_header']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='tutorial_header']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='tutorial_header']'.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"tutorial_header\")",
+      "selector_name": "accessibility",
+      "selector_value": "tutorial_header",
+      "message": "Aucun élément avec accessibilité='tutorial_header' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='tutorial_body']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='tutorial_body']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='tutorial_body']'.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"tutorial_body\")",
+      "selector_name": "accessibility",
+      "selector_value": "tutorial_body",
+      "message": "Aucun élément avec accessibilité='tutorial_body' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@resource-id='tutorial_button']\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@resource-id='tutorial_button']",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@resource-id='tutorial_button']'.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"tutorial_footer\")",
+      "selector_name": "accessibility",
+      "selector_value": "tutorial_footer",
+      "message": "Aucun élément avec accessibilité='tutorial_footer' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text=\\\"Partager ma TV d'Orange\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text=\\\"Partager ma TV d'Orange\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text=\\\"Partager ma TV d'Orange\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"value == \\\"Partager ma TV d'Orange\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "value == \\\"Partager ma TV d'Orange\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'value == \\\"Partager ma TV d'Orange\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 54,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text=\\\"Enregistrer un contenu\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text=\\\"Enregistrer un contenu\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text=\\\"Enregistrer un contenu\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"value == \\\"Enregistrer un contenu\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "value == \\\"Enregistrer un contenu\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'value == \\\"Enregistrer un contenu\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 58,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text=\\\"Caster un contenu\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text=\\\"Caster un contenu\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text=\\\"Caster un contenu\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"value == \\\"Caster un contenu\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "value == \\\"Caster un contenu\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'value == \\\"Caster un contenu\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 62,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text=\\\"Utiliser la télécommande\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text=\\\"Utiliser la télécommande\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text=\\\"Utiliser la télécommande\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"value == \\\"Utiliser la télécommande\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "value == \\\"Utiliser la télécommande\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'value == \\\"Utiliser la télécommande\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 66,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text=\\\"Reprendre du début\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text=\\\"Reprendre du début\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text=\\\"Reprendre du début\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"value == \\\"Reprendre du début\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "value == \\\"Reprendre du début\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'value == \\\"Reprendre du début\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@AndroidFindAll({ @AndroidBy(id = \"onboarding_share_close\"), @AndroidBy(id = \"cast_tutorial_accept_button\") })",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    }
+  ]
+}

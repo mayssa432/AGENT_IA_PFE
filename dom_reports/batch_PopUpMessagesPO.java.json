@@ -1,0 +1,216 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\PopUpMessagesPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.166619Z",
+  "issues_count": 26,
+  "issues": [
+    {
+      "line": 33,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog",
+      "message": "Aucun élément avec resource-id='custom_dialog' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_title_block\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_title_block",
+      "message": "Aucun élément avec resource-id='custom_dialog_title_block' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_content\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_content",
+      "message": "Aucun élément avec resource-id='custom_dialog_content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@AndroidFindAll({ @AndroidBy(id = \"dialog_message_text\"), @AndroidBy(id = \"subscription_offers_for_channel_loading_error\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 61,
+      "annotation": "@AndroidFindAll({ @AndroidBy(id = \"custom_dialog_button_primary_positive\"), @AndroidBy(xpath = \"//*[@text='OK']\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 73,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 74,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'plus tard'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'plus tard'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'plus tard''.",
+      "valid": false
+    },
+    {
+      "line": 77,
+      "annotation": "@iOSXCUITFindBy(id = \"Plus tard\")",
+      "selector_name": "id",
+      "selector_value": "Plus tard",
+      "message": "Aucun élément avec resource-id='Plus tard' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 80,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_secondary_negative\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_secondary_negative",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_secondary_negative' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 81,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'recuperer mon mot de passe'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'recuperer mon mot de passe'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'recuperer mon mot de passe''.",
+      "valid": false
+    },
+    {
+      "line": 84,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"bandwidth_usage_dialog_custom_uibutton_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "bandwidth_usage_dialog_custom_uibutton_1",
+      "message": "Aucun élément avec accessibilité='bandwidth_usage_dialog_custom_uibutton_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_secondary_negative\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_secondary_negative",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_secondary_negative' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 95,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 96,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Changer de compte'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Changer de compte'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Changer de compte''.",
+      "valid": false
+    },
+    {
+      "line": 99,
+      "annotation": "@AndroidFindBy(id = \"reminder_selection_list_text\")",
+      "selector_name": "id",
+      "selector_value": "reminder_selection_list_text",
+      "message": "Aucun élément avec resource-id='reminder_selection_list_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 102,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[@text='DISCONNECT']\"), @AndroidBy(xpath = \"//*[@text='OK']\"), @AndroidBy(xpath = \"//*[@text='DÉCONNECTER']\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 106,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Déconnecter'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Déconnecter'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Déconnecter''.",
+      "valid": false
+    },
+    {
+      "line": 110,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 111,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'voir'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'voir'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'voir''.",
+      "valid": false
+    },
+    {
+      "line": 115,
+      "annotation": "@iOSXCUITFindBy(id = \"NotificationCell\")",
+      "selector_name": "id",
+      "selector_value": "NotificationCell",
+      "message": "Aucun élément avec resource-id='NotificationCell' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 119,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Ouvrir'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Ouvrir'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Ouvrir''.",
+      "valid": false
+    },
+    {
+      "line": 123,
+      "annotation": "@AndroidFindAll({ @AndroidBy(id = \"android:id/title\"), @AndroidBy(id = \"android:id/big_text\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 126,
+      "annotation": "@iOSXCUITFindBy(id = \"NotificationCell\")",
+      "selector_name": "id",
+      "selector_value": "NotificationCell",
+      "message": "Aucun élément avec resource-id='NotificationCell' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 129,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 130,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Installer'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Installer'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Installer''.",
+      "valid": false
+    }
+  ]
+}

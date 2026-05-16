@@ -1,0 +1,16 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile/AuthenticationPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T14:53:44.222493Z",
+  "issues_count": 1,
+  "issues": [
+    {
+      "line": 118,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label='SE DÉCONNECTER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label='SE DÉCONNECTER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label='SE DÉCONNECTER''.",
+      "valid": false
+    }
+  ]
+}

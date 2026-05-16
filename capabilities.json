@@ -1,0 +1,10 @@
+﻿{
+  "platformName": "Android",
+  "platformVersion": "16",
+  "deviceName": "emulator-5554",
+  "automationName": "UiAutomator2",
+  "appPackage": "com.orange.owtv.prod",
+  "appActivity": "com.orange.otvp.SplashScreen",
+  "noReset": true,
+  "newCommandTimeout": 300
+}

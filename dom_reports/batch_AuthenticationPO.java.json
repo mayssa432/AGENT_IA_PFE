@@ -1,0 +1,336 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\AuthenticationPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.550137Z",
+  "issues_count": 41,
+  "issues": [
+    {
+      "line": 28,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[@text='Sign-in']\"), @AndroidBy(xpath = \"//*[@text='Identifiez-vous']\") })",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Identifiez-vous'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Identifiez-vous'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Identifiez-vous''.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(id = \"was_user_other_account\")",
+      "selector_name": "id",
+      "selector_value": "was_user_other_account",
+      "message": "Aucun élément avec resource-id='was_user_other_account' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"input_account_list\")",
+      "selector_name": "accessibility",
+      "selector_value": "input_account_list",
+      "message": "Aucun élément avec accessibilité='input_account_list' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_login_editext\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_login_editext",
+      "message": "Aucun élément avec resource-id='was_sdk_login_editext' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 40,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"login_edittext\")",
+      "selector_name": "accessibility",
+      "selector_value": "login_edittext",
+      "message": "Aucun élément avec accessibilité='login_edittext' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@AndroidFindBy(id = \"com.orange.owtv.prod:id/was_sdk_login_editext_error\")",
+      "selector_name": "id",
+      "selector_value": "com.orange.owtv.prod:id/was_sdk_login_editext_error",
+      "message": "Aucun élément avec resource-id='com.orange.owtv.prod:id/was_sdk_login_editext_error' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 44,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"textinput_error\")",
+      "selector_name": "accessibility",
+      "selector_value": "textinput_error",
+      "message": "Aucun élément avec accessibilité='textinput_error' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(id = \"com.orange.owtv.prod:id/was_sdk_pwd_editext_error\")",
+      "selector_name": "id",
+      "selector_value": "com.orange.owtv.prod:id/was_sdk_pwd_editext_error",
+      "message": "Aucun élément avec resource-id='com.orange.owtv.prod:id/was_sdk_pwd_editext_error' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 48,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"wassup_authentication_system.password_new_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "wassup_authentication_system.password_new_uilabel_1",
+      "message": "Aucun élément avec accessibilité='wassup_authentication_system.password_new_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_login_remember_me\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_login_remember_me",
+      "message": "Aucun élément avec resource-id='was_sdk_login_remember_me' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"button_login_do_not_remember\")",
+      "selector_name": "accessibility",
+      "selector_value": "button_login_do_not_remember",
+      "message": "Aucun élément avec accessibilité='button_login_do_not_remember' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_login_button_resume\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_login_button_resume",
+      "message": "Aucun élément avec resource-id='was_sdk_login_button_resume' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"login_button_resume\")",
+      "selector_name": "accessibility",
+      "selector_value": "login_button_resume",
+      "message": "Aucun élément avec accessibilité='login_button_resume' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 59,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_button_lost\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_button_lost",
+      "message": "Aucun élément avec resource-id='was_sdk_button_lost' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"button_lost\")",
+      "selector_name": "accessibility",
+      "selector_value": "button_lost",
+      "message": "Aucun élément avec accessibilité='button_lost' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 63,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_smartauthent_explicit_id_password\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_smartauthent_explicit_id_password",
+      "message": "Aucun élément avec resource-id='was_sdk_smartauthent_explicit_id_password' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"smartauthent_explicit_id_password\")",
+      "selector_name": "accessibility",
+      "selector_value": "smartauthent_explicit_id_password",
+      "message": "Aucun élément avec accessibilité='smartauthent_explicit_id_password' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_button_confirm\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_button_confirm",
+      "message": "Aucun élément avec resource-id='was_sdk_button_confirm' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"button_confirm\")",
+      "selector_name": "accessibility",
+      "selector_value": "button_confirm",
+      "message": "Aucun élément avec accessibilité='button_confirm' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@AndroidFindBy(accessibility = \"Remonter\")",
+      "selector_name": "accessibility",
+      "selector_value": "Remonter",
+      "message": "Aucun élément avec accessibilité='Remonter' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"button_close_manage\")",
+      "selector_name": "accessibility",
+      "selector_value": "button_close_manage",
+      "message": "Aucun élément avec accessibilité='button_close_manage' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@AndroidFindBy(id = \"was_sdk_mc_button_password\")",
+      "selector_name": "id",
+      "selector_value": "was_sdk_mc_button_password",
+      "message": "Aucun élément avec resource-id='was_sdk_mc_button_password' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 80,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"button_use_password\")",
+      "selector_name": "accessibility",
+      "selector_value": "button_use_password",
+      "message": "Aucun élément avec accessibilité='button_use_password' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 83,
+      "annotation": "@AndroidFindBy(id = \"was_action_manage\")",
+      "selector_name": "id",
+      "selector_value": "was_action_manage",
+      "message": "Aucun élément avec resource-id='was_action_manage' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 84,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"button_manage\")",
+      "selector_name": "accessibility",
+      "selector_value": "button_manage",
+      "message": "Aucun élément avec accessibilité='button_manage' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 87,
+      "annotation": "@AndroidFindBy(id = \"focusable_button\")",
+      "selector_name": "id",
+      "selector_value": "focusable_button",
+      "message": "Aucun élément avec resource-id='focusable_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 88,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"focusable_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "focusable_button",
+      "message": "Aucun élément avec accessibilité='focusable_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 92,
+      "annotation": "@iOSXCUITFindBy(accessibility =\"ui_uitext_field_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "ui_uitext_field_3",
+      "message": "Aucun élément avec accessibilité='ui_uitext_field_3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 95,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"uirecents_input_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "uirecents_input_uilabel",
+      "message": "Aucun élément avec accessibilité='uirecents_input_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 98,
+      "annotation": "@iOSXCUITFindBy(accessibility =\"ui_uibutton\")",
+      "selector_name": "accessibility",
+      "selector_value": "ui_uibutton",
+      "message": "Aucun élément avec accessibilité='ui_uibutton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 101,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_title\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_title",
+      "message": "Aucun élément avec resource-id='custom_dialog_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 102,
+      "annotation": "@iOSXCUITFindBy(accessibility =\"idialog_manager_alert_controller_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "idialog_manager_alert_controller_uilabel",
+      "message": "Aucun élément avec accessibilité='idialog_manager_alert_controller_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 105,
+      "annotation": "@AndroidFindBy(id = \"dialog_message_text\")",
+      "selector_name": "id",
+      "selector_value": "dialog_message_text",
+      "message": "Aucun élément avec resource-id='dialog_message_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 106,
+      "annotation": "@iOSXCUITFindBy(accessibility =\"idialog_manager_alert_controller_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "idialog_manager_alert_controller_uilabel_1",
+      "message": "Aucun élément avec accessibilité='idialog_manager_alert_controller_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 109,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 110,
+      "annotation": "@iOSXCUITFindBy(accessibility =\"idialog_manager_alert_controller_custom_uibutton_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "idialog_manager_alert_controller_custom_uibutton_3",
+      "message": "Aucun élément avec accessibilité='idialog_manager_alert_controller_custom_uibutton_3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 113,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_secondary_negative\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_secondary_negative",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_secondary_negative' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 114,
+      "annotation": "@iOSXCUITFindBy(accessibility =\"idialog_manager_alert_controller_custom_uibutton_4\")",
+      "selector_name": "accessibility",
+      "selector_value": "idialog_manager_alert_controller_custom_uibutton_4",
+      "message": "Aucun élément avec accessibilité='idialog_manager_alert_controller_custom_uibutton_4' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 117,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_tertiary\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_tertiary",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_tertiary' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 118,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label='SE DÉCONNECTER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label='SE DÉCONNECTER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label='SE DÉCONNECTER''.",
+      "valid": false
+    }
+  ]
+}

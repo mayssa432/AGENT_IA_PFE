@@ -1,0 +1,15 @@
+package dom_inspector;
+
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import org.openqa.selenium.WebElement;
+
+public class CrashDialogPO {
+    @AndroidFindBy(id = "android:id/alertTtle")
+    private WebElement title;
+
+    @AndroidFindBy(id = "android:id/aerr_clos")
+    private WebElement closeButton;
+
+    @AndroidFindBy(xpath = "//android.widget.Button[@resource-id='android:id/aerr_waait']")
+    private WebElement waitButton;
+}

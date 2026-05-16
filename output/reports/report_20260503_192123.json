@@ -1,0 +1,851 @@
+{
+  "project_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE",
+  "total_files": 34,
+  "total_issues": 65,
+  "critical_count": 55,
+  "important_count": 10,
+  "warning_count": 0,
+  "files": [
+    {
+      "file_name": "BasePage.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\pages\\BasePage.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "DashboardPage.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\pages\\DashboardPage.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LoginPage.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\pages\\LoginPage.java",
+      "total_fields": 5,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LoginTestRunner.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\runners\\LoginTestRunner.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "LoginStepDefinitions.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\steps\\LoginStepDefinitions.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "TestContext.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\output\\src\\test\\java\\steps\\TestContext.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "AboutPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\AboutPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "AccountPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\AccountPO.java",
+      "total_fields": 8,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "AuthenticationPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\AuthenticationPO.java",
+      "total_fields": 1,
+      "issues": [
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "AuthenticationPO.java",
+          "field": null,
+          "line": 75,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 75 : @AndroidFindBy(accessibility = \"Remonter\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "CastPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\CastPO.java",
+      "total_fields": 6,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "ConsentPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\ConsentPO.java",
+      "total_fields": 0,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "ConsentPO.java",
+          "field": null,
+          "line": 43,
+          "detail": "XPath avec crochets non équilibrés à la ligne 43 : '//XCUIElementTypeTextView[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "ConsentPO.java",
+          "field": null,
+          "line": 56,
+          "detail": "XPath avec crochets non équilibrés à la ligne 56 : '//android.widget.LinearLayout[@content-desc=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "DownloadsPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\DownloadsPO.java",
+      "total_fields": 0,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 30,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 30 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 30,
+          "detail": "XPath avec crochets non équilibrés à la ligne 30 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 34,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 34 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 34,
+          "detail": "XPath avec crochets non équilibrés à la ligne 34 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 42,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 42 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 42,
+          "detail": "XPath avec crochets non équilibrés à la ligne 42 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 54,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 54 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "DownloadsPO.java",
+          "field": null,
+          "line": 54,
+          "detail": "XPath avec crochets non équilibrés à la ligne 54 : '(//XCUIElementTypeOther[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "EpgPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\EpgPO.java",
+      "total_fields": 2,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "FilterPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FilterPO.java",
+      "total_fields": 7,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FilterPO.java",
+          "field": null,
+          "line": 109,
+          "detail": "XPath avec crochets non équilibrés à la ligne 109 : '//*[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "FipLivePO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FipLivePO.java",
+      "total_fields": 2,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FipLivePO.java",
+          "field": null,
+          "line": 94,
+          "detail": "XPath avec crochets non équilibrés à la ligne 94 : '//*[@label=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "FipReplayPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FipReplayPO.java",
+      "total_fields": 1,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FipReplayPO.java",
+          "field": null,
+          "line": 92,
+          "detail": "XPath avec crochets non équilibrés à la ligne 92 : '//*[@label=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "FipVodPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\FipVodPO.java",
+      "total_fields": 7,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FipVodPO.java",
+          "field": null,
+          "line": 67,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 67 : '//*[contains(@text,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FipVodPO.java",
+          "field": null,
+          "line": 67,
+          "detail": "XPath avec crochets non équilibrés à la ligne 67 : '//*[contains(@text,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FipVodPO.java",
+          "field": null,
+          "line": 71,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 71 : '//*[contains(@text,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "FipVodPO.java",
+          "field": null,
+          "line": 71,
+          "detail": "XPath avec crochets non équilibrés à la ligne 71 : '//*[contains(@text,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "HelpPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\HelpPO.java",
+      "total_fields": 0,
+      "issues": [
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "HelpPO.java",
+          "field": null,
+          "line": 31,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 31 : @AndroidFindBy(accessibility = \"one_i_list_item_primary_text\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "LivePO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\LivePO.java",
+      "total_fields": 3,
+      "issues": [
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 169,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 169 : @AndroidFindBy(accessibility = \"Accueil\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 173,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 173 : @AndroidFindBy(accessibility = \"Programme TV\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 177,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 177 : @AndroidFindBy(accessibility = \"Espace Replay\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 193,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 193 : @AndroidFindBy(accessibility = \"En ce moment à la TV\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 232,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 232 : 'Thumbnail : //*[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 232,
+          "detail": "XPath avec crochets non équilibrés à la ligne 232 : 'Thumbnail : //*[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 235,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 235 : ' //*[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 235,
+          "detail": "XPath avec crochets non équilibrés à la ligne 235 : ' //*[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 238,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 238 : ' //*[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "LivePO.java",
+          "field": null,
+          "line": 238,
+          "detail": "XPath avec crochets non équilibrés à la ligne 238 : ' //*[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "MessagingPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\MessagingPO.java",
+      "total_fields": 2,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "MessagingPO.java",
+          "field": null,
+          "line": 40,
+          "detail": "XPath avec crochets non équilibrés à la ligne 40 : '//android.widget.ImageView[@content-desc=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "NavigationPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\NavigationPO.java",
+      "total_fields": 3,
+      "issues": [
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "NavigationPO.java",
+          "field": null,
+          "line": 37,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 37 : @AndroidFindBy(accessibility = \"Accueil\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "NavigationPO.java",
+          "field": null,
+          "line": 160,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 160 : @AndroidFindBy(accessibility = \"Désinstaller\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "NavigationPO.java",
+          "field": null,
+          "line": 163,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 163 : @AndroidFindBy(accessibility = \"Ouvrir\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "NavigationPO.java",
+          "field": null,
+          "line": 74,
+          "detail": "XPath avec crochets non équilibrés à la ligne 74 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "NavigationPO.java",
+          "field": null,
+          "line": 94,
+          "detail": "XPath avec crochets non équilibrés à la ligne 94 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "NavigationPO.java",
+          "field": null,
+          "line": 110,
+          "detail": "XPath avec crochets non équilibrés à la ligne 110 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "OnboardingPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\OnboardingPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "PassVideoPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\PassVideoPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "PlayerOverlayPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\PlayerOverlayPO.java",
+      "total_fields": 7,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 56,
+          "detail": "XPath avec crochets non équilibrés à la ligne 56 : '//XCUIElementTypeButton[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 189,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 189 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 189,
+          "detail": "XPath avec crochets non équilibrés à la ligne 189 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 190,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 190 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 190,
+          "detail": "XPath avec crochets non équilibrés à la ligne 190 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 198,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 198 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 198,
+          "detail": "XPath avec crochets non équilibrés à la ligne 198 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 199,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 199 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 199,
+          "detail": "XPath avec crochets non équilibrés à la ligne 199 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 206,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 206 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 206,
+          "detail": "XPath avec crochets non équilibrés à la ligne 206 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 213,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 213 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "PlayerOverlayPO.java",
+          "field": null,
+          "line": 213,
+          "detail": "XPath avec crochets non équilibrés à la ligne 213 : '//XCUIElementTypeOther[contains(@name,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "PopUpMessagesPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\PopUpMessagesPO.java",
+      "total_fields": 1,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "RecorderPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\RecorderPO.java",
+      "total_fields": 6,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "RecorderPO.java",
+          "field": null,
+          "line": 50,
+          "detail": "XPath avec crochets non équilibrés à la ligne 50 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "RecorderPO.java",
+          "field": null,
+          "line": 193,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 193 : '//*[contains(@label,\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "RecorderPO.java",
+          "field": null,
+          "line": 193,
+          "detail": "XPath avec crochets non équilibrés à la ligne 193 : '//*[contains(@label,\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "RecorderPO.java",
+          "field": null,
+          "line": 307,
+          "detail": "XPath avec crochets non équilibrés à la ligne 307 : '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "RecorderPO.java",
+          "field": null,
+          "line": 315,
+          "detail": "XPath avec crochets non équilibrés à la ligne 315 : '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "RemoteControlPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\RemoteControlPO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "ReplayPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\ReplayPO.java",
+      "total_fields": 7,
+      "issues": [
+        {
+          "issue_type": "INVALID_SELECTOR",
+          "severity": "IMPORTANT",
+          "file": "ReplayPO.java",
+          "field": null,
+          "line": 156,
+          "detail": "Sélecteur inconnu 'accessibility' à la ligne 156 : @AndroidFindBy(accessibility = \"Replay\")",
+          "suggestion": "Utiliser un sélecteur valide parmi : id, xpath, className, accessibilityId, name, css, tagName, linkText, partialLinkText, androidUIAutomator, iOSNsPredicate, iOSClassChain"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "ReplayPO.java",
+          "field": null,
+          "line": 44,
+          "detail": "XPath avec crochets non équilibrés à la ligne 44 : '//android.widget.Button[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "SearchPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\SearchPO.java",
+      "total_fields": 3,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "SettingsPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\SettingsPO.java",
+      "total_fields": 5,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "ShopPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\ShopPO.java",
+      "total_fields": 0,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "ShopPO.java",
+          "field": null,
+          "line": 82,
+          "detail": "XPath avec crochets non équilibrés à la ligne 82 : '//*[@label=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "TrustBadgePO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\TrustBadgePO.java",
+      "total_fields": 0,
+      "issues": [],
+      "is_valid": true
+    },
+    {
+      "file_name": "TutorialPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\TutorialPO.java",
+      "total_fields": 0,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "TutorialPO.java",
+          "field": null,
+          "line": 50,
+          "detail": "XPath avec crochets non équilibrés à la ligne 50 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "TutorialPO.java",
+          "field": null,
+          "line": 54,
+          "detail": "XPath avec crochets non équilibrés à la ligne 54 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "TutorialPO.java",
+          "field": null,
+          "line": 58,
+          "detail": "XPath avec crochets non équilibrés à la ligne 58 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "TutorialPO.java",
+          "field": null,
+          "line": 62,
+          "detail": "XPath avec crochets non équilibrés à la ligne 62 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "TutorialPO.java",
+          "field": null,
+          "line": 66,
+          "detail": "XPath avec crochets non équilibrés à la ligne 66 : '//*[@text=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    },
+    {
+      "file_name": "VodPO.java",
+      "file_path": "C:\\Users\\m.derwich\\Downloads\\AGENT_IA_PFE\\AGENT_IA_PFE\\src\\test\\java\\com\\orange\\otvp\\automation\\pages\\mobile\\VodPO.java",
+      "total_fields": 0,
+      "issues": [
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "VodPO.java",
+          "field": null,
+          "line": 163,
+          "detail": "XPath avec parenthèses non équilibrées à la ligne 163 : '(//XCUIElementTypeScrollView[@name=\\'",
+          "suggestion": "Vérifier et corriger les parenthèses du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "VodPO.java",
+          "field": null,
+          "line": 163,
+          "detail": "XPath avec crochets non équilibrés à la ligne 163 : '(//XCUIElementTypeScrollView[@name=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        },
+        {
+          "issue_type": "INVALID_XPATH",
+          "severity": "CRITICAL",
+          "file": "VodPO.java",
+          "field": null,
+          "line": 244,
+          "detail": "XPath avec crochets non équilibrés à la ligne 244 : '//android.widget.HorizontalScrollView//android.widget.TextView[@selected=\\'",
+          "suggestion": "Vérifier et corriger les crochets du XPath"
+        }
+      ],
+      "is_valid": false
+    }
+  ],
+  "summary": "🔍 Analyse de 34 fichier(s) terminée.\n⚠️  65 problème(s) détecté(s) :\n  🔴 55 critique(s) à corriger en priorité\n  🟠 10 important(s) à traiter"
+}

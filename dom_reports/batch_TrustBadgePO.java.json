@@ -1,0 +1,280 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\TrustBadgePO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.472964Z",
+  "issues_count": 34,
+  "issues": [
+    {
+      "line": 27,
+      "annotation": "@AndroidFindBy(id = \"otb_header_tv_appName\")",
+      "selector_name": "id",
+      "selector_value": "otb_header_tv_appName",
+      "message": "Aucun élément avec resource-id='otb_header_tv_appName' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 28,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.landing_controller_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.landing_controller_uilabel",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.landing_controller_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"otb_header_tv_subtitle\")",
+      "selector_name": "id",
+      "selector_value": "otb_header_tv_subtitle",
+      "message": "Aucun élément avec resource-id='otb_header_tv_subtitle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.landing_controller_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.landing_controller_uilabel_1",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.landing_controller_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(id = \"otb_home_subtitle\")",
+      "selector_name": "id",
+      "selector_value": "otb_home_subtitle",
+      "message": "Aucun élément avec resource-id='otb_home_subtitle' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.landing_controller_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.landing_controller_uilabel",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.landing_controller_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindBy(id = \"otb_home_data_card\")",
+      "selector_name": "id",
+      "selector_value": "otb_home_data_card",
+      "message": "Aucun élément avec resource-id='otb_home_data_card' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@AndroidFindBy(id = \"otb_data_usage_item_ll\")",
+      "selector_name": "id",
+      "selector_value": "otb_data_usage_item_ll",
+      "message": "Aucun élément avec resource-id='otb_data_usage_item_ll' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 49,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.device_permissions_controller_uiview\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.device_permissions_controller_uiview",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.device_permissions_controller_uiview' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@AndroidFindBy(id = \"otb_permissions_bt_parameter\")",
+      "selector_name": "id",
+      "selector_value": "otb_permissions_bt_parameter",
+      "message": "Aucun élément avec resource-id='otb_permissions_bt_parameter' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Modifier cette autorisation'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Modifier cette autorisation'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Modifier cette autorisation''.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@AndroidFindBy(id = \"otb_home_usage_card\")",
+      "selector_name": "id",
+      "selector_value": "otb_home_usage_card",
+      "message": "Aucun élément avec resource-id='otb_home_usage_card' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 69,
+      "annotation": "@AndroidFindBy(id = \"otb_app_data_layout\")",
+      "selector_name": "id",
+      "selector_value": "otb_app_data_layout",
+      "message": "Aucun élément avec resource-id='otb_app_data_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'orange_trust_badge.application_data_table_orange_trust_badge.element_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'orange_trust_badge.application_data_table_orange_trust_badge.element_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'orange_trust_badge.application_data_table_orange_trust_badge.element_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 74,
+      "annotation": "@AndroidFindBy(id = \"otb_data_usage_tv_goto\")",
+      "selector_name": "id",
+      "selector_value": "otb_data_usage_tv_goto",
+      "message": "Aucun élément avec resource-id='otb_data_usage_tv_goto' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Modifier cette autorisation'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Modifier cette autorisation'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Modifier cette autorisation''.",
+      "valid": false
+    },
+    {
+      "line": 78,
+      "annotation": "@AndroidFindBy(id = \"otb_data_usage_item_sc_switch\")",
+      "selector_name": "id",
+      "selector_value": "otb_data_usage_item_sc_switch",
+      "message": "Aucun élément avec resource-id='otb_data_usage_item_sc_switch' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeSwitch\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeSwitch",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeSwitch'.",
+      "valid": false
+    },
+    {
+      "line": 82,
+      "annotation": "@AndroidFindBy(id = \"otb_home_terms_card\")",
+      "selector_name": "id",
+      "selector_value": "otb_home_terms_card",
+      "message": "Aucun élément avec resource-id='otb_home_terms_card' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@AndroidFindBy(id = \"otb_data_manage_didomi_item_btn_manage\")",
+      "selector_name": "id",
+      "selector_value": "otb_data_manage_didomi_item_btn_manage",
+      "message": "Aucun élément avec resource-id='otb_data_manage_didomi_item_btn_manage' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 90,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"orange_trust_badge.application_data_table_ob1.obobutton_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "orange_trust_badge.application_data_table_ob1.obobutton_1",
+      "message": "Aucun élément avec accessibilité='orange_trust_badge.application_data_table_ob1.obobutton_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 93,
+      "annotation": "@AndroidFindBy(id = \"otb_home_custom_data_card\" )",
+      "selector_name": "id",
+      "selector_value": "otb_home_custom_data_card",
+      "message": "Aucun élément avec resource-id='otb_home_custom_data_card' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 101,
+      "annotation": "@AndroidFindBy(id = \"djingo_data_protection_agreement_access_button\")",
+      "selector_name": "id",
+      "selector_value": "djingo_data_protection_agreement_access_button",
+      "message": "Aucun élément avec resource-id='djingo_data_protection_agreement_access_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 102,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"djingo_trust_custom_uibutton_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "djingo_trust_custom_uibutton_2",
+      "message": "Aucun élément avec accessibilité='djingo_trust_custom_uibutton_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 105,
+      "annotation": "@AndroidFindBy(id = \"djingo_data_protection_agreement_confirm_checkbox\")",
+      "selector_name": "id",
+      "selector_value": "djingo_data_protection_agreement_confirm_checkbox",
+      "message": "Aucun élément avec resource-id='djingo_data_protection_agreement_confirm_checkbox' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 106,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"djingo_personal_uibutton_6\")",
+      "selector_name": "accessibility",
+      "selector_value": "djingo_personal_uibutton_6",
+      "message": "Aucun élément avec accessibilité='djingo_personal_uibutton_6' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 109,
+      "annotation": "@AndroidFindBy(id = \"djingo_data_protection_agreement_positive_button\")",
+      "selector_name": "id",
+      "selector_value": "djingo_data_protection_agreement_positive_button",
+      "message": "Aucun élément avec resource-id='djingo_data_protection_agreement_positive_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 110,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"djingo_personal_custom_uibutton_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "djingo_personal_custom_uibutton_2",
+      "message": "Aucun élément avec accessibilité='djingo_personal_custom_uibutton_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 113,
+      "annotation": "@AndroidFindBy(id = \"djingo_data_protection_agreement_negative_button_text\")",
+      "selector_name": "id",
+      "selector_value": "djingo_data_protection_agreement_negative_button_text",
+      "message": "Aucun élément avec resource-id='djingo_data_protection_agreement_negative_button_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 114,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"djingo_personal_uibutton_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "djingo_personal_uibutton_3",
+      "message": "Aucun élément avec accessibilité='djingo_personal_uibutton_3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 117,
+      "annotation": "@AndroidFindBy(id = \"djingo_gdpr_agreement_item_group_switch\")",
+      "selector_name": "id",
+      "selector_value": "djingo_gdpr_agreement_item_group_switch",
+      "message": "Aucun élément avec resource-id='djingo_gdpr_agreement_item_group_switch' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 118,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeSwitch\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeSwitch",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeSwitch'.",
+      "valid": false
+    },
+    {
+      "line": 121,
+      "annotation": "@AndroidFindBy(id = \"djingo_gdpr_delete_item_button\")",
+      "selector_name": "id",
+      "selector_value": "djingo_gdpr_delete_item_button",
+      "message": "Aucun élément avec resource-id='djingo_gdpr_delete_item_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 122,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'SUPPRIMER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'SUPPRIMER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'SUPPRIMER''.",
+      "valid": false
+    }
+  ]
+}

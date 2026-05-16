@@ -1,0 +1,123 @@
+{
+  "batch_validation_summary": {
+    "total_files": 28,
+    "validated_at": "2026-05-11T15:20:28.385609Z",
+    "dom_snapshot": "auth_snapshot.xml",
+    "reports": [
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\AboutPO.java",
+        "issues_count": 34
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\AccountPO.java",
+        "issues_count": 19
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\AuthenticationPO.java",
+        "issues_count": 41
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\CastPO.java",
+        "issues_count": 50
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\ConsentPO.java",
+        "issues_count": 31
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\DownloadsPO.java",
+        "issues_count": 20
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\EpgPO.java",
+        "issues_count": 36
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FilterPO.java",
+        "issues_count": 34
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FipLivePO.java",
+        "issues_count": 30
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FipReplayPO.java",
+        "issues_count": 35
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FipVodPO.java",
+        "issues_count": 48
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\HelpPO.java",
+        "issues_count": 26
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\LivePO.java",
+        "issues_count": 81
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\MessagingPO.java",
+        "issues_count": 26
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\NavigationPO.java",
+        "issues_count": 61
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\OnboardingPO.java",
+        "issues_count": 24
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\PassVideoPO.java",
+        "issues_count": 12
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\PlayerOverlayPO.java",
+        "issues_count": 99
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\PopUpMessagesPO.java",
+        "issues_count": 26
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\RecorderPO.java",
+        "issues_count": 113
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\RemoteControlPO.java",
+        "issues_count": 66
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\ReplayPO.java",
+        "issues_count": 55
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\SearchPO.java",
+        "issues_count": 49
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\SettingsPO.java",
+        "issues_count": 14
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\ShopPO.java",
+        "issues_count": 24
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\TrustBadgePO.java",
+        "issues_count": 34
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\TutorialPO.java",
+        "issues_count": 21
+      },
+      {
+        "file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\VodPO.java",
+        "issues_count": 105
+      }
+    ],
+    "total_issues": 1214,
+    "average_issues_per_file": 43.357142857142854
+  }
+}

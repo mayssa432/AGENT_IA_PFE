@@ -1,0 +1,23 @@
+{
+  "java_file": "MockPageObject.java",
+  "snapshot_metadata": {
+    "platform": "Android",
+    "app": "com.orange.owtv.prod"
+  },
+  "validated_at": "2026-05-11T10:41:08.706911Z",
+  "issues_count": 2,
+  "issues": [
+    {
+      "line": 15,
+      "annotation": "@FindBy(id = \"com.orange.owtv.prod:id/old_button\")",
+      "message": "Sélecteur introuvable dans le DOM actuel",
+      "suggestion": "@FindBy(id = \"com.orange.owtv.prod:id/play_button\")"
+    },
+    {
+      "line": 20,
+      "annotation": "@FindBy(xpath = \"//Button[@text='Old Text']\")",
+      "message": "XPath ne correspond à aucun élément",
+      "suggestion": "@FindBy(xpath = \"//android.widget.Button[@text='Play']\")"
+    }
+  ]
+}

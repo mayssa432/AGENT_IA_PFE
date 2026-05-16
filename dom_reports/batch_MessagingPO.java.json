@@ -1,0 +1,216 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\MessagingPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.963458Z",
+  "issues_count": 26,
+  "issues": [
+    {
+      "line": 29,
+      "annotation": "@AndroidFindBy(id = \"lpui_toolbar_title\")",
+      "selector_name": "id",
+      "selector_value": "lpui_toolbar_title",
+      "message": "Aucun élément avec resource-id='lpui_toolbar_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 32,
+      "annotation": "@AndroidFindBy(id = \"lpui_toolbar_agent_avatar\")",
+      "selector_name": "id",
+      "selector_value": "lpui_toolbar_agent_avatar",
+      "message": "Aucun élément avec resource-id='lpui_toolbar_agent_avatar' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 35,
+      "annotation": "@AndroidFindBy(xpath = \"//android.widget.ImageButton[@content-desc='Revenir en haut de la page']\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.ImageButton[@content-desc='Revenir en haut de la page']",
+      "message": "XPath invalide ou aucune correspondance pour '//android.widget.ImageButton[@content-desc='Revenir en haut de la page']'.",
+      "valid": false
+    },
+    {
+      "line": 36,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Fermer'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Fermer'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Fermer''.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//android.widget.ImageView[@content-desc=\\\"Plus d'options\\\"]\"), @AndroidBy(xpath = \"//android.widget.ImageView[@content-desc='Options supplémentaires']\") })",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Menu'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Menu'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Menu''.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@AndroidFindBy(id = \"content\")",
+      "selector_name": "id",
+      "selector_value": "content",
+      "message": "Aucun élément avec resource-id='content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"lpmessaging_sdk.action_menu_controller_uialert_controller_action_view\")",
+      "selector_name": "accessibility",
+      "selector_value": "lpmessaging_sdk.action_menu_controller_uialert_controller_action_view",
+      "message": "Aucun élément avec accessibilité='lpmessaging_sdk.action_menu_controller_uialert_controller_action_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@AndroidFindAll({ @AndroidBy(xpath = \"//*[contains(@text,'TERMINER')]\"), @AndroidBy(xpath = \"//*[contains(@text,'EFFACER')]\"), @AndroidBy(id = \"button1\"), })",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 62,
+      "annotation": "@AndroidFindBy(id = \"button2\")",
+      "selector_name": "id",
+      "selector_value": "button2",
+      "message": "Aucun élément avec resource-id='button2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 69,
+      "annotation": "@AndroidFindBy(id = \"lpui_toolbar_feedback_action\")",
+      "selector_name": "id",
+      "selector_value": "lpui_toolbar_feedback_action",
+      "message": "Aucun élément avec resource-id='lpui_toolbar_feedback_action' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 70,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"CustomerSatisfactionSkipButton\")",
+      "selector_name": "accessibility",
+      "selector_value": "CustomerSatisfactionSkipButton",
+      "message": "Aucun élément avec accessibilité='CustomerSatisfactionSkipButton' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 73,
+      "annotation": "@AndroidFindBy(id = \"lpui_feedback_avatar_view_details\")",
+      "selector_name": "id",
+      "selector_value": "lpui_feedback_avatar_view_details",
+      "message": "Aucun élément avec resource-id='lpui_feedback_avatar_view_details' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 74,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'CustomerSatisfactionAgentAvatarImageView'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'CustomerSatisfactionAgentAvatarImageView'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'CustomerSatisfactionAgentAvatarImageView''.",
+      "valid": false
+    },
+    {
+      "line": 77,
+      "annotation": "@AndroidFindBy(id = \"lpui_feedback_submit_button\")",
+      "selector_name": "id",
+      "selector_value": "lpui_feedback_submit_button",
+      "message": "Aucun élément avec resource-id='lpui_feedback_submit_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 78,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'CustomerSatisfactionSubmitButton'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'CustomerSatisfactionSubmitButton'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'CustomerSatisfactionSubmitButton''.",
+      "valid": false
+    },
+    {
+      "line": 81,
+      "annotation": "@AndroidFindBy(xpath = \"//android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[contains(@resource-id,'lpui_message_text')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[contains(@resource-id,'lpui_message_text')]",
+      "message": "XPath invalide ou aucune correspondance pour '//android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[contains(@resource-id,'lpui_message_text')]'.",
+      "valid": false
+    },
+    {
+      "line": 82,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//XCUIElementTypeCell[@name='ConversationViewControllerUserMessageTableViewCell-userMsg-nil']//*[contains (@name,'lpmessaging_sdk.conversation_lptttattributed_label')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//XCUIElementTypeCell[@name='ConversationViewControllerUserMessageTableViewCell-userMsg-nil']//*[contains (@name,'lpmessaging_sdk.conversation_lptttattributed_label')]",
+      "message": "XPath invalide ou aucune correspondance pour '//XCUIElementTypeCell[@name='ConversationViewControllerUserMessageTableViewCell-userMsg-nil']//*[contains (@name,'lpmessaging_sdk.conversation_lptttattributed_label')]'.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@AndroidFindBy(id = \"lpui_message_text\" )",
+      "selector_name": "id",
+      "selector_value": "lpui_message_text",
+      "message": "Aucun élément avec resource-id='lpui_message_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 86,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"lpmessaging_sdk.conversation_lptttattributed_label\")",
+      "selector_name": "accessibility",
+      "selector_value": "lpmessaging_sdk.conversation_lptttattributed_label",
+      "message": "Aucun élément avec accessibilité='lpmessaging_sdk.conversation_lptttattributed_label' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 89,
+      "annotation": "@AndroidFindBy(id = \"button_element\")",
+      "selector_name": "id",
+      "selector_value": "button_element",
+      "message": "Aucun élément avec resource-id='button_element' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 90,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains (@name,'QuickReplyTableViewCellQuickReplyContainerView0')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains (@name,'QuickReplyTableViewCellQuickReplyContainerView0')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains (@name,'QuickReplyTableViewCellQuickReplyContainerView0')]'.",
+      "valid": false
+    },
+    {
+      "line": 93,
+      "annotation": "@AndroidFindBy(id = \"lpui_enter_message_text\")",
+      "selector_name": "id",
+      "selector_value": "lpui_enter_message_text",
+      "message": "Aucun élément avec resource-id='lpui_enter_message_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 94,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"InputTextView\")",
+      "selector_name": "accessibility",
+      "selector_value": "InputTextView",
+      "message": "Aucun élément avec accessibilité='InputTextView' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 97,
+      "annotation": "@AndroidFindBy(id = \"lpui_enter_message_send\")",
+      "selector_name": "id",
+      "selector_value": "lpui_enter_message_send",
+      "message": "Aucun élément avec resource-id='lpui_enter_message_send' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 98,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"name == 'InputTextViewSendButton'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "name == 'InputTextViewSendButton'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'name == 'InputTextViewSendButton''.",
+      "valid": false
+    }
+  ]
+}

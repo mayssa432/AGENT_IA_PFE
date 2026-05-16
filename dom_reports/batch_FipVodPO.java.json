@@ -1,0 +1,392 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\FipVodPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:12.834227Z",
+  "issues_count": 48,
+  "issues": [
+    {
+      "line": 31,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_landscape_image\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_landscape_image",
+      "message": "Aucun élément avec resource-id='fip_content_top_landscape_image' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_bookmark_icon\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_bookmark_icon",
+      "message": "Aucun élément avec resource-id='fip_content_top_bookmark_icon' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 45,
+      "annotation": "@AndroidFindBy(id = \"fip_title_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_title_text",
+      "message": "Aucun élément avec resource-id='fip_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 52,
+      "annotation": "@AndroidFindBy(id = \"fip_play_button\")",
+      "selector_name": "id",
+      "selector_value": "fip_play_button",
+      "message": "Aucun élément avec resource-id='fip_play_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 53,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'REGARDER'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'REGARDER'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'REGARDER''.",
+      "valid": false
+    },
+    {
+      "line": 56,
+      "annotation": "@AndroidFindBy(id = \"fip_pack_list_item_play_icon\")",
+      "selector_name": "id",
+      "selector_value": "fip_pack_list_item_play_icon",
+      "message": "Aucun élément avec resource-id='fip_pack_list_item_play_icon' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 57,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_replay_episode_list_play_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_replay_episode_list_play_button",
+      "message": "Aucun élément avec accessibilité='fip_replay_episode_list_play_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 60,
+      "annotation": "@AndroidFindBy(id = \"fip_download_button\")",
+      "selector_name": "id",
+      "selector_value": "fip_download_button",
+      "message": "Aucun élément avec resource-id='fip_download_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 67,
+      "annotation": "@AndroidFindBy(xpath = \"//*[contains(@text,\\\"Supprimer l'alerte\\\")]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@text,\\\"Supprimer l'alerte\\\")]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@text,\\\"Supprimer l'alerte\\\")]'.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"SUPPRIMER L'ALERTE\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"SUPPRIMER L'ALERTE\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"SUPPRIMER L'ALERTE\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 71,
+      "annotation": "@AndroidFindBy(xpath = \"//*[contains(@text,\\\"M'alerter de la disponibilité\\\")]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@text,\\\"M'alerter de la disponibilité\\\")]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@text,\\\"M'alerter de la disponibilité\\\")]'.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"M'ALERTER DE LA DISPONIBILITÉ\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"M'ALERTER DE LA DISPONIBILITÉ\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"M'ALERTER DE LA DISPONIBILITÉ\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 75,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_remove_wishlist\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_remove_wishlist",
+      "message": "Aucun élément avec resource-id='fip_content_top_remove_wishlist' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 76,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"RETIRER DE MA LISTE D'ALERTES\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"RETIRER DE MA LISTE D'ALERTES\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"RETIRER DE MA LISTE D'ALERTES\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Comment acheter ou louer cette vidéo'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Comment acheter ou louer cette vidéo'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Comment acheter ou louer cette vidéo''.",
+      "valid": false
+    },
+    {
+      "line": 82,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"vod_how_to_buy_uiview_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "vod_how_to_buy_uiview_1",
+      "message": "Aucun élément avec accessibilité='vod_how_to_buy_uiview_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 85,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"vod_how_to_buy_custom_uibutton_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "vod_how_to_buy_custom_uibutton_2",
+      "message": "Aucun élément avec accessibilité='vod_how_to_buy_custom_uibutton_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 88,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"action_vodmovie_uibutton_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "action_vodmovie_uibutton_2",
+      "message": "Aucun élément avec accessibilité='action_vodmovie_uibutton_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 92,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_availability_row_parent\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_availability_row_parent",
+      "message": "Aucun élément avec resource-id='fip_content_top_availability_row_parent' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 100,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_genre_date_country\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_genre_date_country",
+      "message": "Aucun élément avec resource-id='fip_content_top_genre_date_country' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 110,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_pictograms\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_pictograms",
+      "message": "Aucun élément avec resource-id='fip_content_top_pictograms' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 118,
+      "annotation": "@AndroidFindBy(id = \"fip_cast_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_cast_text",
+      "message": "Aucun élément avec resource-id='fip_cast_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 119,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_cast\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_cast",
+      "message": "Aucun élément avec accessibilité='fip_content_top_cast' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 122,
+      "annotation": "@AndroidFindBy(id = \"fip_description_text\")",
+      "selector_name": "id",
+      "selector_value": "fip_description_text",
+      "message": "Aucun élément avec resource-id='fip_description_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 123,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_description\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_description",
+      "message": "Aucun élément avec accessibilité='fip_content_top_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 126,
+      "annotation": "@AndroidFindBy(id = \"collapsible_text_view\")",
+      "selector_name": "id",
+      "selector_value": "collapsible_text_view",
+      "message": "Aucun élément avec resource-id='collapsible_text_view' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 127,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"fip_content_top_description\")",
+      "selector_name": "accessibility",
+      "selector_value": "fip_content_top_description",
+      "message": "Aucun élément avec accessibilité='fip_content_top_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 130,
+      "annotation": "@AndroidFindBy(xpath = \"//*[contains (@resource-id, 'fip_content_top_details_top')]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains (@resource-id, 'fip_content_top_details_top')]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains (@resource-id, 'fip_content_top_details_top')]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView'.",
+      "valid": false
+    },
+    {
+      "line": 131,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"allocin\")",
+      "selector_name": "accessibility",
+      "selector_value": "allocin",
+      "message": "Aucun élément avec accessibilité='allocin' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 140,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"top_vodmovie_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "top_vodmovie_uilabel",
+      "message": "Aucun élément avec accessibilité='top_vodmovie_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 146,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"top_vodmovie_rating_control.rating_control_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "top_vodmovie_rating_control.rating_control_1",
+      "message": "Aucun élément avec accessibilité='top_vodmovie_rating_control.rating_control_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 152,
+      "annotation": "@AndroidFindBy(id = \"ratings_spectators_group\")",
+      "selector_name": "id",
+      "selector_value": "ratings_spectators_group",
+      "message": "Aucun élément avec resource-id='ratings_spectators_group' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 155,
+      "annotation": "@AndroidFindBy(id = \"ratings_press_group\")",
+      "selector_name": "id",
+      "selector_value": "ratings_press_group",
+      "message": "Aucun élément avec resource-id='ratings_press_group' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 158,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_button_sd\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_button_sd",
+      "message": "Aucun élément avec resource-id='fip_content_top_button_sd' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 161,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_button_hd\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_button_hd",
+      "message": "Aucun élément avec resource-id='fip_content_top_button_hd' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 164,
+      "annotation": "@AndroidFindBy(id = \"fip_rent_button\")",
+      "selector_name": "id",
+      "selector_value": "fip_rent_button",
+      "message": "Aucun élément avec resource-id='fip_rent_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 167,
+      "annotation": "@AndroidFindBy(id = \"fip_buy_button\")",
+      "selector_name": "id",
+      "selector_value": "fip_buy_button",
+      "message": "Aucun élément avec resource-id='fip_buy_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 170,
+      "annotation": "@AndroidFindBy(id = \"expand_button_container\")",
+      "selector_name": "id",
+      "selector_value": "expand_button_container",
+      "message": "Aucun élément avec resource-id='expand_button_container' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 171,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"info_sheet_description_uibutton_4\")",
+      "selector_name": "accessibility",
+      "selector_value": "info_sheet_description_uibutton_4",
+      "message": "Aucun élément avec accessibilité='info_sheet_description_uibutton_4' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 174,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_group_count\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_group_count",
+      "message": "Aucun élément avec resource-id='fip_content_top_group_count' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 175,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"replay_series_list_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "replay_series_list_title",
+      "message": "Aucun élément avec accessibilité='replay_series_list_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 178,
+      "annotation": "@AndroidFindBy(id = \"fip_info_layout\")",
+      "selector_name": "id",
+      "selector_value": "fip_info_layout",
+      "message": "Aucun élément avec resource-id='fip_info_layout' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 179,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'info_sheet_list_info_sheet_list_table_view_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'info_sheet_list_info_sheet_list_table_view_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'info_sheet_list_info_sheet_list_table_view_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 182,
+      "annotation": "@AndroidFindBy(xpath = \"//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout\")",
+      "selector_name": "xpath",
+      "selector_value": "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout",
+      "message": "XPath invalide ou aucune correspondance pour '//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout'.",
+      "valid": false
+    },
+    {
+      "line": 183,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'info_sheet_list_vodpack_info_sheet_list_table_view_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'info_sheet_list_vodpack_info_sheet_list_table_view_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'info_sheet_list_vodpack_info_sheet_list_table_view_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 186,
+      "annotation": "@AndroidFindBy(id = \"fip_content_bottom_promo\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_bottom_promo",
+      "message": "Aucun élément avec resource-id='fip_content_bottom_promo' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 189,
+      "annotation": "@AndroidFindBy(id = \"fip_content_top_download_indicator\")",
+      "selector_name": "id",
+      "selector_value": "fip_content_top_download_indicator",
+      "message": "Aucun élément avec resource-id='fip_content_top_download_indicator' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 190,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"action_vodmovie_download_status_indicator\")",
+      "selector_name": "accessibility",
+      "selector_value": "action_vodmovie_download_status_indicator",
+      "message": "Aucun élément avec accessibilité='action_vodmovie_download_status_indicator' n'a été trouvé.",
+      "valid": false
+    }
+  ]
+}

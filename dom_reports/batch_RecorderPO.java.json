@@ -1,0 +1,912 @@
+{
+  "java_file": "AGENT_IA_PFE/src/test/java/com/orange/otvp/automation/pages/mobile\\RecorderPO.java",
+  "snapshot_metadata": {},
+  "validated_at": "2026-05-11T15:20:13.225366Z",
+  "issues_count": 113,
+  "issues": [
+    {
+      "line": 29,
+      "annotation": "@AndroidFindBy(id = \"header_title_text\")",
+      "selector_name": "id",
+      "selector_value": "header_title_text",
+      "message": "Aucun élément avec resource-id='header_title_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 38,
+      "annotation": "@AndroidFindBy(id = \"recording_title\")",
+      "selector_name": "id",
+      "selector_value": "recording_title",
+      "message": "Aucun élément avec resource-id='recording_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 39,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrtime_picker.pvrtime_picker_view_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrtime_picker.pvrtime_picker_view_uilabel_1",
+      "message": "Aucun élément avec accessibilité='pvrtime_picker.pvrtime_picker_view_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 42,
+      "annotation": "@AndroidFindBy(id = \"recording_time\")",
+      "selector_name": "id",
+      "selector_value": "recording_time",
+      "message": "Aucun élément avec resource-id='recording_time' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 43,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrend_time_picker.pvrend_time_picker_view_uilabel_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrend_time_picker.pvrend_time_picker_view_uilabel_2",
+      "message": "Aucun élément avec accessibilité='pvrend_time_picker.pvrend_time_picker_view_uilabel_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 46,
+      "annotation": "@AndroidFindBy(id = \"recording_description\")",
+      "selector_name": "id",
+      "selector_value": "recording_description",
+      "message": "Aucun élément avec resource-id='recording_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 47,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrtime_picker.pvrtime_picker_view_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrtime_picker.pvrtime_picker_view_uilabel_1",
+      "message": "Aucun élément avec accessibilité='pvrtime_picker.pvrtime_picker_view_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 50,
+      "annotation": "@AndroidFindBy(xpath = \"//*[@text=\\\"Heure de fin\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[@text=\\\"Heure de fin\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[@text=\\\"Heure de fin\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 51,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrend_time_picker.pvrend_time_picker_view_uilabel_4\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrend_time_picker.pvrend_time_picker_view_uilabel_4",
+      "message": "Aucun élément avec accessibilité='pvrend_time_picker.pvrend_time_picker_view_uilabel_4' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 54,
+      "annotation": "@AndroidFindBy(id = \"spinner_view_collapsed\")",
+      "selector_name": "id",
+      "selector_value": "spinner_view_collapsed",
+      "message": "Aucun élément avec resource-id='spinner_view_collapsed' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 55,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrend_time_picker.pvrend_time_picker_view_uilabel_4\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrend_time_picker.pvrend_time_picker_view_uilabel_4",
+      "message": "Aucun élément avec accessibilité='pvrend_time_picker.pvrend_time_picker_view_uilabel_4' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 58,
+      "annotation": "@AndroidFindBy(id = \"recording_end_dropdown\")",
+      "selector_name": "id",
+      "selector_value": "recording_end_dropdown",
+      "message": "Aucun élément avec resource-id='recording_end_dropdown' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 61,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrend_time_picker.pvrend_time_picker_view_uidate_picker_8\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrend_time_picker.pvrend_time_picker_view_uidate_picker_8",
+      "message": "Aucun élément avec accessibilité='pvrend_time_picker.pvrend_time_picker_view_uidate_picker_8' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 64,
+      "annotation": "@AndroidFindBy(className = \"android.widget.ListView\")",
+      "selector_name": "className",
+      "selector_value": "android.widget.ListView",
+      "message": "Aucun élément avec className='android.widget.ListView' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 65,
+      "annotation": "@AndroidFindBy(id = \"spinner_dropdown_item\")",
+      "selector_name": "id",
+      "selector_value": "spinner_dropdown_item",
+      "message": "Aucun élément avec resource-id='spinner_dropdown_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 68,
+      "annotation": "@AndroidFindBy(id = \"recording_button_1\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_1",
+      "message": "Aucun élément avec resource-id='recording_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 69,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"Programmer l'enregistrement\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"Programmer l'enregistrement\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"Programmer l'enregistrement\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 72,
+      "annotation": "@AndroidFindBy(id = \"recording_button_1\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_1",
+      "message": "Aucun élément avec resource-id='recording_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 78,
+      "annotation": "@AndroidFindBy(id = \"recording_button_2\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_2",
+      "message": "Aucun élément avec resource-id='recording_button_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 79,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"ANNULER\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"ANNULER\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"ANNULER\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 83,
+      "annotation": "@AndroidFindBy(id = \"recording_start_time_text\")",
+      "selector_name": "id",
+      "selector_value": "recording_start_time_text",
+      "message": "Aucun élément avec resource-id='recording_start_time_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 84,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'HORAIRE DE DÉBUT'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'HORAIRE DE DÉBUT'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'HORAIRE DE DÉBUT''.",
+      "valid": false
+    },
+    {
+      "line": 87,
+      "annotation": "@AndroidFindAll({ @AndroidBy(id = \"recording_end_time_text\"), @AndroidBy(id = \"update_recording_end_time_text\")})",
+      "selector_name": null,
+      "selector_value": null,
+      "message": "Aucune alternative dans AndroidFindAll n'a trouvé d'élément valide.",
+      "valid": false
+    },
+    {
+      "line": 90,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'HORAIRE DE FIN'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'HORAIRE DE FIN'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'HORAIRE DE FIN''.",
+      "valid": false
+    },
+    {
+      "line": 93,
+      "annotation": "@AndroidFindBy(id = \"hourWheel\")",
+      "selector_name": "id",
+      "selector_value": "hourWheel",
+      "message": "Aucun élément avec resource-id='hourWheel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 96,
+      "annotation": "@AndroidFindBy(id = \"minuteWheel\")",
+      "selector_name": "id",
+      "selector_value": "minuteWheel",
+      "message": "Aucun élément avec resource-id='minuteWheel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 99,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_title_block\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_title_block",
+      "message": "Aucun élément avec resource-id='custom_dialog_title_block' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 105,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_content\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_content",
+      "message": "Aucun élément avec resource-id='custom_dialog_content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 112,
+      "annotation": "@AndroidFindBy(id = \"recording_title\")",
+      "selector_name": "id",
+      "selector_value": "recording_title",
+      "message": "Aucun élément avec resource-id='recording_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 113,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrtime_picker.pvrtime_picker_view_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrtime_picker.pvrtime_picker_view_uilabel",
+      "message": "Aucun élément avec accessibilité='pvrtime_picker.pvrtime_picker_view_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 116,
+      "annotation": "@AndroidFindBy(id = \"recording_description\")",
+      "selector_name": "id",
+      "selector_value": "recording_description",
+      "message": "Aucun élément avec resource-id='recording_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 117,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrtime_picker.pvrtime_picker_view_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrtime_picker.pvrtime_picker_view_uilabel_1",
+      "message": "Aucun élément avec accessibilité='pvrtime_picker.pvrtime_picker_view_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 120,
+      "annotation": "@AndroidFindBy(id = \"recording_button_1\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_1",
+      "message": "Aucun élément avec resource-id='recording_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 121,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvrtime_picker.pvrtime_picker_view_custom_uibutton_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvrtime_picker.pvrtime_picker_view_custom_uibutton_2",
+      "message": "Aucun élément avec accessibilité='pvrtime_picker.pvrtime_picker_view_custom_uibutton_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 125,
+      "annotation": "@AndroidFindBy(id = \"snackbar_text\")",
+      "selector_name": "id",
+      "selector_value": "snackbar_text",
+      "message": "Aucun élément avec resource-id='snackbar_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 127,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"snack_bar_success\")",
+      "selector_name": "accessibility",
+      "selector_value": "snack_bar_success",
+      "message": "Aucun élément avec accessibilité='snack_bar_success' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 134,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_storage\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_storage",
+      "message": "Aucun élément avec resource-id='my_recordings_storage' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 135,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"npvr_capacity_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "npvr_capacity_info",
+      "message": "Aucun élément avec accessibilité='npvr_capacity_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 138,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_storage_used_and_remaining_text\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_storage_used_and_remaining_text",
+      "message": "Aucun élément avec resource-id='my_recordings_storage_used_and_remaining_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 139,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"npvr_capacity_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "npvr_capacity_info",
+      "message": "Aucun élément avec accessibilité='npvr_capacity_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 142,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_storage_used_and_remaining_progress_bar\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_storage_used_and_remaining_progress_bar",
+      "message": "Aucun élément avec resource-id='my_recordings_storage_used_and_remaining_progress_bar' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 148,
+      "annotation": "@AndroidFindBy(id = \"tab_one\")",
+      "selector_name": "id",
+      "selector_value": "tab_one",
+      "message": "Aucun élément avec resource-id='tab_one' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 149,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"npvr_available_tab\")",
+      "selector_name": "accessibility",
+      "selector_value": "npvr_available_tab",
+      "message": "Aucun élément avec accessibilité='npvr_available_tab' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 152,
+      "annotation": "@AndroidFindBy(id = \"tab_two\")",
+      "selector_name": "id",
+      "selector_value": "tab_two",
+      "message": "Aucun élément avec resource-id='tab_two' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 153,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"npvr_scheduled_tab\")",
+      "selector_name": "accessibility",
+      "selector_value": "npvr_scheduled_tab",
+      "message": "Aucun élément avec accessibilité='npvr_scheduled_tab' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 156,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_fip_interaction_zone\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_fip_interaction_zone",
+      "message": "Aucun élément avec resource-id='my_recordings_fip_interaction_zone' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 157,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"npvr_list_info\")",
+      "selector_name": "accessibility",
+      "selector_value": "npvr_list_info",
+      "message": "Aucun élément avec accessibilité='npvr_list_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 160,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_fip_interaction_zone\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_fip_interaction_zone",
+      "message": "Aucun élément avec resource-id='my_recordings_fip_interaction_zone' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 161,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_list_item_channel_logo\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_list_item_channel_logo",
+      "message": "Aucun élément avec resource-id='my_recordings_list_item_channel_logo' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 167,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_fip_interaction_zone\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_fip_interaction_zone",
+      "message": "Aucun élément avec resource-id='my_recordings_fip_interaction_zone' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 168,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_list_item_primary_text\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_list_item_primary_text",
+      "message": "Aucun élément avec resource-id='my_recordings_list_item_primary_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 175,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"pvr_uilabel_6\")",
+      "selector_name": "accessibility",
+      "selector_value": "pvr_uilabel_6",
+      "message": "Aucun élément avec accessibilité='pvr_uilabel_6' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 178,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_fip_interaction_zone\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_fip_interaction_zone",
+      "message": "Aucun élément avec resource-id='my_recordings_fip_interaction_zone' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 179,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_list_item_secondary_text\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_list_item_secondary_text",
+      "message": "Aucun élément avec resource-id='my_recordings_list_item_secondary_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 186,
+      "annotation": "@AndroidFindBy(id = \"recording_list_item_progress_bar\")",
+      "selector_name": "id",
+      "selector_value": "recording_list_item_progress_bar",
+      "message": "Aucun élément avec resource-id='recording_list_item_progress_bar' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 192,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_error_text\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_error_text",
+      "message": "Aucun élément avec resource-id='my_recordings_error_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 193,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@label,\\\"Vous n'avez aucun programme enregistré.\\\")]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@label,\\\"Vous n'avez aucun programme enregistré.\\\")]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@label,\\\"Vous n'avez aucun programme enregistré.\\\")]'.",
+      "valid": false
+    },
+    {
+      "line": 196,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_list_item_ic_recording_ongoing\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_list_item_ic_recording_ongoing",
+      "message": "Aucun élément avec resource-id='my_recordings_list_item_ic_recording_ongoing' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 197,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"syncing\")",
+      "selector_name": "accessibility",
+      "selector_value": "syncing",
+      "message": "Aucun élément avec accessibilité='syncing' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 200,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_list_item_play_icon\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_list_item_play_icon",
+      "message": "Aucun élément avec resource-id='my_recordings_list_item_play_icon' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 201,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"play\")",
+      "selector_name": "accessibility",
+      "selector_value": "play",
+      "message": "Aucun élément avec accessibilité='play' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 204,
+      "annotation": "@AndroidFindBy(id = \"my_recordings_list_empty_content\")",
+      "selector_name": "id",
+      "selector_value": "my_recordings_list_empty_content",
+      "message": "Aucun élément avec resource-id='my_recordings_list_empty_content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 205,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"npvr_list_empty_content\")",
+      "selector_name": "accessibility",
+      "selector_value": "npvr_list_empty_content",
+      "message": "Aucun élément avec accessibilité='npvr_list_empty_content' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 208,
+      "annotation": "@AndroidFindBy(id = \"create_time_recording_fab\")",
+      "selector_name": "id",
+      "selector_value": "create_time_recording_fab",
+      "message": "Aucun élément avec resource-id='create_time_recording_fab' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 209,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"create_time_recording_button\")",
+      "selector_name": "accessibility",
+      "selector_value": "create_time_recording_button",
+      "message": "Aucun élément avec accessibilité='create_time_recording_button' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 215,
+      "annotation": "@AndroidFindBy(id = \"recording_title\")",
+      "selector_name": "id",
+      "selector_value": "recording_title",
+      "message": "Aucun élément avec resource-id='recording_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 216,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_title",
+      "message": "Aucun élément avec accessibilité='recording_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 219,
+      "annotation": "@AndroidFindBy(id = \"recording_description\")",
+      "selector_name": "id",
+      "selector_value": "recording_description",
+      "message": "Aucun élément avec resource-id='recording_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 220,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_description\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_description",
+      "message": "Aucun élément avec accessibilité='recording_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 223,
+      "annotation": "@AndroidFindBy(id = \"recording_channel_dropdown_parent\")",
+      "selector_name": "id",
+      "selector_value": "recording_channel_dropdown_parent",
+      "message": "Aucun élément avec resource-id='recording_channel_dropdown_parent' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 224,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_channel_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_channel_title",
+      "message": "Aucun élément avec accessibilité='recording_channel_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 227,
+      "annotation": "@iOSXCUITFindBy( className = \"XCUIElementTypePickerWheel\")",
+      "selector_name": "className",
+      "selector_value": "XCUIElementTypePickerWheel",
+      "message": "Aucun élément avec className='XCUIElementTypePickerWheel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 231,
+      "annotation": "@AndroidFindBy(id = \"recording_date_dropdown_parent\")",
+      "selector_name": "id",
+      "selector_value": "recording_date_dropdown_parent",
+      "message": "Aucun élément avec resource-id='recording_date_dropdown_parent' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 232,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_date_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_date_title",
+      "message": "Aucun élément avec accessibilité='recording_date_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 235,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_date_picker\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_date_picker",
+      "message": "Aucun élément avec accessibilité='recording_date_picker' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 238,
+      "annotation": "@AndroidFindBy(id = \"recording_start_dropdown_parent\")",
+      "selector_name": "id",
+      "selector_value": "recording_start_dropdown_parent",
+      "message": "Aucun élément avec resource-id='recording_start_dropdown_parent' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 239,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_start_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_start_title",
+      "message": "Aucun élément avec accessibilité='recording_start_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 242,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_start_picker\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_start_picker",
+      "message": "Aucun élément avec accessibilité='recording_start_picker' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 245,
+      "annotation": "@AndroidFindBy(id = \"recording_end_dropdown_parent\")",
+      "selector_name": "id",
+      "selector_value": "recording_end_dropdown_parent",
+      "message": "Aucun élément avec resource-id='recording_end_dropdown_parent' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 246,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_end_title\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_end_title",
+      "message": "Aucun élément avec accessibilité='recording_end_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 249,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_end_picker\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_end_picker",
+      "message": "Aucun élément avec accessibilité='recording_end_picker' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 252,
+      "annotation": "@AndroidFindBy(id = \"spinner_dropdown_item\")",
+      "selector_name": "id",
+      "selector_value": "spinner_dropdown_item",
+      "message": "Aucun élément avec resource-id='spinner_dropdown_item' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 255,
+      "annotation": "@iOSXCUITFindBy(className = \"XCUIElementTypePickerWheel\")",
+      "selector_name": "className",
+      "selector_value": "XCUIElementTypePickerWheel",
+      "message": "Aucun élément avec className='XCUIElementTypePickerWheel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 258,
+      "annotation": "@AndroidFindBy(id = \"recording_button_1\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_1",
+      "message": "Aucun élément avec resource-id='recording_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 259,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_button_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_button_1",
+      "message": "Aucun élément avec accessibilité='recording_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 262,
+      "annotation": "@AndroidFindBy(id = \"recording_button_2\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_2",
+      "message": "Aucun élément avec resource-id='recording_button_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 263,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"recording_button_2\")",
+      "selector_name": "accessibility",
+      "selector_value": "recording_button_2",
+      "message": "Aucun élément avec accessibilité='recording_button_2' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 267,
+      "annotation": "@AndroidFindBy(id = \"recording_title\")",
+      "selector_name": "id",
+      "selector_value": "recording_title",
+      "message": "Aucun élément avec resource-id='recording_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 268,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'Programmation prise en compte'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'Programmation prise en compte'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'Programmation prise en compte''.",
+      "valid": false
+    },
+    {
+      "line": 271,
+      "annotation": "@AndroidFindBy(id = \"recording_description\")",
+      "selector_name": "id",
+      "selector_value": "recording_description",
+      "message": "Aucun élément avec resource-id='recording_description' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 272,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label CONTAINS 'Retrouvez-la dans quelques minutes dans'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label CONTAINS 'Retrouvez-la dans quelques minutes dans'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label CONTAINS 'Retrouvez-la dans quelques minutes dans''.",
+      "valid": false
+    },
+    {
+      "line": 275,
+      "annotation": "@AndroidFindBy(id = \"recording_button_1\")",
+      "selector_name": "id",
+      "selector_value": "recording_button_1",
+      "message": "Aucun élément avec resource-id='recording_button_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 276,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'OK'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'OK'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'OK''.",
+      "valid": false
+    },
+    {
+      "line": 282,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_title\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_title",
+      "message": "Aucun élément avec resource-id='custom_dialog_title' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 283,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"dialog_screen_uilabel\")",
+      "selector_name": "accessibility",
+      "selector_value": "dialog_screen_uilabel",
+      "message": "Aucun élément avec accessibilité='dialog_screen_uilabel' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 286,
+      "annotation": "@AndroidFindBy(id = \"dialog_message_text\")",
+      "selector_name": "id",
+      "selector_value": "dialog_message_text",
+      "message": "Aucun élément avec resource-id='dialog_message_text' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 287,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"dialog_screen_uilabel_1\")",
+      "selector_name": "accessibility",
+      "selector_value": "dialog_screen_uilabel_1",
+      "message": "Aucun élément avec accessibilité='dialog_screen_uilabel_1' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 290,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_primary_positive\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_primary_positive",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_primary_positive' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 291,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"idialog_manager_alert_controller_custom_uibutton_3\")",
+      "selector_name": "accessibility",
+      "selector_value": "idialog_manager_alert_controller_custom_uibutton_3",
+      "message": "Aucun élément avec accessibilité='idialog_manager_alert_controller_custom_uibutton_3' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 294,
+      "annotation": "@AndroidFindBy(id = \"custom_dialog_button_secondary_negative\")",
+      "selector_name": "id",
+      "selector_value": "custom_dialog_button_secondary_negative",
+      "message": "Aucun élément avec resource-id='custom_dialog_button_secondary_negative' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 295,
+      "annotation": "@iOSXCUITFindBy(accessibility = \"idialog_manager_alert_controller_custom_uibutton_4\")",
+      "selector_name": "accessibility",
+      "selector_value": "idialog_manager_alert_controller_custom_uibutton_4",
+      "message": "Aucun élément avec accessibilité='idialog_manager_alert_controller_custom_uibutton_4' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 302,
+      "annotation": "@AndroidFindBy(id = \"episode_recording_series_name\")",
+      "selector_name": "id",
+      "selector_value": "episode_recording_series_name",
+      "message": "Aucun élément avec resource-id='episode_recording_series_name' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 303,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrcreate_serie_title_cell')]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrcreate_serie_title_cell')]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrcreate_serie_title_cell')]'.",
+      "valid": false
+    },
+    {
+      "line": 306,
+      "annotation": "@AndroidFindBy(id = \"episode_recording_episode_info\")",
+      "selector_name": "id",
+      "selector_value": "episode_recording_episode_info",
+      "message": "Aucun élément avec resource-id='episode_recording_episode_info' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 307,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\\"pvrtime_picker.pvrtime_picker_view_uilabel\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\\"pvrtime_picker.pvrtime_picker_view_uilabel\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\\"pvrtime_picker.pvrtime_picker_view_uilabel\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 310,
+      "annotation": "@AndroidFindBy(id = \"episode_recording_check_box\")",
+      "selector_name": "id",
+      "selector_value": "episode_recording_check_box",
+      "message": "Aucun élément avec resource-id='episode_recording_check_box' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 311,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeImage\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeImage",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeImage'.",
+      "valid": false
+    },
+    {
+      "line": 314,
+      "annotation": "@AndroidFindBy(id = \"episode_recording_episode_start_end_time\")",
+      "selector_name": "id",
+      "selector_value": "episode_recording_episode_start_end_time",
+      "message": "Aucun élément avec resource-id='episode_recording_episode_start_end_time' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 315,
+      "annotation": "@iOSXCUITFindBy(xpath = \"//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\\"pvrtime_picker.pvrtime_picker_view_uilabel_1\\\"]\")",
+      "selector_name": "xpath",
+      "selector_value": "//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\\"pvrtime_picker.pvrtime_picker_view_uilabel_1\\\"]",
+      "message": "XPath invalide ou aucune correspondance pour '//*[contains(@name,'pvrtime_picker.pvrtime_picker_view_pvrtime_picker.pvrmulti_create_cell')]/XCUIElementTypeStaticText[@name=\\\"pvrtime_picker.pvrtime_picker_view_uilabel_1\\\"]'.",
+      "valid": false
+    },
+    {
+      "line": 318,
+      "annotation": "@AndroidFindBy(id = \"recording_selection\")",
+      "selector_name": "id",
+      "selector_value": "recording_selection",
+      "message": "Aucun élément avec resource-id='recording_selection' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 319,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == \\\"PROGRAMMER\\\"\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == \\\"PROGRAMMER\\\"",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == \\\"PROGRAMMER\\\"'.",
+      "valid": false
+    },
+    {
+      "line": 322,
+      "annotation": "@AndroidFindBy(id = \"recording_all\")",
+      "selector_name": "id",
+      "selector_value": "recording_all",
+      "message": "Aucun élément avec resource-id='recording_all' n'a été trouvé.",
+      "valid": false
+    },
+    {
+      "line": 323,
+      "annotation": "@iOSXCUITFindBy(iOSNsPredicate = \"label == 'PROGRAMMER TOUS LES ÉPISODES'\")",
+      "selector_name": "iOSNsPredicate",
+      "selector_value": "label == 'PROGRAMMER TOUS LES ÉPISODES'",
+      "message": "Aucune correspondance pour iOSNsPredicate 'label == 'PROGRAMMER TOUS LES ÉPISODES''.",
+      "valid": false
+    }
+  ]
+}

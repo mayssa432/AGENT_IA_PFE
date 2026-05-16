@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent IA Appium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>🤖 Agent IA Appium</h2>
+            </div>
+            <div class="project-section">
+                <label>📁 Chemin du projet</label>
+                <input type="text" id="projectPath" 
+                    placeholder="C:\...\pages\mobile"/>
+                <button onclick="analyzeProject()">
+                    🔍 Analyser
+                </button>
+            </div>
+            <div class="dom-section">
+                <label>📱 Validation DOM</label>
+                <select id="snapshotSelect">
+                    <option value="">Choisir un snapshot...</option>
+                </select>
+                <input type="file" id="javaFile" accept=".java"/>
+                <button onclick="validateFile()">
+                    ✅ Valider
+                </button>
+                <button onclick="fixFile()">
+                    🔧 Corriger
+                </button>
+            </div>
+            <div class="stats" id="stats"></div>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="chat-area">
+            <div class="chat-header">
+                <h3>💬 Chat avec l'Agent IA</h3>
+                <span id="status" class="status online">● En ligne</span>
+            </div>
+            <div class="messages" id="messages">
+                <div class="message bot">
+                    <div class="avatar">🤖</div>
+                    <div class="bubble">
+                        👋 Bonjour ! Entrez votre chemin de projet 
+                        et tapez <strong>analyser</strong> pour commencer !
+                    </div>
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="userInput" 
+                    placeholder="Posez votre question..."
+                    onkeypress="handleKeyPress(event)"/>
+                <button onclick="sendMessage()">➤</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
