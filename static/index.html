@@ -3,63 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agent IA Appium</title>
+    <title>Agent IA Appium — PFE Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <div class="sidebar-header">
-                <h2>🤖 Agent IA Appium</h2>
+<div class="app-layout">
+
+    <!-- ═══════════════════ SIDEBAR ═══════════════════ -->
+    <aside class="sidebar">
+        <div class="sidebar-brand">
+            <span class="brand-icon">🤖</span>
+            <div>
+                <div class="brand-title">Agent IA Appium</div>
+                <div class="brand-sub">PFE Dashboard v2.0</div>
             </div>
-            <div class="project-section">
-                <label>📁 Chemin du projet</label>
-                <input type="text" id="projectPath" 
-                    placeholder="C:\...\pages\mobile"/>
-                <button onclick="analyzeProject()">
-                    🔍 Analyser
-                </button>
-            </div>
-            <div class="dom-section">
-                <label>📱 Validation DOM</label>
-                <select id="snapshotSelect">
-                    <option value="">Choisir un snapshot...</option>
-                </select>
-                <input type="file" id="javaFile" accept=".java"/>
-                <button onclick="validateFile()">
-                    ✅ Valider
-                </button>
-                <button onclick="fixFile()">
-                    🔧 Corriger
-                </button>
-            </div>
-            <div class="stats" id="stats"></div>
         </div>
 
-        <!-- Chat Area -->
-        <div class="chat-area">
-            <div class="chat-header">
+        <div class="sidebar-section">
+            <label class="section-label">📁 Chemin du projet</label>
+            <input type="text" id="projectPath"
+                placeholder="C:\...\pages\mobile"
+                class="sidebar-input"/>
+            <button class="btn-primary" onclick="analyzeProject()">🔍 Analyser</button>
+        </div>
+
+        <div class="sidebar-section">
+            <label class="section-label">📱 Validation DOM</label>
+            <select id="snapshotSelect" class="sidebar-select">
+                <option value="">Choisir un snapshot...</option>
+            </select>
+            <input type="file" id="javaFile" accept=".java" class="sidebar-file"/>
+            <div class="btn-row">
+                <button class="btn-secondary" onclick="validateFile()">✅ Valider</button>
+                <button class="btn-secondary" onclick="fixFile()">🔧 Corriger</button>
+            </div>
+        </div>
+
+        <div class="stats-card" id="stats">
+            <div class="stats-empty">Lance une analyse pour voir les statistiques</div>
+        </div>
+
+        <div class="sidebar-pills">
+            <span class="pill" id="pill-status">● En ligne</span>
+        </div>
+    </aside>
+
+    <!-- ═══════════════════ MAIN ═══════════════════ -->
+    <main class="main-area">
+
+        <!-- Tab Bar -->
+        <nav class="tab-bar">
+            <button class="tab-btn active" onclick="switchTab('chat')"     id="tab-chat">💬 Chat</button>
+            <button class="tab-btn"        onclick="switchTab('selector')" id="tab-selector">🔧 Correction XPath</button>
+            <button class="tab-btn"        onclick="switchTab('scenario')" id="tab-scenario">🎬 Scénarios BDD</button>
+            <button class="tab-btn"        onclick="switchTab('mock')"     id="tab-mock">🔄 Sync Mocks</button>
+            <button class="tab-btn"        onclick="switchTab('history')"  id="tab-history">📜 Historique</button>
+            <button class="tab-btn"        onclick="switchTab('metrics')"  id="tab-metrics">📈 Métriques</button>
+        </nav>
+
+        <!-- ─── TAB 1 : CHAT ─────────────────────── -->
+        <section class="tab-panel active" id="panel-chat">
+            <div class="panel-header">
                 <h3>💬 Chat avec l'Agent IA</h3>
-                <span id="status" class="status online">● En ligne</span>
             </div>
             <div class="messages" id="messages">
                 <div class="message bot">
                     <div class="avatar">🤖</div>
                     <div class="bubble">
-                        👋 Bonjour ! Entrez votre chemin de projet 
-                        et tapez <strong>analyser</strong> pour commencer !
+                        👋 Bonjour ! Bienvenue sur le <strong>PFE Dashboard v2.0</strong>.<br><br>
+                        Entrez votre chemin de projet dans la barre latérale et tapez
+                        <strong>analyser</strong> pour commencer.<br><br>
+                        Naviguez entre les onglets pour accéder aux outils :
+                        🔧 Correction XPath · 🎬 Scénarios BDD · 🔄 Sync Mocks
                     </div>
                 </div>
             </div>
             <div class="input-area">
-                <input type="text" id="userInput" 
-                    placeholder="Posez votre question..."
+                <input type="text" id="userInput"
+                    placeholder="Posez votre question (aide, analyser, critiques...)"
                     onkeypress="handleKeyPress(event)"/>
-                <button onclick="sendMessage()">➤</button>
+                <button class="btn-send" onclick="sendMessage()">➤</button>
             </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+        </section>
+
+        <!-- ─── TAB 2 : CORRECTION XPATH ──────────── -->
+        <section class="tab-panel" id="panel-selector">
+            <div class="panel-header">
+                <h3>🔧 Correction automatique des sélecteurs XPath</h3>
+                <p class="panel-desc">Détecte et corrige automatiquement les sélecteurs cassés dans un Page Object Java Appium.</p>
+            </div>
+            <div class="tool-card">
+                <div class="tool-inputs">
+                    <label class="field-label">Fichier Page Object Java</label>
+                    <input type="text" id="selectorPoFile"
+                        class="tool-input"
+                        placeholder="C:\...\pages\mobile\AuthenticationPO.java"/>
+                    <p class="field-hint">Laissez vide pour utiliser le premier fichier du projet configuré</p>
+                </div>
+                <button class="btn-action" onclick="runSelectorFix()">
+                    🔍 Détecter &amp; Corriger
+                </button>
+            </div>
+
+            <div id="selectorResult" class="result-area" style="display:none">
+                <div class="result-header" id="selectorResultHeader"></div>
+                <div class="result-grid" id="selectorResultGrid"></div>
+                <div class="result-table-wrap" id="selectorIssuesTable"></div>
+            </div>
+            <div id="selectorLoading" class="loading-msg" style="display:none">
+                ⏳ Analyse des sélecteurs en cours...
+            </div>
+        </section>
+
+        <!-- ─── TAB 3 : SCÉNARIOS BDD ──────────────── -->
+        <section class="tab-panel" id="panel-scenario">
+            <div class="panel-header">
+                <h3>🎬 Génération automatique de scénarios BDD</h3>
+                <p class="panel-desc">Génère un fichier .feature Gherkin, des Step Definitions Java et un Cucumber Runner depuis un Page Object.</p>
+            </div>
+            <div class="tool-card">
+                <div class="tool-inputs">
+                    <label class="field-label">Fichier Page Object Java</label>
+                    <input type="text" id="scenarioPoFile"
+                        class="tool-input"
+                        placeholder="C:\...\pages\mobile\AuthenticationPO.java"/>
+
+                    <label class="field-label" style="margin-top:12px">Mode de génération</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="scenarioMode" value="llm" checked/>
+                            🤖 LLM (Groq) — qualité maximale
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="scenarioMode" value="offline"/>
+                            ✈️ Offline — sans réseau (soutenance)
+                        </label>
+                    </div>
+                </div>
+                <button class="btn-action" onclick="runScenarioGenerate()">
+                    🎬 Générer les scénarios
+                </button>
+            </div>
+
+            <div id="scenarioResult" class="result-area" style="display:none">
+                <div class="result-header" id="scenarioResultHeader"></div>
+                <div class="result-grid" id="scenarioResultGrid"></div>
+                <div class="result-files" id="scenarioResultFiles"></div>
+            </div>
+            <div id="scenarioLoading" class="loading-msg" style="display:none">
+                ⏳ Génération des scénarios en cours...
+            </div>
+        </section>
+
+        <!-- ─── TAB 4 : SYNC MOCKS ─────────────────── -->
+        <section class="tab-panel" id="panel-mock">
+            <div class="panel-header">
+                <h3>🔄 Synchronisation automatique des Mocks</h3>
+                <p class="panel-desc">Compare la réponse API réelle avec le mock stocké et met à jour automatiquement les divergences.</p>
+            </div>
+            <div class="tool-card">
+                <div class="tool-inputs">
+                    <label class="field-label">Endpoint mock</label>
+                    <input type="text" id="mockEndpoint"
+                        class="tool-input"
+                        placeholder="mock-live-001 — /api/v1/live/channels"
+                        readonly/>
+                    <p class="field-hint">Démonstration avec les données embarquées (version 1.0 → 1.2)</p>
+                </div>
+                <button class="btn-action" onclick="runMockSync()">
+                    🔄 Comparer &amp; Synchroniser
+                </button>
+            </div>
+
+            <div id="mockResult" class="result-area" style="display:none">
+                <div class="result-header" id="mockResultHeader"></div>
+                <div class="result-grid" id="mockResultGrid"></div>
+                <div class="result-table-wrap" id="mockDiffsTable"></div>
+            </div>
+            <div id="mockLoading" class="loading-msg" style="display:none">
+                ⏳ Comparaison des mocks en cours...
+            </div>
+        </section>
+
+        <!-- ─── TAB 5 : HISTORIQUE ──────────────────────── -->
+        <section class="tab-panel" id="panel-history">
+            <div class="panel-header">
+                <h3>📜 Historique des actions — SQLite</h3>
+                <p class="panel-desc">Toutes les actions de l'agent sont tracées automatiquement dans une base SQLite persistante.</p>
+            </div>
+
+            <!-- Stats globales -->
+            <div class="history-stats" id="historyStats">
+                <div class="hstat-box" id="hstatTotal">
+                    <div class="stat-num">—</div><div class="stat-lbl">Total</div>
+                </div>
+                <div class="hstat-box" id="hstatAnalysis">
+                    <div class="stat-num">—</div><div class="stat-lbl">Analyses</div>
+                </div>
+                <div class="hstat-box" id="hstatSelector">
+                    <div class="stat-num">—</div><div class="stat-lbl">Corrections XPath</div>
+                </div>
+                <div class="hstat-box" id="hstatScenario">
+                    <div class="stat-num">—</div><div class="stat-lbl">Scénarios BDD</div>
+                </div>
+                <div class="hstat-box" id="hstatMock">
+                    <div class="stat-num">—</div><div class="stat-lbl">Syncs Mocks</div>
+                </div>
+            </div>
+
+            <!-- Filtres -->
+            <div class="history-filters">
+                <select id="historyTypeFilter" class="sidebar-select" style="width:auto;min-width:160px">
+                    <option value="">Tous les types</option>
+                    <option value="analysis">Analyse</option>
+                    <option value="selector_fix">Correction XPath</option>
+                    <option value="scenario_gen">Scénarios BDD</option>
+                    <option value="mock_sync">Sync Mocks</option>
+                    <option value="pipeline">Pipeline E2E</option>
+                </select>
+                <select id="historyStatusFilter" class="sidebar-select" style="width:auto;min-width:140px">
+                    <option value="">Tous les statuts</option>
+                    <option value="ok">✅ OK</option>
+                    <option value="partial">⚠️ Partiel</option>
+                    <option value="error">❌ Erreur</option>
+                </select>
+                <button class="btn-secondary" style="padding:8px 14px" onclick="loadHistory()">🔄 Actualiser</button>
+                <button class="btn-secondary" style="padding:8px 14px;background:#f38ba8;color:#1e1e2e" onclick="clearHistoryDB()">🗑️ Vider</button>
+            </div>
+
+            <!-- Table des événements -->
+            <div class="history-table-wrap" id="historyTableWrap">
+                <div style="color:#6c7086;font-size:.85rem;padding:20px 24px">
+                    Cliquez sur 🔄 Actualiser pour charger les événements.
+                </div>
+            </div>
+        </section>
+
+        <!-- ─── TAB 6 : MÉTRIQUES ──────────────────────── -->
+        <section class="tab-panel" id="panel-metrics">
+            <div class="panel-header">
+                <h3>📈 Métriques de performance</h3>
+                <p class="panel-desc">Durées d'exécution, taux de succès et évolution des opérations dans le temps.</p>
+            </div>
+
+            <!-- KPI Cards -->
+            <div class="metrics-kpis" id="metricsKpis">
+                <div class="kpi-card" id="kpiTotal">
+                    <div class="kpi-num">—</div><div class="kpi-lbl">Runs Total</div>
+                </div>
+                <div class="kpi-card" id="kpiSuccessRate">
+                    <div class="kpi-num">—</div><div class="kpi-lbl">Taux Succès</div>
+                </div>
+                <div class="kpi-card" id="kpiAvgDuration">
+                    <div class="kpi-num">—</div><div class="kpi-lbl">Durée Moy.</div>
+                </div>
+                <div class="kpi-card" id="kpiLastRun">
+                    <div class="kpi-num" style="font-size:1rem">—</div><div class="kpi-lbl">Dernier Run</div>
+                </div>
+            </div>
+
+            <!-- Répartition par opération -->
+            <div class="metrics-by-op" id="metricsByOp">
+                <!-- rempli dynamiquement -->
+            </div>
+
+            <!-- Filtres + actions -->
+            <div class="history-filters" style="margin-top:28px">
+                <select id="metricsOpFilter" class="sidebar-select" style="width:auto;min-width:180px">
+                    <option value="">Toutes les opérations</option>
+                    <option value="analysis">Analyse</option>
+                    <option value="selector_fix">Correction XPath</option>
+                    <option value="scenario_gen">Scénarios BDD</option>
+                    <option value="mock_sync">Sync Mocks</option>
+                    <option value="pipeline">Pipeline E2E</option>
+                </select>
+                <button class="btn-secondary" style="padding:8px 14px" onclick="loadMetrics()">🔄 Actualiser</button>
+                <button class="btn-secondary" style="padding:8px 14px;background:#f38ba8;color:#1e1e2e" onclick="clearMetricsDB()">🗑️ Réinitialiser</button>
+            </div>
+
+            <!-- Timeline des runs -->
+            <div class="history-table-wrap" id="metricsTableWrap">
+                <div style="color:#6c7086;font-size:.85rem;padding:20px 24px">
+                    Cliquez sur 🔄 Actualiser pour charger les runs.
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

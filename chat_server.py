@@ -5,8 +5,40 @@ import sys
 import re
 import json
 import traceback
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+# ── Historique SQLite (Livrable #6) ──────────────────────────────────────
+try:
+    from history.db import (
+        log_event, get_history, get_stats, clear_history,
+        EVENT_ANALYSIS, EVENT_SELECTOR, EVENT_SCENARIO, EVENT_MOCK_SYNC, EVENT_PIPELINE,
+    )
+    _HAS_HISTORY = True
+except Exception:
+    _HAS_HISTORY = False
+    def log_event(*a, **kw): pass
+    def get_history(*a, **kw): return []
+    def get_stats(*a, **kw): return {}
+    def clear_history(*a, **kw): return 0
+
+# ── Métriques de performance (Livrable #8) ───────────────────────────────
+try:
+    from metrics.tracker import (
+        track, get_runs, get_kpis, clear_metrics,
+        OP_ANALYSIS, OP_SELECTOR, OP_SCENARIO, OP_MOCK_SYNC, OP_PIPELINE,
+        STATUS_SUCCESS, STATUS_ERROR,
+    )
+    _HAS_METRICS = True
+except Exception:
+    _HAS_METRICS = False
+    def track(*a, **kw): pass
+    def get_runs(*a, **kw): return []
+    def get_kpis(*a, **kw): return {}
+    def clear_metrics(*a, **kw): return 0
+    OP_ANALYSIS = OP_SELECTOR = OP_SCENARIO = OP_MOCK_SYNC = OP_PIPELINE = ""
+    STATUS_SUCCESS = "success"; STATUS_ERROR = "error"
 
 app = Flask(__name__, static_folder="static", static_url_path="")
 CORS(app)
@@ -94,6 +126,7 @@ def analyze():
 
     last_project_path = path
 
+    _t0_analyze = time.perf_counter()
     try:
         from agent import AppiumAgent
         agent = AppiumAgent()
@@ -130,9 +163,21 @@ def analyze():
         # Sauvegarder l'analyse pour persistence
         save_analysis(result, path)
 
+        # Historique SQLite
+        log_event(EVENT_ANALYSIS, {
+            "files":    result["files_analyzed"],
+            "issues":   result["total_issues"],
+            "critical": result["critical"],
+            "path":     path,
+        })
+        # Métriques perf
+        track(OP_ANALYSIS, int((time.perf_counter()-_t0_analyze)*1000), STATUS_SUCCESS,
+              files=result["files_analyzed"], issues=result["total_issues"])
         return jsonify(result)
 
     except Exception as e:
+        log_event(EVENT_ANALYSIS, {"path": path, "error": str(e)}, status="error")
+        track(OP_ANALYSIS, int((time.perf_counter()-_t0_analyze)*1000), STATUS_ERROR)
         return jsonify({"error": str(e)}), 500
 
 
@@ -948,6 +993,478 @@ def format_files_list(result):
     response += "\nTapez le **nom d'un fichier** pour ses problemes detailles."
     response += "\nTapez **applique tout** pour corriger automatiquement."
     return response
+
+
+# ============================================================
+#   NOUVELLES ROUTES — LIVRABLE #5 (dashboard unifié)
+# ============================================================
+
+@app.route("/selector-fix", methods=["POST"])
+def selector_fix_api():
+    """Livrable #2 : détection + correction automatique des sélecteurs cassés."""
+    _t0_sf = time.perf_counter()
+    data = request.json or {}
+    po_file = data.get("po_file", "").strip()
+
+    if not po_file or not os.path.exists(po_file):
+        # Chercher un fichier .java depuis le projet connu
+        if last_project_path and os.path.exists(last_project_path):
+            import glob
+            java_files = glob.glob(os.path.join(last_project_path, "**", "*.java"), recursive=True)
+            if java_files:
+                po_file = java_files[0]
+            else:
+                return jsonify({"error": "Aucun fichier Java trouvé dans le projet."}), 400
+        else:
+            return jsonify({"error": f"Fichier Java introuvable : {po_file}"}), 400
+
+    try:
+        from dom_inspector.ui_parser import UiParser
+        from dom_inspector.selector_validator import SelectorValidator
+        from dom_inspector.selector_fixer import SelectorFixer
+
+        # Chercher un snapshot DOM disponible
+        snapshots_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dom_snapshots")
+        xml_files = []
+        if os.path.exists(snapshots_dir):
+            import glob
+            xml_files = glob.glob(os.path.join(snapshots_dir, "**", "*.xml"), recursive=True)
+
+        # DOM minimal si aucun snapshot réel disponible
+        INLINE_DOM = """<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy rotation="0">
+  <android.widget.FrameLayout resource-id="com.orange.otvp:id/root_view" bounds="[0,0][1080,1920]">
+    <android.widget.LinearLayout resource-id="com.orange.otvp:id/main_container">
+      <android.widget.TextView resource-id="com.orange.otvp:id/live_channel_title" text="Orange TV" bounds="[0,100][500,150]"/>
+      <android.widget.Button resource-id="com.orange.otvp:id/btn_play" text="Lecture" bounds="[0,200][300,250]"/>
+      <android.widget.ImageView resource-id="com.orange.otvp:id/channel_logo" bounds="[0,300][100,400]"/>
+      <android.widget.TextView resource-id="com.orange.otvp:id/program_title" text="Journal de 20h" bounds="[0,400][500,450]"/>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>"""
+
+        if xml_files:
+            dom_path = xml_files[0]
+            with open(dom_path, "r", encoding="utf-8") as f:
+                dom_xml = f.read()
+        else:
+            dom_xml = INLINE_DOM
+            dom_path = "dom-demo-inline"
+
+        parser = UiParser()
+        dom_root = parser.parse_xml(dom_xml)
+
+        validator = SelectorValidator()
+        issues = validator.validate_file(po_file, dom_root)
+
+        # Correction automatique (dry-run : lit mais n'écrit pas)
+        fixer = SelectorFixer()
+        fix_result = fixer.fix_file(po_file, dom_root)
+        corrections = fix_result.get("corrections", [])
+        fixed_count = len(corrections)
+
+        result_sf = {
+            "po_file": os.path.basename(po_file),
+            "dom_source": os.path.basename(dom_path),
+            "broken_count": len(issues),
+            "fixed_count": fixed_count,
+            "issues": [
+                {
+                    "field": i.get("selector_name", "?"),
+                    "selector": i.get("selector_value", "?"),
+                    "reason": i.get("message", "Sélecteur invalide"),
+                }
+                for i in issues[:20]
+            ],
+            "fixes": [
+                {
+                    "field": c.get("suggestion", {}).get("param_name", "?"),
+                    "old": c.get("original", "?"),
+                    "new": c.get("fixed", "?"),
+                    "confidence": c.get("suggestion", {}).get("confidence", "medium"),
+                }
+                for c in corrections[:20]
+            ],
+        }
+        log_event(EVENT_SELECTOR, {
+            "po_file": result_sf["po_file"],
+            "broken":  result_sf["broken_count"],
+            "fixed":   result_sf["fixed_count"],
+        }, status="ok" if result_sf["broken_count"] == 0 else "partial")
+        track(OP_SELECTOR, int((time.perf_counter()-_t0_sf)*1000), STATUS_SUCCESS,
+              broken=result_sf["broken_count"], fixed=result_sf["fixed_count"])
+        return jsonify(result_sf)
+
+    except Exception as e:
+        log_event(EVENT_SELECTOR, {"po_file": os.path.basename(po_file), "error": str(e)}, status="error")
+        track(OP_SELECTOR, int((time.perf_counter()-_t0_sf)*1000), STATUS_ERROR)
+        return jsonify({"error": str(e), "trace": traceback.format_exc()}), 500
+
+
+@app.route("/scenario-generate", methods=["POST"])
+def scenario_generate_api():
+    """Livrable #4 : génération automatique de scénarios BDD depuis un Page Object."""
+    _t0_sg = time.perf_counter()
+    data = request.json or {}
+    po_file = data.get("po_file", "").strip()
+    mode = data.get("mode", "offline")  # "llm" ou "offline"
+
+    # Chemin par défaut : AuthenticationPO.java
+    pages_dir = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "AGENT_IA_PFE", "src", "test", "java",
+        "com", "orange", "otvp", "automation", "pages", "mobile"
+    )
+
+    if not po_file or not os.path.exists(po_file):
+        default_po = os.path.join(pages_dir, "AuthenticationPO.java")
+        if os.path.exists(default_po):
+            po_file = default_po
+        else:
+            # Chercher n'importe quel .java
+            import glob
+            java_files = glob.glob(os.path.join(pages_dir, "*.java"))
+            if java_files:
+                po_file = java_files[0]
+            else:
+                return jsonify({"error": "Aucun fichier Java trouvé pour la génération."}), 400
+
+    try:
+        from demo_scenario_generator import run_pipeline
+        from pathlib import Path
+        import io
+        from contextlib import redirect_stdout, redirect_stderr
+        captured = io.StringIO()
+        with redirect_stdout(captured), redirect_stderr(captured):
+            report = run_pipeline(Path(po_file), offline=(mode == "offline"))
+
+        feature_v = report.get("steps", {}).get("step2_feature", {}).get("validation", {})
+        steps_v   = report.get("steps", {}).get("step3_step_definitions", {}).get("validation", {})
+
+        result_sg = {
+            "po_file":        os.path.basename(po_file),
+            "mode":           mode,
+            "success":        report.get("success", False),
+            "scenario_count": feature_v.get("scenario_count", 0),
+            "step_count":     steps_v.get("step_count", 0),
+            "feature_source": report.get("steps", {}).get("step2_feature", {}).get("source", "?"),
+            "files": {
+                "feature": report.get("files", {}).get("feature", ""),
+                "steps":   report.get("files", {}).get("steps", ""),
+                "runner":  report.get("files", {}).get("runner", ""),
+            },
+        }
+        log_event(EVENT_SCENARIO, {
+            "po_file":       result_sg["po_file"],
+            "scenario_count": result_sg["scenario_count"],
+            "step_count":    result_sg["step_count"],
+            "mode":          mode,
+        }, status="ok" if result_sg["success"] else "partial")
+        track(OP_SCENARIO, int((time.perf_counter()-_t0_sg)*1000), STATUS_SUCCESS,
+              scenario_count=result_sg["scenario_count"], step_count=result_sg["step_count"])
+        return jsonify(result_sg)
+
+    except Exception as e:
+        log_event(EVENT_SCENARIO, {"po_file": os.path.basename(po_file), "error": str(e)}, status="error")
+        track(OP_SCENARIO, int((time.perf_counter()-_t0_sg)*1000), STATUS_ERROR)
+        return jsonify({"error": str(e), "trace": traceback.format_exc()}), 500
+
+
+@app.route("/mock-sync", methods=["POST"])
+def mock_sync_api():
+    """Livrable #3 : comparaison sémantique réel vs mock + mise à jour automatique."""
+    _t0_ms = time.perf_counter()
+    try:
+        from deepdiff import DeepDiff
+        _has_deepdiff = True
+    except ImportError:
+        _has_deepdiff = False
+
+    # Mock "version stockée"
+    stored_mock = {
+        "channels": [
+            {"id": "ch1", "name": "TF1",      "logo": "tf1.png",    "position": 1},
+            {"id": "ch2", "name": "France 2", "logo": "f2.png",     "position": 2},
+            {"id": "ch3", "name": "M6",        "logo": "m6_old.png", "position": 3},
+        ],
+        "total": 3,
+        "version": "1.0",
+    }
+
+    # "Réponse réelle" simulée (légèrement différente)
+    real_response = {
+        "channels": [
+            {"id": "ch1", "name": "TF1",      "logo": "tf1.png",    "position": 1},
+            {"id": "ch2", "name": "France 2", "logo": "f2_hd.png",  "position": 2},
+            {"id": "ch3", "name": "M6",        "logo": "m6_new.png", "position": 3},
+            {"id": "ch4", "name": "Canal+",    "logo": "cplus.png",  "position": 4},
+        ],
+        "total": 4,
+        "version": "1.2",
+    }
+
+    diffs = []
+    if _has_deepdiff:
+        from deepdiff import DeepDiff
+        raw = DeepDiff(stored_mock, real_response, ignore_order=True)
+        for change_type, changes in raw.items():
+            if isinstance(changes, dict):
+                for path, detail in changes.items():
+                    if hasattr(detail, 't1'):
+                        diffs.append({"path": path, "old": str(detail.t1), "new": str(detail.t2), "type": "changed"})
+                    else:
+                        diffs.append({"path": path, "detail": str(detail), "type": change_type})
+            elif isinstance(changes, set):
+                for item in changes:
+                    diffs.append({"path": str(item), "type": change_type})
+    else:
+        # Diff basique sans deepdiff
+        if stored_mock.get("total") != real_response.get("total"):
+            diffs.append({"path": "total", "old": str(stored_mock["total"]), "new": str(real_response["total"]), "type": "changed"})
+        if stored_mock.get("version") != real_response.get("version"):
+            diffs.append({"path": "version", "old": stored_mock["version"], "new": real_response["version"], "type": "changed"})
+        s_logos = {c["id"]: c["logo"] for c in stored_mock["channels"]}
+        r_logos = {c["id"]: c["logo"] for c in real_response["channels"]}
+        for cid, logo in r_logos.items():
+            if cid not in s_logos:
+                diffs.append({"path": f"channels[{cid}]", "type": "added", "detail": f"new channel {cid}"})
+            elif s_logos[cid] != logo:
+                diffs.append({"path": f"channels[{cid}].logo", "old": s_logos[cid], "new": logo, "type": "changed"})
+
+    # Sauvegarder le mock mis à jour
+    from datetime import datetime, timezone
+    ts = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    out_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output", "reports", "mock_versions")
+    os.makedirs(out_dir, exist_ok=True)
+    updated_path = os.path.join(out_dir, f"mock-live-api_{ts}.json")
+    with open(updated_path, "w", encoding="utf-8") as f:
+        json.dump(real_response, f, ensure_ascii=False, indent=2)
+
+        resp_data = {
+            "mock_id":       "mock-live-001",
+            "endpoint":      "/api/v1/live/channels",
+            "diffs_found":   len(diffs),
+            "diffs":         diffs[:20],
+            "mock_updated":  True,
+            "backup_path":   os.path.relpath(updated_path),
+            "deepdiff_used": _has_deepdiff,
+        }
+        log_event(EVENT_MOCK_SYNC, {
+            "mock_id":    resp_data["mock_id"],
+            "diffs_found": resp_data["diffs_found"],
+            "mock_updated": resp_data["mock_updated"],
+        }, status="ok" if resp_data["diffs_found"] == 0 else "partial")
+        track(OP_MOCK_SYNC, int((time.perf_counter()-_t0_ms)*1000), STATUS_SUCCESS,
+              diffs_found=resp_data["diffs_found"])
+        return jsonify(resp_data)
+
+
+@app.route("/pipeline", methods=["POST"])
+def pipeline_api():
+    """Lance le pipeline complet orchestrate.py (analyse + rapport)."""
+    data = request.json or {}
+    pages_path = data.get("pages_path", "").strip() or last_project_path or ""
+
+    if not pages_path or not os.path.exists(pages_path):
+        return jsonify({"error": f"Chemin introuvable : {pages_path}"}), 400
+
+    try:
+        import subprocess
+        python_exe = sys.executable
+        result = subprocess.run(
+            [python_exe, "orchestrate.py", "--pages", pages_path, "--dry-run"],
+            capture_output=True, text=True, timeout=120,
+            cwd=os.path.dirname(os.path.abspath(__file__))
+        )
+        return jsonify({
+            "exit_code": result.returncode,
+            "stdout":    result.stdout[-3000:] if result.stdout else "",
+            "stderr":    result.stderr[-1000:] if result.stderr else "",
+            "success":   result.returncode == 0,
+        })
+    except subprocess.TimeoutExpired:
+        return jsonify({"error": "Timeout : pipeline trop long (>120s)"}), 504
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/status", methods=["GET"])
+def status_api():
+    """Retourne l'état global de l'agent (ping + stats dernière analyse)."""
+    return jsonify({
+        "status":        "online",
+        "version":       "2.0",
+        "last_analysis": {
+            "files":    last_analysis_result.get("files_analyzed", 0) if last_analysis_result else 0,
+            "issues":   last_analysis_result.get("total_issues", 0)   if last_analysis_result else 0,
+            "critical": last_analysis_result.get("critical", 0)       if last_analysis_result else 0,
+        } if last_analysis_result else None,
+        "project_path": last_project_path,
+    })
+
+
+# ============================================================
+#   ROUTES HISTORIQUE SQLITE — LIVRABLE #6
+# ============================================================
+
+@app.route("/history", methods=["GET"])
+def history_list():
+    """Retourne les derniers événements enregistrés."""
+    event_type = request.args.get("type")
+    status     = request.args.get("status")
+    limit      = min(int(request.args.get("limit", 50)), 200)
+    offset     = int(request.args.get("offset", 0))
+    rows = get_history(event_type=event_type, status=status, limit=limit, offset=offset)
+    return jsonify({"events": rows, "count": len(rows), "history_enabled": _HAS_HISTORY})
+
+
+@app.route("/history/stats", methods=["GET"])
+def history_stats():
+    """Retourne les statistiques globales de l'historique."""
+    stats = get_stats()
+    stats["history_enabled"] = _HAS_HISTORY
+    return jsonify(stats)
+
+
+@app.route("/history/clear", methods=["POST"])
+def history_clear():
+    """Supprime l'historique (tous ou d'un type donné)."""
+    event_type = (request.json or {}).get("event_type")
+    deleted = clear_history(event_type=event_type)
+    return jsonify({"deleted": deleted, "event_type": event_type or "all"})
+
+
+# ============================================================
+#   ROUTES APP MANAGER — LIVRABLE #9
+# ============================================================
+
+_MOCK_DEVICES = [
+    {
+        "serial": "emulator-5554", "model": "Nexus_5X", "brand": "Google",
+        "android_version": "9.0", "api_level": "28", "resolution": "1080x1920",
+        "state": "emulator",
+    },
+    {
+        "serial": "FA7AB0305461", "model": "SM-G973F", "brand": "Samsung",
+        "android_version": "11.0", "api_level": "30", "resolution": "1440x3040",
+        "state": "device",
+    },
+]
+
+
+def _adb_available():
+    import subprocess
+    try:
+        subprocess.check_output(["adb", "version"], stderr=subprocess.STDOUT, timeout=3)
+        return True
+    except Exception:
+        return False
+
+
+@app.route("/devices", methods=["GET"])
+def devices_list():
+    """Livrable #9 : liste les devices Android (ADB réel ou mock)."""
+    _t0_dev = time.perf_counter()
+    mode = request.args.get("mode", "auto")  # "auto" | "mock" | "real"
+
+    try:
+        adb_ok = _adb_available() if mode != "mock" else False
+        if adb_ok:
+            from app_manager.device_manager import DeviceManager
+            dm = DeviceManager()
+            serials = dm.list_devices()
+            devices = []
+            for s in serials:
+                try:
+                    model   = dm.get_device_model(s) or "unknown"
+                    version = dm.get_android_version(s) or "unknown"
+                    devices.append({"serial": s, "model": model,
+                                    "android_version": version, "state": "device"})
+                except Exception:
+                    devices.append({"serial": s, "model": "unknown",
+                                    "android_version": "unknown", "state": "device"})
+            src = "adb-real"
+        else:
+            devices = _MOCK_DEVICES
+            src = "mock"
+
+        track(OP_ANALYSIS, int((time.perf_counter()-_t0_dev)*1000), STATUS_SUCCESS,
+              devices=len(devices))
+        return jsonify({"devices": devices, "count": len(devices), "source": src})
+
+    except Exception as e:
+        track(OP_ANALYSIS, int((time.perf_counter()-_t0_dev)*1000), STATUS_ERROR)
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/app-info", methods=["GET"])
+def app_info():
+    """Livrable #9 : info sur un package installé (mock ou ADB)."""
+    package = request.args.get("package", "com.orange.otvp")
+    serial  = request.args.get("serial", "")
+    mode    = request.args.get("mode", "auto")
+
+    _MOCK_PKGS = {
+        "com.orange.otvp":      {"installed": True,  "version": "2.3.1", "permissions": 12},
+        "com.orange.otvp.test": {"installed": True,  "version": "1.0.0", "permissions": 3},
+        "com.android.settings": {"installed": True,  "version": "9.0",   "permissions": 5},
+    }
+
+    try:
+        adb_ok = _adb_available() if mode != "mock" else False
+        if adb_ok:
+            from app_manager.app_installer import AppInstaller
+            inst = AppInstaller()
+            installed = inst.is_app_installed(package, serial or None)
+            src = "adb-real"
+        else:
+            info_dict = _MOCK_PKGS.get(package, {"installed": False})
+            installed  = info_dict.get("installed", False)
+            src = "mock"
+
+        result = {
+            "package":   package,
+            "serial":    serial or "auto",
+            "installed": installed,
+            "source":    src,
+        }
+        if src == "mock" and package in _MOCK_PKGS:
+            result["version"]     = _MOCK_PKGS[package].get("version")
+            result["permissions"] = _MOCK_PKGS[package].get("permissions")
+
+        return jsonify(result)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# ============================================================
+#   ROUTES MÉTRIQUES DE PERFORMANCE — LIVRABLE #8
+# ============================================================
+
+@app.route("/metrics", methods=["GET"])
+def metrics_kpis():
+    """KPIs agrégés : taux de succès, durée moyenne, total runs par opération."""
+    kpis = get_kpis()
+    kpis["metrics_enabled"] = _HAS_METRICS
+    return jsonify(kpis)
+
+
+@app.route("/metrics/history", methods=["GET"])
+def metrics_history():
+    """Liste des runs récents avec durée et statut."""
+    operation = request.args.get("operation")
+    limit = min(int(request.args.get("limit", 100)), 500)
+    runs = get_runs(operation=operation, limit=limit)
+    return jsonify({"runs": runs, "count": len(runs), "metrics_enabled": _HAS_METRICS})
+
+
+@app.route("/metrics/clear", methods=["POST"])
+def metrics_clear():
+    """Supprime tous les enregistrements de métriques (ou d'une opération)."""
+    operation = (request.json or {}).get("operation")
+    deleted = clear_metrics(operation=operation)
+    return jsonify({"deleted": deleted, "operation": operation or "all"})
 
 
 # ============================================================

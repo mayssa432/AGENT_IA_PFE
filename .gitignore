@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# SQLite databases (générées à l'exécution)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Build Maven / Java
+AGENT_IA_PFE/target/
+AGENT_IA_PFE/classpath.txt
+
+# Fichiers générés par les démos (conserver le dossier, pas les fichiers)
+output/reports/*.json
+output/scenario_generator/
+
+# Backups auto
+backups/selector_fixer/
+
+# Snapshots DOM capturés
+dom_snapshots/
+
+# Fichiers secrets
+.env
+*.env.local
+
+# Metrics/history SQLite (générées à l'exécution)
+metrics.db
+history.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+desktop.ini

@@ -1,0 +1,48 @@
+# requirements-ci.txt
+# ============================================================
+# Dépendances CI/CD — version allégée sans Appium
+# Usage : pip install -r requirements-ci.txt
+# ============================================================
+
+# Framework web
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# LLM client (Groq)
+groq>=0.9.0
+
+# API / async (mock_manager)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Validation modèles
+pydantic>=2.6.4
+
+# Multipart (Flask uploads)
+python-multipart>=0.0.9
+
+# HTTP
+requests>=2.31.0
+
+# XML / DOM parsing
+lxml>=4.9.0
+xmltodict>=0.13.0
+
+# Env
+python-dotenv>=1.0.1
+
+# Couleurs terminal
+colorama>=0.4.6
+
+# Config / env
+python-dotenv>=1.0.0
+
+# Diff sémantique (mock_manager)
+deepdiff>=6.7.0
+
+# Tests
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# NOTE : appium-python-client exclu (nécessite un device physique/émulateur)
+# Installer manuellement pour les tests sur device : pip install appium-python-client>=3.0.0

@@ -1,0 +1,45 @@
+{
+  "id": "mock-live-001",
+  "request": {
+    "method": "GET",
+    "url": "/api/v1/live/channels"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "channels": [
+        {
+          "id": "ch1",
+          "name": "TF1",
+          "logo": "tf1.png",
+          "position": 1
+        },
+        {
+          "id": "ch2",
+          "name": "France 2",
+          "logo": "f2_hd.png",
+          "position": 2
+        },
+        {
+          "id": "ch3",
+          "name": "M6",
+          "logo": "m6_new.png",
+          "position": 3
+        },
+        {
+          "id": "ch4",
+          "name": "Canal+",
+          "logo": "canalplus.png",
+          "position": 4
+        }
+      ],
+      "total": 4,
+      "version": "1.2"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "_updated_at": "2026-05-18T16:19:26.784700+00:00",
+  "_previous_version": "output/reports\\mock_versions\\mock-live-001_20260518_161926.json"
+}
