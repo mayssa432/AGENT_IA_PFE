@@ -138,7 +138,7 @@ def demo_livrable(num: int, results: list) -> None:
         r = run_step(
             "Scenario gen offline (batch 3)",
             [PYTHON, "demo_scenario_generator.py", "--batch", "3", "--offline"],
-            timeout=30,
+            timeout=90,
         )
         results.append(r)
         _show_result(r)
