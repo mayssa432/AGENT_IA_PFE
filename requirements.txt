@@ -9,3 +9,4 @@ requests==2.31.0
 appium-python-client>=3.0.0
 lxml>=4.9.0
 xmltodict>=0.13.0
+mcp[cli]>=1.0.0
