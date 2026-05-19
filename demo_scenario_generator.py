@@ -32,12 +32,15 @@ PAGES_DIR   = AGENT_DIR / "src" / "test" / "java" / "com" / "orange" / "otvp" / 
 OUTPUT_DIR  = ROOT_DIR / "output" / "scenario_generator"
 REPORTS_DIR = ROOT_DIR / "output" / "reports"
 
-# Charger .env depuis le sous-projet
+# Charger .env — depuis la racine du projet en priorité, puis le sous-projet
 try:
     from dotenv import load_dotenv
-    env_file = AGENT_DIR / ".env"
-    if env_file.exists():
-        load_dotenv(env_file)
+    root_env = ROOT_DIR / ".env"
+    agent_env = AGENT_DIR / ".env"
+    if root_env.exists():
+        load_dotenv(root_env)
+    elif agent_env.exists():
+        load_dotenv(agent_env)
 except ImportError:
     pass
 
@@ -61,7 +64,7 @@ def _build_groq_client():
 
 def _call_groq(client, model: str, system: str, user: str, max_tokens=2048) -> str:
     """Appel Groq avec retry simple."""
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             resp = client.chat.completions.create(
                 model=model,
@@ -74,7 +77,9 @@ def _call_groq(client, model: str, system: str, user: str, max_tokens=2048) -> s
             )
             return resp.choices[0].message.content.strip()
         except Exception as e:
-            print(f"    [GROQ] Tentative {attempt+1}/3 échouée : {e}")
+            print(f"    [GROQ] Tentative {attempt+1}/2 échouée : {type(e).__name__}: {e}")
+            if attempt == 0:
+                import time; time.sleep(1)
     return ""
 
 
@@ -223,7 +228,7 @@ def generate_feature(po_content: str, page_name: str, client, model: str, offlin
             "Génère le fichier .feature COMPLET avec minimum 3 scénarios."
         )
         result = _call_groq(client, model, system, user)
-        if result and "Feature:" in result and "Scenario:" in result:
+        if result and "Feature:" in result and any(k in result for k in ("Scenario:", "Scénario:", "Scénario :")):
             return result, "groq-llm"
 
     # Fallback offline
@@ -335,14 +340,15 @@ def validate_feature(content: str) -> dict:
     """Valide la structure du fichier .feature (supports EN + FR Gherkin)."""
     import re
     # Mots-clés FR : Given=Étant donné/Soit, When=Quand/Lorsque/Lorsqu', Then=Alors, And=Et/Mais
+    # Groq génère parfois "Scénario :" (avec espace avant :)
     checks = {
         "has_feature":   bool(re.search(r"^\s*Feature:", content, re.MULTILINE)),
-        "has_scenario":  bool(re.search(r"^\s*Scenario(| Outline):", content, re.MULTILINE)),
+        "has_scenario":  bool(re.search(r"^\s*(Scenario(| Outline):|Sc[eé]nario\s*:)", content, re.MULTILINE)),
         "has_given":     bool(re.search(r"^\s*(Given|Etant|Étant|Soit\b)", content, re.MULTILINE | re.IGNORECASE)),
         "has_when":      bool(re.search(r"^\s*(When|Quand|Lorsque|Lorsqu)", content, re.MULTILINE | re.IGNORECASE)),
         "has_then":      bool(re.search(r"^\s*(Then|Alors)", content, re.MULTILINE | re.IGNORECASE)),
     }
-    scenario_count = len(re.findall(r"^\s*Scenario(| Outline):", content, re.MULTILINE))
+    scenario_count = len(re.findall(r"^\s*(Scenario(| Outline):|Sc[eé]nario\s*:)", content, re.MULTILINE))
     checks["scenario_count"] = scenario_count
     checks["valid"] = all(v for k, v in checks.items() if k not in ("scenario_count",))
     return checks
@@ -420,6 +426,7 @@ def run_pipeline(po_path: Path, offline: bool = False) -> dict:
     client, model = _build_groq_client()
     if client:
         print(f"  [GROQ] Client initialisé (modèle: {model})")
+        offline = False  # Groq disponible → désactiver le mode offline
     else:
         print("  [INFO] Groq non disponible → mode offline activé")
         offline = True
